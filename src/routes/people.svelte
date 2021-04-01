@@ -1,23 +1,63 @@
+<script>
+    import people from 'data/people.json';
+
+    import Profile from 'components/Profile.svelte';
+</script>
+
 <style lang="scss">
-  main {
-      .content {
-          grid-area: content;
-      }
-  }
+    @import "styles/util";
+
+    main .content {
+        grid-area: content;
+
+        display: grid;
+
+        grid-auto-flow: row;
+        grid-auto-rows: max-content;
+        grid-template-columns: 1fr;
+        gap: $blank * 5;
+
+        @include padding-y($blank * 2);
+    }
+
+    @include media-breakpoint-only(sm) {
+        main .content {
+            gap: $blank * 2;
+        }
+    }
+
+    @include media-breakpoint-only(md) {
+        main .content {
+            gap: $blank * 3;
+        }
+    }
 </style>
 
 <main>
-  <div class="content">
-    <p>
-      Here is people
-    </p>
-    <div class="card" style="width: 18rem;">
-        <img src="favicon.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">You can use bootstrap components</p>
-          <a href="#test" class="btn btn-primary">Go nowhere</a>
+    <div class="content">
+        <div>
+            <h3>Professor</h3>
+            <div class="row">
+                {#each people.professor as p}
+                    <Profile category="award" {...p} />
+                {/each}
+            </div>
         </div>
-      </div>
-  </div>
+        <div>
+            <h3>PhD Students</h3>
+            <div class="row">
+                {#each people.phd as p}
+                    <Profile category="award" {...p} />
+                {/each}
+            </div>
+        </div>
+        <div>
+            <h3>MS Students</h3>
+            <div class="row row-cols-auto">
+                {#each people.ms as p}
+                    <Profile category="award" {...p} />
+                {/each}
+            </div>
+        </div>
+    </div>
 </main>

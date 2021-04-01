@@ -11,12 +11,13 @@
   },
   "scripts": {
     "init": "cp node_modules/bootstrap/dist/js/bootstrap.bundle.min.js static/",
-    "lint": "eslint src/ static/",
+    "lint": "eslint src/",
     "dev": "sapper dev",
     "build": "sapper build",
     "start": "node __sapper__/build",
-    "postexport": "mv __sapper__/export/404/index.html __sapper__/export/404.html && rm -rf __sapper__/export/404",
+    "preexport": "npm run lint",
     "export": "sapper export --entry='/ /404'",
+    "postexport": "mv __sapper__/export/404/index.html __sapper__/export/404.html && rm -rf __sapper__/export/404",
     "serve": "npx serve __sapper__/export",
     "predeploy": "npm run export",
     "deploy": "npm run lint && gh-pages -d __sapper__/export"

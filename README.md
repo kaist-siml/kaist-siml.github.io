@@ -23,6 +23,12 @@ npm run export
 
 Note that `301` on `index.html` and `404` on `404/index.html` are expected.
 
+To test the exported site,
+
+```
+npm run serve
+```
+
 ## Lint
 
 ```bash

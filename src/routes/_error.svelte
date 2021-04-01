@@ -2,12 +2,16 @@
     @import "styles/util";
 
     main {
-        text-align: center;
+        .content {
+            grid-area: content;
+        }
     }
 </style>
 
 <main>
-    <h1>
-        Page not found
-    </h1>
+    <div class="content">
+        <h2>
+            Page not found
+        </h2>
+    </div>
 </main>

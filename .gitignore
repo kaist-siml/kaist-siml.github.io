@@ -2,3 +2,5 @@
 
 /__sapper__/
 /src/node_modules/@sapper/
+
+/data/

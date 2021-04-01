@@ -11,8 +11,9 @@
         grid-template-rows: [content-start] 1fr [content-end];
 
         @include padding-x(0);
-        @include padding-y($blank * 2.25);
+        @include padding-y($blank * 1.5);
 
+        color: $gray-500;
         background-color: $dark;
 
         .content {
@@ -24,6 +25,9 @@
             grid-auto-columns: 1fr;
             grid-auto-flow: column;
             gap: $blank;
+
+            @include padding-x(0);
+            @include padding-y($blank * 1.5);
 
             > * {
                 align-self: baseline;
@@ -43,6 +47,14 @@
         }
     }
 
+    a {
+        color: $gray-500;
+    }
+
+    a:hover {
+        color: $gray-300 !important;
+    }
+
     @include media-breakpoint-down(sm) {
         footer {
             .content {
@@ -59,8 +71,11 @@
 
 <footer>
     <div class="content">
-        <p class="justify-right">
-            <span class="text-muted">© SIML 2021</span>
+        <p class="justify-left">
+            <a href="https://goo.gl/maps/mga73qU9oT8Bhz8D6">
+                <i class="bi bi-geo-alt"></i>
+                KAIST N5 1225
+            </a>
         </p>
     </div>
 </footer>

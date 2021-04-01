@@ -68,7 +68,7 @@ module.exports = {
         'prefer-exponentiation-operator': 'error',
         'prefer-object-spread': 'error',
         'quote-props': ['error', 'consistent-as-needed'],
-        'quotes': ['error', 'single', { 'avoidEscape': true }],
+        'quotes': ['warn', 'single', { 'avoidEscape': true }],
         'semi': ['warn', 'always', { 'omitLastInOneLineBlock': true }],
         'semi-spacing': ['error', { 'before': false, 'after': true }],
         'semi-style': ['error', 'last'],
