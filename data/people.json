@@ -1,0 +1,48 @@
+{
+    "professor": [
+        {
+            "name": "Juho Lee",
+            "image": "image/people/jhlee.png"
+        }
+    ],
+    "phd": [
+        {
+            "name": "Balhae Kim",
+            "image": "image/dummy.svg"
+        },
+        {
+            "name": "Balhae Kim",
+            "image": "image/dummy.svg"
+        },
+        {
+            "name": "Balhae Kim",
+            "image": "image/dummy.svg"
+        }
+    ],
+    "ms": [
+        {
+            "name": "Eunggu Yun",
+            "image": "image/dummy.svg"
+        },
+        {
+            "name": "Eunggu Yun",
+            "image": "image/dummy.svg"
+        },
+        {
+            "name": "Eunggu Yun",
+            "image": "image/dummy.svg"
+        },
+        {
+            "name": "Eunggu Yun",
+            "image": "image/dummy.svg"
+        },
+        {
+            "name": "Eunggu Yun",
+            "image": "image/dummy.svg"
+        },
+        {
+            "name": "Eunggu Yun",
+            "image": "image/dummy.svg"
+        }
+    ]
+}

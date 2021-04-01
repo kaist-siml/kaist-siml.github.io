@@ -1,0 +1,22 @@
+[
+    {
+        "type": "preprint",
+        "title": "Bootstrapping neural processes",
+        "authors": [
+            "Juho Lee", "Yoonho Lee", "Jungtaek Kim", "Sung Ju Hwang", "Eunho Yang", "Yee Whye Teh"
+        ],
+        "journal": "arXiv:2008.02956",
+        "year": 2020,
+        "image": "image/dummy.svg"
+    },
+    {
+        "type": "conference",
+        "title": "Cost-effecitve interactive attention learning with neural attention processes",
+        "authors": [
+            "Jay Heo", "Junhyeon Park", "Hyewon Jeong", "Kwang Joon Kim", "Juho Lee", "Eunho Yang", "Sung Ju Hwang"
+        ],
+        "journal": "ICML",
+        "year": 2020,
+        "image": "image/dummy.svg"
+    }
+]
