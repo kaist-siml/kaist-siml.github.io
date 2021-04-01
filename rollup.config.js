@@ -4,6 +4,7 @@ import resolve from '@rollup/plugin-node-resolve';
 import replace from '@rollup/plugin-replace';
 import commonjs from '@rollup/plugin-commonjs';
 import url from '@rollup/plugin-url';
+import json from '@rollup/plugin-json';
 import { terser } from 'rollup-plugin-terser';
 import autoprefixer from 'autoprefixer';
 
@@ -26,6 +27,7 @@ const replacePath = [
     [/(?<!\/)components(?=\/)/g, path.resolve(__dirname, 'src', 'components')],
     [/(?<!\/)pages(?=\/)/g, path.resolve(__dirname, 'src', 'pages')],
     [/(?<!\/)data(?=\/)/g, path.resolve(__dirname, 'data')],
+    [/(?<!\/)static(?=\/)/g, path.resolve(__dirname, 'static')],
     [/(?<!\/)styles(?=\/)/g, path.resolve(__dirname, 'src', 'styles')],
     [/(?<!\/)node_modules(?=\/)/g, path.resolve(__dirname, 'node_modules')],
     [/(?<!\/)templates(?=\/)/g, path.resolve(__dirname, 'templates')],
@@ -70,6 +72,7 @@ export default {
             !dev && terser({
                 module: true,
             }),
+            json(),
         ],
 
         preserveEntrySignatures: false,
@@ -113,6 +116,7 @@ export default {
                 dedupe: ['svelte'],
             }),
             commonjs(),
+            json(),
         ],
         external: Object.keys(pkg.dependencies).concat(require('module').builtinModules),
         preserveEntrySignatures: 'strict',

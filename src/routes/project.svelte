@@ -1,15 +1,17 @@
 <style lang="scss">
+    @import "styles/util";
+
     main {
         .content {
             grid-area: content;
         }
     }
-  </style>
+</style>
 
 <main>
     <div class="content">
         <p>
-            Here is project
+            Here comes project
         </p>
     </div>
 </main>

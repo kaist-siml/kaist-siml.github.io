@@ -27,7 +27,7 @@
         grid-template-rows: [header-start] max-content [header-end] #{$blank} [main-start] 1fr [main-end] #{$blank} [footer-start] max-content [footer-end];
         grid-template-columns: [screen-start] 1fr [screen-end];
 
-        // font-family: "San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande", Arial, sans-serif;
+        font-family: "Helvetica", sans-serif;
     }
 
     main {
@@ -39,6 +39,10 @@
         grid-template-columns: $page-grid-template-columns;
             // [screen-start] auto [content-start] min(96%, #{$max-content-width}) [content-end] auto [screen-end]
         grid-template-rows: [content-start] 1fr [content-end];
+    }
+
+    a {
+        text-decoration: none;
     }
 </style>
 

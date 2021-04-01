@@ -14,8 +14,7 @@
         grid-template-columns: $page-grid-template-columns;
         grid-template-rows: [content-start] 1fr [content-end];
 
-        @include padding-x(0);
-        @include padding-y($blank * 1.25);
+        @include padding(0);
 
         background-color: $dark;
 
@@ -33,14 +32,14 @@
 
             > * {
                 @include margin(0);
-                @include padding(0);
+                @include padding-top($blank);
             }
 
             .brand {
                 grid-area: brand;
 
-                font-size: x-large;
-                align-self: baseline;
+                font-size: 2rem;
+                align-self: center;
 
                 color: $light;
             }
@@ -48,8 +47,8 @@
             .nav {
                 grid-area: nav;
 
-                font-size: large;
-                align-self: baseline;
+                font-size: larger;
+                align-self: center;
 
                 display: grid;
                 gap: $blank * 2;
@@ -60,7 +59,7 @@
                 }
 
                 a:hover {
-                    color: $gray-400;
+                    color: $gray-300;
                 }
 
                 a.current {
@@ -68,10 +67,6 @@
                 }
             }
         }
-    }
-
-    a {
-        text-decoration: none;
     }
 
     @include media-breakpoint-down(sm) {

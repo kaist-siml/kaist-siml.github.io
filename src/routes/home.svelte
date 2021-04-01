@@ -1,4 +1,6 @@
 <style lang="scss">
+    @import "styles/util";
+
     main {
         .content {
             grid-area: content;
@@ -9,7 +11,7 @@
 <main>
     <div class="content">
         <p>
-            Here is home
+            Here comes home
         </p>
     </div>
 </main>
