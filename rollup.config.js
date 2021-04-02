@@ -17,6 +17,8 @@ import pkg from './package.json';
 const mode = process.env.NODE_ENV;
 const dev = mode === 'development';
 
+const BASE_PATH = process.env.BASE_PATH;
+
 const onwarn = (warning, onwarn) => (
     (warning.code === 'MISSING_EXPORT' && /'preload'/.test(warning.message)) ||
     (warning.code === 'CIRCULAR_DEPENDENCY' && /[/\\]@sapper[/\\]/.test(warning.message)) ||
@@ -62,7 +64,7 @@ export default {
             }),
             url({
                 sourceDir: path.resolve(__dirname, 'src/node_modules/images'),
-                publicPath: '/client/',
+                publicPath: (BASE_PATH ? `/${BASE_PATH}` : '') + '/client/',
             }),
             resolve({
                 browser: true,
@@ -109,7 +111,7 @@ export default {
             }),
             url({
                 sourceDir: path.resolve(__dirname, 'src/node_modules/images'),
-                publicPath: '/client/',
+                publicPath: (BASE_PATH ? `/${BASE_PATH}` : '') + '/client/',
                 emitFiles: false, // already emitted by client build
             }),
             resolve({

@@ -16,11 +16,11 @@
     "build": "sapper build",
     "start": "node __sapper__/build",
     "preexport": "npm run lint",
-    "export": "sapper export --entry='/ /404'",
-    "postexport": "mv __sapper__/export/404/index.html __sapper__/export/404.html && rm -rf __sapper__/export/404",
+    "export": "BASE_PATH=siml sapper export --entry='/ /404' --basepath '/siml'",
+    "postexport": "mv __sapper__/export/siml/404/index.html __sapper__/export/siml/404.html && rm -rf __sapper__/export/siml/404",
     "serve": "npx serve __sapper__/export",
     "predeploy": "npm run export",
-    "deploy": "npm run lint && gh-pages -d __sapper__/export"
+    "deploy": "gh-pages -d __sapper__/export/siml"
   },
   "dependencies": {
     "autoprefixer": "^10.2.5",
