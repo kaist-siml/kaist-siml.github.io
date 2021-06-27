@@ -7,7 +7,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yuneg11/SIML-Web.git"
+    "url": "git+https://github.com/kaist-siml/kaist-siml.github.io.git"
   },
   "scripts": {
     "init": "cp node_modules/bootstrap/dist/js/bootstrap.bundle.min.js static/",
