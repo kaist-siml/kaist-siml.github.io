@@ -1,12 +1,13 @@
 <script>
-    import publications from 'data/publications.json';
+    // import publications from 'data/publications.json';
+    import publications from 'data/publications.bib';
 
     import Paper from 'components/Paper.svelte';
 
     const preprints = publications.filter(x => x.type === 'preprint');
-    const conferences = publications.filter(x => x.type === 'conference');
+    const conferences = publications.filter(x => x.type === 'article');
 
-    const errors = publications.filter(x => (x.type !== 'preprint' && x.type !== 'conference'));
+    const errors = publications.filter(x => (x.type !== 'preprint' && x.type !== 'article'));
 </script>
 
 <style lang="scss">
@@ -34,7 +35,7 @@
             grid-auto-flow: row;
             grid-auto-rows: max-content;
             grid-auto-columns: 1fr;
-            gap: $blank * 2;
+            gap: $blank * 3;
         }
     }
 
@@ -56,16 +57,18 @@
         {#if errors.length > 0}
             <div>
                 <h1 style="color: red">Unknown types!</h1>
-                {#each errors as p}
-                    <Paper category="award" {...p} />
-                {/each}
+                <div class="list">
+                    {#each errors as p}
+                        <Paper paper={p} />
+                    {/each}
+                </div>
             </div>
         {/if}
         <div>
             <h3>Preprints</h3>
             <div class="list">
                 {#each preprints as p}
-                    <Paper category="award" {...p} />
+                    <Paper paper={p} />
                 {/each}
             </div>
         </div>
@@ -73,7 +76,7 @@
             <h3>Conferences</h3>
             <div class="list">
                 {#each conferences as p}
-                    <Paper category="award" {...p} />
+                    <Paper paper={p} />
                 {/each}
             </div>
         </div>

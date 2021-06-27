@@ -4,14 +4,25 @@
     main {
         .content {
             grid-area: content;
+
+            .title {
+                @include margin-y($blank * 3);
+
+                text-align: center;
+            }
         }
     }
 </style>
 
 <main>
     <div class="content">
-        <p>
-            Here comes home
-        </p>
+        <div class="title">
+            <h2>
+                Welcome to
+            </h2>
+            <h1>
+                SIML
+            </h1>
+        </div>
     </div>
 </main>

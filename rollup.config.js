@@ -14,6 +14,8 @@ import sveltePreprocess from 'svelte-preprocess';
 import config from 'sapper/config/rollup.js';
 import pkg from './package.json';
 
+import bibtex from './plugins/bibtex';
+
 const mode = process.env.NODE_ENV;
 const dev = mode === 'development';
 
@@ -75,6 +77,7 @@ export default {
                 module: true,
             }),
             json(),
+            bibtex(),
         ],
 
         preserveEntrySignatures: false,
@@ -119,6 +122,7 @@ export default {
             }),
             commonjs(),
             json(),
+            bibtex(),
         ],
         external: Object.keys(pkg.dependencies).concat(require('module').builtinModules),
         preserveEntrySignatures: 'strict',
