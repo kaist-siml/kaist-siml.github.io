@@ -92,7 +92,7 @@
         <div class="nav">
             <a href="/home" class:current={segment === 'home'}>Home</a>
             <a href="/publication" class:current={segment === 'publication'}>Publication</a>
-            <a href="/project" class:current={segment === 'project'}>Project</a>
+            <!-- <a href="/project" class:current={segment === 'project'}>Project</a> -->
             <a href="/people" class:current={segment === 'people'}>People</a>
         </div>
     </div>

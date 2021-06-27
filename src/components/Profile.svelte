@@ -1,6 +1,8 @@
 <script>
-    export let name;
     export let image;
+    export let name;
+    export let email;
+    export let interests;
 </script>
 
 <style lang="scss">
@@ -31,7 +33,10 @@
         <img src="{image}" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">{name}</h5>
-            <p class="card-text">Please fill the details</p>
+            <p class="card-text">{email}</p>
+            {#each interests as interest}
+                <p>{interest}</p>
+            {/each}
         </div>
     </div>
 </div>

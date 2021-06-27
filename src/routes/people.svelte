@@ -38,24 +38,24 @@
         <div>
             <h3>Professor</h3>
             <div class="row">
-                {#each people.professor as p}
-                    <Profile category="award" {...p} />
+                {#each people.professor as person}
+                    <Profile {...person} />
                 {/each}
             </div>
         </div>
         <div>
             <h3>PhD Students</h3>
             <div class="row">
-                {#each people.phd as p}
-                    <Profile category="award" {...p} />
+                {#each people.phd as person}
+                    <Profile {...person} />
                 {/each}
             </div>
         </div>
         <div>
             <h3>MS Students</h3>
             <div class="row row-cols-auto">
-                {#each people.ms as p}
-                    <Profile category="award" {...p} />
+                {#each people.ms as person}
+                    <Profile {...person} />
                 {/each}
             </div>
         </div>

@@ -2,46 +2,92 @@
     "professor": [
         {
             "name": "Juho Lee",
+            "email": "juholee@kaist.ac.kr",
+            "interests": [
+                "Bayesian deep learning & deep Bayesian learning",
+                "Bayesian nonparametric models",
+                "Random graph models",
+                "Deep learning for healthcare"
+            ],
             "image": "image/people/jhlee.png"
         }
     ],
     "phd": [
         {
-            "name": "Balhae Kim",
+            "name": "Jungwon Choi",
+            "email": "jungwon.choi@kaist.ac.kr",
+            "interests": [
+                "meta-learning",
+                "causal inference"
+            ],
             "image": "image/dummy.svg"
         },
         {
             "name": "Balhae Kim",
+            "email": "balhaekim@kaist.ac.kr",
+            "interests": [
+                "meta-learning"
+            ],
             "image": "image/dummy.svg"
         },
         {
-            "name": "Balhae Kim",
+            "name": "Jongmin Yoon",
+            "email": "jm.yoon@kaist.ac.kr",
+            "interests": [
+                "generative modeling",
+                "adversarial robustness"
+            ],
             "image": "image/dummy.svg"
         }
     ],
     "ms": [
         {
-            "name": "Eunggu Yun",
+            "name": "Hyun Mog Kim",
+            "email": "hyunmog2020@kaist.ac.kr",
+            "interests": [
+                "equivariant representations for deep learning"
+            ],
+            "image": "image/dummy.svg"
+        },
+        {
+            "name": "Giung Nam",
+            "email": "giung@kaist.ac.kr",
+            "interests": [
+                "bayesian inference"
+            ],
             "image": "image/dummy.svg"
         },
         {
             "name": "Eunggu Yun",
+            "email": "eunggu.yun@kaist.ac.kr",
+            "interests": [
+                "Neural Processes"
+            ],
             "image": "image/dummy.svg"
         },
         {
-            "name": "Eunggu Yun",
+            "name": "Hyungi Lee",
+            "email": "lhk2708@kaist.ac.kr",
+            "interests": [
+                "Neural Network Gaussian Process"
+            ],
             "image": "image/dummy.svg"
         },
         {
-            "name": "Eunggu Yun",
+            "name": "Hyemin Lee",
+            "email": "hyemin.lee@kaist.ac.kr",
+            "interests": [
+                "generative modeling",
+                "self-supervised learning"
+            ],
             "image": "image/dummy.svg"
         },
         {
-            "name": "Eunggu Yun",
-            "image": "image/dummy.svg"
-        },
-        {
-            "name": "Eunggu Yun",
+            "name": "Sunguk Jang",
+            "email": "tommy9773@kaist.ac.kr",
+            "interests": [
+
+            ],
             "image": "image/dummy.svg"
         }
     ]

@@ -24,12 +24,13 @@
   },
   "dependencies": {
     "autoprefixer": "^10.2.5",
+    "bibtex-parse": "^2.1.0",
     "bootstrap": "^5.0.0-beta3",
     "bootstrap-icons": "^1.4.0",
     "compression": "^1.7.1",
     "modern-css-reset": "^1.4.0",
     "polka": "next",
-    "postcss": "^8.2.8",
+    "postcss": "^8.2.15",
     "sirv": "^1.0.0"
   },
   "devDependencies": {
