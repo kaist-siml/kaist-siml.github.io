@@ -39,4 +39,4 @@ jobs:
           publish_branch: gh-pages
           publish_dir: __sapper__/export
           user_name: GitHub Pages
-          user_email: yuneg11@gmail.com
+          user_email: siml@kaist.ac.kr
