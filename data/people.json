@@ -4,7 +4,7 @@
             "name": "Juho Lee",
             "email": "juholee@kaist.ac.kr",
             "interests": [
-                "Bayesian deep learning & deep Bayesian learning",
+                "Bayesian deep learning & Deep bayesian learning",
                 "Bayesian nonparametric models",
                 "Random graph models",
                 "Deep learning for healthcare"
@@ -17,8 +17,8 @@
             "name": "Jungwon Choi",
             "email": "jungwon.choi@kaist.ac.kr",
             "interests": [
-                "meta-learning",
-                "causal inference"
+                "Meta-Learning",
+                "Causal inference"
             ],
             "image": "image/dummy.svg"
         },
@@ -26,7 +26,7 @@
             "name": "Balhae Kim",
             "email": "balhaekim@kaist.ac.kr",
             "interests": [
-                "meta-learning"
+                "Meta-Learning"
             ],
             "image": "image/dummy.svg"
         },
@@ -34,8 +34,8 @@
             "name": "Jongmin Yoon",
             "email": "jm.yoon@kaist.ac.kr",
             "interests": [
-                "generative modeling",
-                "adversarial robustness"
+                "Generative modeling",
+                "Adversarial robustness"
             ],
             "image": "image/dummy.svg"
         }
@@ -45,7 +45,7 @@
             "name": "Hyun Mog Kim",
             "email": "hyunmog2020@kaist.ac.kr",
             "interests": [
-                "equivariant representations for deep learning"
+                "Equivariant representations for deep learning"
             ],
             "image": "image/dummy.svg"
         },
@@ -53,7 +53,7 @@
             "name": "Giung Nam",
             "email": "giung@kaist.ac.kr",
             "interests": [
-                "bayesian inference"
+                "Bayesian inference"
             ],
             "image": "image/dummy.svg"
         },
@@ -77,8 +77,8 @@
             "name": "Hyemin Lee",
             "email": "hyemin.lee@kaist.ac.kr",
             "interests": [
-                "generative modeling",
-                "self-supervised learning"
+                "Generative modeling",
+                "Self-supervised learning"
             ],
             "image": "image/dummy.svg"
         },
@@ -86,7 +86,7 @@
             "name": "Sunguk Jang",
             "email": "tommy9773@kaist.ac.kr",
             "interests": [
-                "bayesian deep learning"
+                "Bayesian deep learning"
             ],
             "image": "image/dummy.svg"
         }
