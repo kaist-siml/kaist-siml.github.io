@@ -1,44 +1,10 @@
-<!-- <script>
-    export let title;
-    export let authors;
-    export let image;
-</script>
-
-<style lang="scss">
-    @import "styles/util";
-
-    article {
-        display: grid;
-
-        grid-template-rows: [image-start detail-start] 1fr [image-end detail-end];
-        grid-template-columns: [image-start] max-content [image-end detail-start] auto [detail-end];
-        gap: $blank * 2;
-
-        img {
-            grid-area: image;
-        }
-
-        section {
-            text-align: left;
-
-            @include padding-y($blank);
-        }
-    }
-</style>
-
-<article>
-    <img src={image} alt="Summary"/>
-    <section>
-        <h4>{title}</h4>
-        <p>{authors.join(', ')}</p>
-        <p>Here comes more details</p>
-    </section>
-</article> -->
-
-
 <script>
     export let paper;
 
+    const author = paper.author.join(", ");
+
+    // For bibtex
+    /*
     const author = paper.author
         .split(' and ')
         .map(name => name.split(',')
@@ -46,6 +12,7 @@
             .reverse()
             .join(' '))
         .join(', ');
+    */
 </script>
 
 <style lang="scss">
@@ -55,7 +22,8 @@
         display: grid;
 
         grid-template-rows: [image-start detail-start] 1fr [image-end detail-end];
-        grid-template-columns: [image-start] max-content [image-end detail-start] auto [detail-end];
+        // grid-template-columns: [image-start] max-content [image-end detail-start] auto [detail-end];
+        grid-template-columns: [detail-start] auto [detail-end];
         gap: $blank * 2;
 
         img {
@@ -65,6 +33,8 @@
         }
 
         section {
+            grid-area: detail;
+
             text-align: left;
 
             @include padding-y($blank);
@@ -82,34 +52,61 @@
 
             }
 
+            b.title a{
+                color: $blue-700;
+            }
+
             p {
                 @include margin-y($blank * 0.5);
+
+                b.code a{
+                    color: $blue-800;
+                }
             }
         }
     }
 </style>
 
 <article>
-    <img src={paper.image || 'image/dummy.svg'} alt="Summary"/>
+    <!-- <img src={paper.image || 'image/dummy.svg'} alt="Summary"/> -->
     <section>
-        <h5>
+        <b class="title">
             {#if paper.url}
                 <a href={paper.url} target="_blank">{paper.title}</a>
             {:else}
                 {paper.title}
             {/if}
-        </h5>
-        <p>{author}</p>
+        </b>
+        <p>{@html author}</p>
         <p>
-            {#if paper.booktitle}
-                {paper.booktitle}, {paper.year}
-            {:else if  paper.journal}
-                {paper.journal}, {paper.year}
-            {:else}
-                <b style="color: red">Detail undefined</b>
+            {#if paper.contribution}
+                ({@html paper.contribution})
             {/if}
         </p>
+        <p>
+            {#if paper.booktitle}
+                {paper.booktitle}
+            {:else if paper.journal}
+                {paper.journal}
+            {/if}
 
-        <p>Here comes more details</p>
+            {#if paper.year}
+                {paper.year}
+            {/if}
+
+            {#if paper.comment}
+                ({paper.comment})
+            {/if}
+        </p>
+        <p>
+            {#if paper.note}
+                {@html paper.note}
+            {/if}
+        </p>
+        <p>
+            {#if paper.code}
+                <b class="code"><a href={paper.code} target="_blank">Code</a></b>
+            {/if}
+        </p>
     </section>
 </article>

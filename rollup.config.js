@@ -63,6 +63,14 @@ export default {
                     dev,
                     hydratable: true,
                 },
+                onwarn: (warning, handler) => {
+                    const { code, frame } = warning;
+
+                    if (code === 'css-unused-selector')
+                        return;
+
+                    handler(warning);
+                },
             }),
             url({
                 sourceDir: path.resolve(__dirname, 'src/node_modules/images'),
@@ -111,6 +119,14 @@ export default {
                     hydratable: true,
                 },
                 emitCss: false,
+                onwarn: (warning, handler) => {
+                    const { code, frame } = warning;
+
+                    if (code === 'css-unused-selector')
+                        return;
+
+                    handler(warning);
+                },
             }),
             url({
                 sourceDir: path.resolve(__dirname, 'src/node_modules/images'),
