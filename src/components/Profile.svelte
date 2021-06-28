@@ -24,6 +24,16 @@
 
         .card-body {
             @include padding-x(0);
+
+            p.card-text a{
+                color: $blue-700;
+            }
+
+            ul {
+                margin-top: -5px;
+                padding-left: 0px;
+                margin-left: 15px;
+            }
         }
     }
 </style>
@@ -33,10 +43,12 @@
         <img src="{image}" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">{name}</h5>
-            <p class="card-text">{email}</p>
-            {#each interests as interest}
-                <p>{interest}</p>
-            {/each}
+            <p class="card-text"><a href="mailto:{email}">{email}</a></p>
+            <ul>
+                {#each interests as interest}
+                    <li>{interest}</li>
+                {/each}
+            </ul>
         </div>
     </div>
 </div>

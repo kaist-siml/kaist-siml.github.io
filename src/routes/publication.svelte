@@ -1,13 +1,13 @@
 <script>
-    // import publications from 'data/publications.json';
-    import publications from 'data/publications.bib';
-
     import Paper from 'components/Paper.svelte';
 
-    const preprints = publications.filter(x => x.type === 'preprint');
-    const conferences = publications.filter(x => x.type === 'article');
+    import publications from 'data/publications.json';
+    // import publications from 'data/publications.bib';
 
-    const errors = publications.filter(x => (x.type !== 'preprint' && x.type !== 'article'));
+    const preprints = publications.filter(x => x.type === 'preprint');
+    const conferences = publications.filter(x => x.type === 'conference');
+
+    const errors = publications.filter(x => (x.type !== 'preprint' && x.type !== 'conference'));
 </script>
 
 <style lang="scss">
@@ -35,7 +35,7 @@
             grid-auto-flow: row;
             grid-auto-rows: max-content;
             grid-auto-columns: 1fr;
-            gap: $blank * 3;
+            gap: $blank * 1;
         }
     }
 
