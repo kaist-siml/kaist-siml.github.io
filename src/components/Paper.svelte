@@ -1,18 +1,18 @@
 <script>
     export let paper;
 
-    const author = paper.author.join(", ");
+    const author = paper.author.join(', ');
 
     // For bibtex
     /*
-    const author = paper.author
-        .split(' and ')
-        .map(name => name.split(',')
-            .map(word => word.trim())
-            .reverse()
-            .join(' '))
-        .join(', ');
-    */
+     * const author = paper.author
+     *    .split(' and ')
+     *    .map(name => name.split(',')
+     *        .map(word => word.trim())
+     *        .reverse()
+     *        .join(' '))
+     *    .join(', ');
+     */
 </script>
 
 <style lang="scss">
