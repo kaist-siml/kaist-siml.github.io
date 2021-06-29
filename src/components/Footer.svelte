@@ -74,7 +74,7 @@
         <p class="justify-left">
             <a href="https://goo.gl/maps/mga73qU9oT8Bhz8D6">
                 <i class="bi bi-geo-alt"></i>
-                KAIST N5 1225
+                KAIST N5 2225
             </a>
         </p>
     </div>
