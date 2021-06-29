@@ -32,7 +32,7 @@
             ul {
                 margin-top: -5px;
                 padding-left: 0px;
-                margin-left: 15px;
+                margin-left: 18px;
             }
         }
     }

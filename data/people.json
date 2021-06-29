@@ -6,8 +6,7 @@
             "interests": [
                 "Bayesian deep learning & Deep bayesian learning",
                 "Bayesian nonparametric models",
-                "Random graph models",
-                "Deep learning for healthcare"
+                "Random graph models"
             ],
             "image": "image/people/jhlee.png"
         }
@@ -42,10 +41,10 @@
     ],
     "ms": [
         {
-            "name": "Hyun Mog Kim",
-            "email": "hyunmog2020@kaist.ac.kr",
+            "name": "Hyungi Lee",
+            "email": "lhk2708@kaist.ac.kr",
             "interests": [
-                "Equivariant representations for deep learning"
+                "Neural Network Gaussian Process"
             ],
             "image": "image/dummy.svg"
         },
@@ -58,18 +57,18 @@
             "image": "image/dummy.svg"
         },
         {
-            "name": "Eunggu Yun",
-            "email": "eunggu.yun@kaist.ac.kr",
+            "name": "Hyun Mog Kim",
+            "email": "hyunmog2020@kaist.ac.kr",
             "interests": [
-                "Neural Processes"
+                "Equivariant representations for deep learning"
             ],
             "image": "image/dummy.svg"
         },
         {
-            "name": "Hyungi Lee",
-            "email": "lhk2708@kaist.ac.kr",
+            "name": "Sunguk Jang",
+            "email": "tommy9773@kaist.ac.kr",
             "interests": [
-                "Neural Network Gaussian Process"
+                "Bayesian deep learning"
             ],
             "image": "image/dummy.svg"
         },
@@ -83,10 +82,10 @@
             "image": "image/dummy.svg"
         },
         {
-            "name": "Sunguk Jang",
-            "email": "tommy9773@kaist.ac.kr",
+            "name": "Eunggu Yun",
+            "email": "eunggu.yun@kaist.ac.kr",
             "interests": [
-                "Bayesian deep learning"
+                "Neural Processes"
             ],
             "image": "image/dummy.svg"
         }
