@@ -2,6 +2,7 @@
     export let image;
     export let name;
     export let email;
+    export let url;
     export let interests;
 
     email = email.split("@").join(" (at) ");
@@ -10,24 +11,28 @@
 <style lang="scss">
     @import "styles/util";
 
-    .profile {
-        @include margin-y($blank);
-    }
+    article {
+        display: grid;
+        grid-template-rows: [image-start detail-start] 1fr [image-end detail-end];
+        grid-template-columns: [image-start] max-content [image-end detail-start] auto [detail-end];
 
-    .card {
-        border: none;
+        gap: $blank * 2;
 
-        .card-img-top {
-            max-width: 250px;
+        @include margin-y($blank * 2);
+
+        img {
+            grid-area: image;
+
+            max-width: 150px;
             height: auto;
-
-            border-radius: 0;
         }
 
-        .card-body {
-            @include padding-x(0);
+        section {
+            @include padding-y($blank * 1.5);
 
-            p.card-text a{
+            grid-area: detail;
+
+            h5 a{
                 color: $blue-700;
             }
 
@@ -37,21 +42,38 @@
                 margin-left: 18px;
             }
         }
+
+    }
+
+    @media (max-width: 370px) {
+        article {
+            grid-template-columns: [image-start detail-start] 1fr [image-end detail-end];
+            grid-template-rows: [image-start] max-content [image-end detail-start] auto [detail-end];
+        }
+    }
+
+    @include media-breakpoint-down(sm) {
+        article section {
+            @include padding-y($blank * 0.5);
+        }
     }
 </style>
 
-<div class="profile col-12 col-sm-6 col-md-4 col-lg-3">
-    <div class="card">
-        <img src={image} class="card-img-top" alt="...">
-        <div class="card-body">
-            <h5 class="card-title">{name}</h5>
-            <!-- <p class="card-text"><a href="mailto:{email}">{email}</a></p> -->
-            <p class="card-text">{email}</p>
-            <ul>
-                {#each interests as interest}
-                    <li>{interest}</li>
-                {/each}
-            </ul>
-        </div>
-    </div>
-</div>
+<article class="col-12 col-sm-12 col-md-6 col-lg-6">
+    <img src={image || 'image/dummy.svg'} alt="...">
+    <section>
+        <h5>
+            {name}
+            {#if url}
+                <a href={url} target="_blank"><i class="bi bi-link"></i></a>
+            {/if}
+        </h5>
+        <!-- <p class="card-text"><a href="mailto:{email}">{email}</a></p> -->
+        <p class="card-text">{email}</p>
+        <ul>
+            {#each interests as interest}
+                <li>{interest}</li>
+            {/each}
+        </ul>
+    </section>
+</article>
