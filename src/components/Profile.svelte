@@ -3,6 +3,8 @@
     export let name;
     export let email;
     export let interests;
+
+    email = email.split("@").join(" (at) ");
 </script>
 
 <style lang="scss">
@@ -40,10 +42,11 @@
 
 <div class="profile col-12 col-sm-6 col-md-4 col-lg-3">
     <div class="card">
-        <img src="{image}" class="card-img-top" alt="...">
+        <img src={image} class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">{name}</h5>
-            <p class="card-text"><a href="mailto:{email}">{email}</a></p>
+            <!-- <p class="card-text"><a href="mailto:{email}">{email}</a></p> -->
+            <p class="card-text">{email}</p>
             <ul>
                 {#each interests as interest}
                     <li>{interest}</li>
