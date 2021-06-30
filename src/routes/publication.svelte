@@ -39,6 +39,14 @@
         }
     }
 
+    @include media-breakpoint-only(xs) {
+        main .content {
+            gap: $blank * 2;
+
+            @include padding-x($blank * 1);
+        }
+    }
+
     @include media-breakpoint-only(sm) {
         main .content {
             gap: $blank * 2;
