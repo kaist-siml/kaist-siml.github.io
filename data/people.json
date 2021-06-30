@@ -4,10 +4,11 @@
             "name": "Juho Lee",
             "email": "juholee@kaist.ac.kr",
             "interests": [
-                "Bayesian deep learning & Deep bayesian learning",
+                "Bayesian deep learning & deep Bayesian learning",
                 "Bayesian nonparametric models",
                 "Random graph models"
             ],
+            "url": "https://juho-lee.github.io",
             "image": "image/people/jhlee.png"
         }
     ],
@@ -87,6 +88,7 @@
             "interests": [
                 "Neural Process"
             ],
+            "url": "https://yuneg11.github.io",
             "image": "image/people/egyun.jpeg"
         }
     ]
