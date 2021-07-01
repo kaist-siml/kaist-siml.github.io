@@ -5,7 +5,7 @@
     export let url;
     export let interests;
 
-    email = email.split("@").join(" (at) ");
+    email = email.split('@').join(' (at) ');
 </script>
 
 <style lang="scss">
@@ -23,8 +23,8 @@
         img {
             grid-area: image;
 
-            max-width: 150px;
-            height: auto;
+            width: 140px;
+            height: 175px;
         }
 
         section {

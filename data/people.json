@@ -9,7 +9,7 @@
                 "Random graph models"
             ],
             "url": "https://juho-lee.github.io",
-            "image": "image/people/jhlee.png"
+            "image": "image/people/jhlee.jpg"
         }
     ],
     "phd": [
@@ -20,7 +20,7 @@
                 "Meta-Learning",
                 "Causal inference"
             ],
-            "image": "image/dummy.svg"
+            "image": "image/people/jwchoi.jpg"
         },
         {
             "name": "Balhae Kim",
@@ -28,7 +28,7 @@
             "interests": [
                 "Meta-Learning"
             ],
-            "image": "image/dummy.svg"
+            "image": "image/people/bhkim.jpg"
         },
         {
             "name": "Jongmin Yoon",
@@ -37,7 +37,7 @@
                 "Generative modeling",
                 "Adversarial robustness"
             ],
-            "image": "image/dummy.svg"
+            "image": "image/people/jmyoon.jpg"
         }
     ],
     "ms": [
@@ -47,7 +47,7 @@
             "interests": [
                 "Neural Network Gaussian Process"
             ],
-            "image": "image/dummy.svg"
+            "image": "image/people/hglee.jpg"
         },
         {
             "name": "Giung Nam",
@@ -55,7 +55,7 @@
             "interests": [
                 "Bayesian inference"
             ],
-            "image": "image/dummy.svg"
+            "image": "image/people/gunam.jpg"
         },
         {
             "name": "Hyun Mog Kim",
@@ -63,7 +63,7 @@
             "interests": [
                 "Equivariant representations for deep learning"
             ],
-            "image": "image/dummy.svg"
+            "image": "image/people/hmkim.jpg"
         },
         {
             "name": "Sunguk Jang",
@@ -71,7 +71,7 @@
             "interests": [
                 "Bayesian deep learning"
             ],
-            "image": "image/dummy.svg"
+            "image": "image/people/sujang.jpg"
         },
         {
             "name": "Hyemin Lee",
@@ -80,7 +80,7 @@
                 "Generative modeling",
                 "Self-supervised learning"
             ],
-            "image": "image/dummy.svg"
+            "image": "image/people/hmlee.jpg"
         },
         {
             "name": "Eunggu Yun",
@@ -89,7 +89,7 @@
                 "Neural Process"
             ],
             "url": "https://yuneg11.github.io",
-            "image": "image/people/egyun.jpeg"
+            "image": "image/people/egyun.jpg"
         }
     ]
 }
