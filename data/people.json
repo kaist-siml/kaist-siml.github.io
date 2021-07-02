@@ -90,6 +90,15 @@
             ],
             "url": "https://yuneg11.github.io",
             "image": "image/people/egyun.jpg"
+        },
+        {
+            "name": "EuiYul Song",
+            "email": "thddmlduf@gmail.com",
+            "interests": [
+                "Baysesian Deep Learning"
+            ],
+            "url": "https://linkedin.com/in/euiyul-song",
+            "image": "image/people/eysong.jpg"
         }
     ]
 }
