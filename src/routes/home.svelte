@@ -25,7 +25,7 @@
                 Welcome to
             </h2>
             <h1>
-                SIML
+                Statistical Inference and Machine Learning Lab.
             </h1>
         </div>
         <div id="carousel" class="carousel slide" data-bs-ride="carousel">
