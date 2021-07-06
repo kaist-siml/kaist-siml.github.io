@@ -100,6 +100,14 @@
             ],
             "url": "https://linkedin.com/in/euiyul-song",
             "image": "image/people/eysong.jpg"
+        },
+        {
+            "name": "Taehong Moon",
+            "email": "josephmoon2019@gmail.com",
+            "interests": [
+                "-"
+            ],
+            "image": "image/dummy.svg"
         }
     ]
 }
