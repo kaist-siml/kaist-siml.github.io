@@ -1,6 +1,15 @@
 [
     {
         "type": "preprint",
+        "title": "Scale Mixtures of Neural Network Gaussian Processes",
+        "author": [
+            "<b>Hyungi Lee</b>", "<b>Eunggu Yun</b>", "Hongseok Yang", "<b>Juho Lee</b>"
+        ],
+        "journal": "arXiv:2107.01408",
+        "url": "https://arxiv.org/abs/2107.01408"
+    },
+    {
+        "type": "preprint",
         "title": "The Normal-Generalised Gamma-Pareto process: A novel pure-jump Lévy process with flexible tail and jump-activity properties",
         "author": [
             "Fadhel Ayed", "<b>Juho Lee</b>", "François Caron"
