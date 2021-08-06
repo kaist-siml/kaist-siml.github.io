@@ -108,6 +108,17 @@
                 "-"
             ],
             "image": "image/dummy.svg"
+        },
+        {
+            "name": "Seanie Lee",
+            "email": "lsnfamily02@gmail.com",
+            "interests": [
+                "Natural Language Processing",
+                "Bayesian Network",
+                "Meta-Learning"
+            ],
+            "url": "https://seanie12.github.io",
+            "image": "image/people/snlee.jpg"
         }
     ]
 }
