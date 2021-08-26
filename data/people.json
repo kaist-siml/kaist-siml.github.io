@@ -14,14 +14,13 @@
     ],
     "phd": [
         {
-            "name": "Jungwon Choi",
-            "email": "jungwon.choi@kaist.ac.kr",
+            "name": "Jongmin Yoon",
+            "email": "jm.yoon@kaist.ac.kr",
             "interests": [
-                "Meta-Learning",
-                "Causal Inference",
-                "Generative modeling"
+                "Generative modeling",
+                "Adversarial robustness"
             ],
-            "image": "image/people/jwchoi.jpg"
+            "image": "image/people/jmyoon.jpg"
         },
         {
             "name": "Balhae Kim",
@@ -32,13 +31,13 @@
             "image": "image/people/bhkim.jpg"
         },
         {
-            "name": "Jongmin Yoon",
-            "email": "jm.yoon@kaist.ac.kr",
+            "name": "Jungwon Choi",
+            "email": "jungwon.choi@kaist.ac.kr",
             "interests": [
-                "Generative modeling",
-                "Adversarial robustness"
+                "Domain Generalization",
+                "Causal Inference"
             ],
-            "image": "image/people/jmyoon.jpg"
+            "image": "image/people/jwchoi.jpg"
         }
     ],
     "ms": [
@@ -105,9 +104,9 @@
             "name": "Taehong Moon",
             "email": "josephmoon2019@gmail.com",
             "interests": [
-                "-"
+                "Generative modeling"
             ],
-            "image": "image/dummy.svg"
+            "image": "image/people/thmoon.jpg"
         },
         {
             "name": "Seanie Lee",
