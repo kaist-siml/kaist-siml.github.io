@@ -38,6 +38,15 @@
                 "Causal Inference"
             ],
             "image": "image/people/jwchoi.jpg"
+        },
+        {
+            "name": "Hyunsu Kim",
+            "email": "kim.hyunsu@kaist.ac.kr",
+            "interests": [
+                "Markov chain Monte Carlo",
+                "Variational Autoencoder"
+            ],
+            "image": "image/people/hskim.jpg"
         }
     ],
     "ms": [
