@@ -118,7 +118,8 @@
         "contribution": "*: Equal Contribution",
         "journal": "NeurIPS",
         "year": 2020,
-        "url": "https://arxiv.org/abs/2008.02956"
+        "url": "https://arxiv.org/abs/2008.02956",
+        "code": "https://github.com/juho-lee/bnp"
     },
     {
         "type": "conference",
@@ -128,7 +129,8 @@
         ],
         "journal": "NeurIPS",
         "year": 2020,
-        "url": "https://arxiv.org/abs/2008.02953"
+        "url": "https://arxiv.org/abs/2008.02953",
+        "code": "https://github.com/yoonholee/neural-complexity"
     },
     {
         "type": "conference",
@@ -170,7 +172,8 @@
         ],
         "journal": "ICML",
         "year": 2019,
-        "url": "https://arxiv.org/abs/1810.00825v3"
+        "url": "https://arxiv.org/abs/1810.00825v3",
+        "code": "https://github.com/juho-lee/set_transformer"
     },
     {
         "type": "conference",
