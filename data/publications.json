@@ -55,7 +55,9 @@
         "contribution": "*: Equal Contribution",
         "journal": "NeurIPS",
         "year": 2021,
-        "comment": "To appear"
+        "comment": "To appear",
+        "url": "https://arxiv.org/abs/2110.14149",
+        "code": "https://github.com/cs-giung/giung2/tree/main/projects/Diversity-Matters"
     },
     {
         "type": "conference",
@@ -65,7 +67,8 @@
         ],
         "journal": "NeurIPS",
         "year": 2021,
-        "comment": "To appear"
+        "comment": "To appear",
+        "url": "https://arxiv.org/abs/2103.01615"
     },
     {
         "type": "conference",
@@ -75,7 +78,8 @@
         ],
         "journal": "ICCV",
         "year": 2021,
-        "comment": "To appear"
+        "url": "https://openaccess.thecvf.com/content/ICCV2021/html/Liu_A_Multi-Mode_Modulator_for_Multi-Domain_Few-Shot_Classification_ICCV_2021_paper.html",
+        "code": "https://github.com/csyanbin/tri-M-ICCV"
     },
     {
         "type": "conference",
