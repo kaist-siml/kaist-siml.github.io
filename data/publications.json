@@ -43,7 +43,7 @@
         "author": [
             "<b>Hyungi Lee</b>", "<b>Eunggu Yun</b>", "Hongseok Yang", "<b>Juho Lee</b>"
         ],
-        "journal": "NeurIPS",
+        "journal": "ICLR",
         "year": 2022,
         "comment": "To appear",
         "url": "https://arxiv.org/abs/2107.01408"
@@ -57,7 +57,6 @@
         "contribution": "*: Equal Contribution",
         "journal": "NeurIPS",
         "year": 2021,
-        "comment": "To appear",
         "url": "https://arxiv.org/abs/2110.14149",
         "code": "https://github.com/cs-giung/giung2/tree/main/projects/Diversity-Matters"
     },
@@ -69,7 +68,6 @@
         ],
         "journal": "NeurIPS",
         "year": 2021,
-        "comment": "To appear",
         "url": "https://arxiv.org/abs/2103.01615"
     },
     {
