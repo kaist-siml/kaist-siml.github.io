@@ -50,6 +50,28 @@
     },
     {
         "type": "conference",
+        "title": "Sequential Reptile: inter-task gradient alignment for multilingual learning",
+        "author": [
+            "Seanie Lee", "Hae Beom Lee", "<b>Juho Lee</b>", "Sung Ju Hwang"
+        ],
+        "journal": "ICLR",
+        "year": 2022,
+        "comment": "To appear",
+        "url": "https://arxiv.org/abs/2110.02600"
+    },
+    {
+        "type": "conference",
+        "title": "Meta learning low rank covariance factors for energy-based deterministic uncertainty",
+        "author": [
+            "Jeffrey Ryan Willette", "Hae Beom Lee", "<b>Juho Lee</b>", "Sung Ju Hwang"
+        ],
+        "journal": "ICLR",
+        "year": 2022,
+        "comment": "To appear",
+        "url": "https://arxiv.org/abs/2110.06381"
+    },
+    {
+        "type": "conference",
         "title": "Diversity matters when learning from ensembles",
         "author": [
             "<b>Giung Nam</b>*", "<b>Jongmin Yoon</b>*", "Yoonho Lee", "<b>Juho Lee</b>"
