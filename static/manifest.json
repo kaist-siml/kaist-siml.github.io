@@ -1,0 +1,15 @@
+{
+    "background_color": "#f8f9fa",
+    "theme_color": "#212529",
+    "name": "SIML",
+    "short_name": "SIML",
+    "display": "minimal-ui",
+    "start_url": "/",
+    "icons": [
+        {
+            "src": "favicon.png",
+            "sizes": "30x30",
+            "type": "image/png"
+        }
+    ]
+}
