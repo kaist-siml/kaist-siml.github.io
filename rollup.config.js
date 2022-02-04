@@ -1,15 +1,20 @@
 import path from 'path';
+import autoprefixer from 'autoprefixer';
+
 import resolve from '@rollup/plugin-node-resolve'
 import replace from '@rollup/plugin-replace'
 import commonjs from '@rollup/plugin-commonjs'
-import svelte from 'rollup-plugin-svelte'
-import sveltePreprocess from 'svelte-preprocess';
 import babel from '@rollup/plugin-babel'
+import yaml from '@rollup/plugin-yaml';
+
 import { terser } from 'rollup-plugin-terser'
 import glob from 'rollup-plugin-glob'
+
+import svelte from 'rollup-plugin-svelte'
+import sveltePreprocess from 'svelte-preprocess';
 import config from 'sapper/config/rollup.js'
+
 import markdown from './src/utils/markdown.js'
-import autoprefixer from 'autoprefixer';
 import pkg from './package.json'
 
 const mode = process.env.NODE_ENV
@@ -22,13 +27,11 @@ const onwarn = (warning, onwarn) =>
  	onwarn(warning);
 
 const replacePath = [
-    [/(?<!\/)components(?=\/)/g, path.resolve(__dirname, 'src', 'components')],
-    // [/(?<!\/)pages(?=\/)/g, path.resolve(__dirname, 'src', 'pages')],
-    [/(?<!\/)data(?=\/)/g, path.resolve(__dirname, 'data')],
-    [/(?<!\/)static(?=\/)/g, path.resolve(__dirname, 'static')],
-    // [/(?<!\/)styles(?=\/)/g, path.resolve(__dirname, 'src', 'styles')],
-    [/(?<!\/)node_modules(?=\/)/g, path.resolve(__dirname, 'node_modules')],
-    // [/(?<!\/)templates(?=\/)/g, path.resolve(__dirname, 'templates')],
+  [/(?<!\/)data(?=\/)/g, path.resolve(__dirname, 'data')],
+  [/(?<!\/)static(?=\/)/g, path.resolve(__dirname, 'static')],
+  [/(?<!\/)components(?=\/)/g, path.resolve(__dirname, 'src', 'components')],
+  [/(?<!\/)utils(?=\/)/g, path.resolve(__dirname, 'src', 'utils')],
+  [/(?<!\/)node_modules(?=\/)/g, path.resolve(__dirname, 'node_modules')],
 ];
 
 export default {
@@ -68,6 +71,7 @@ export default {
       resolve(),
       commonjs(),
       markdown(),
+      yaml(),
       glob(),
       legacy &&
         babel({
@@ -139,6 +143,7 @@ export default {
       resolve(),
       commonjs(),
       markdown(),
+      yaml(),
       glob(),
     ],
     external: Object.keys(pkg.dependencies).concat(
@@ -164,7 +169,6 @@ export default {
       commonjs(),
       !dev && terser(),
     ],
-
     onwarn,
   },
 }

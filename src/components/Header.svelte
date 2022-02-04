@@ -1,59 +1,145 @@
 <script>
-  import Nav from './Nav.svelte';
-
-  export let segment;
+    export let segment;
 </script>
 
-<style>
-  header {
-    margin: 0 auto;
-    max-width: 1400px;
-    padding: 1em 2em;
-    box-sizing: border-box;
-    width: 100%;
-  }
+<style lang="scss">
+    @import "utils/style";
 
-  .header-container {
-    display: flex;
-    margin: 0 auto;
-    padding: 2em 0;
-    max-width: 1200px;
-    width: 100%;
-    flex-direction: row;
-  }
-
-  .logo {
-    color: inherit;
-    text-decoration: none;
-    padding: 10px 5px;
-    display: block;
-    position: relative;
-    font-size: 2.5em;
-    font-family: Rubik, sans-serif;
-    font-weight: 500;
-    text-transform: uppercase;
-  }
-
-  @media (max-width: 500px) {
     header {
-      padding-top: 0;
+        display: grid;
+
+        grid-row: header;
+        grid-column: screen;
+
+        grid-template-columns: $page-grid-template-columns;
+        grid-template-rows: [content-start] 1fr [content-end];
+
+        @include padding-x(0);
+        @include padding-y($blank);
+
+        background-color: inherit;
+
+        .content {
+            grid-area: content;
+
+            display: grid;
+
+            grid-template-rows: [brand-start nav-start] 1fr [brand-end nav-end];
+            grid-template-columns: [brand-start] auto [brand-end] #{$blank} [nav-start] max-content [nav-end];
+            gap: $blank;
+
+            @include padding-x(0);
+            @include padding-y($blank);
+
+            > * {
+                @include margin(0);
+                @include padding-top($blank);
+            }
+
+            .brand {
+                grid-area: brand;
+
+                font-size: 2.5rem;
+                align-self: center;
+
+                color: $black;
+
+                text-decoration: none;
+                font-family: Rubik, sans-serif;
+                font-weight: 500;
+                text-transform: uppercase;
+            }
+
+            nav {
+                grid-area: nav;
+                align-self: center;
+
+                font-size: large;
+                font-family: Rubik, sans-serif;
+                font-weight: 500;
+                text-transform: uppercase;
+
+                display: grid;
+                gap: $blank * 2;
+                grid-auto-flow: column;
+
+                a {
+                    color: inherit;
+                    text-decoration: none;
+                    padding: 5px .5em;
+                    display: block;
+                    position: relative;
+
+                    &:not(.selected) {
+                        opacity: 0.7;
+                    }
+
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        transition: transform .3s ease;
+                        left: 0;
+                        bottom: 0;
+                        width: 100%;
+                        height: 2px;
+                        background: $kaist-dark-gray;
+                        transform: scaleX(0);
+                    }
+                }
+
+                a:hover::before,
+                .selected::before {
+                    transform: scaleX(1);
+                }
+
+                .selected::before {
+                    background: $kaist-dark-blue;
+                }
+            }
+        }
     }
 
-    .header-container {
-      justify-content: center;
-      flex-direction: column;
+    @include media-breakpoint-down(lg) {
+        header {
+            @include padding-y(0);
+            padding-bottom: $blank;
+
+            .content {
+                .brand {
+                    font-size: 1.5rem;
+                }
+
+                nav {
+                    font-size: 1rem;
+                }
+            }
+        }
     }
 
-    .logo {
-      margin: 0 auto;
-      font-size: 2em;
+    @include media-breakpoint-down(sm) {
+        header {
+            .content {
+                grid-template-rows: [brand-start] auto [brand-end nav-start] auto [nav-end];
+                grid-template-columns: [brand-start nav-start] auto [brand-end nav-end];
+
+                text-align: center;
+
+                nav {
+                    font-size: small;
+                    grid-auto-flow: column;
+                }
+            }
+        }
     }
-  }
 </style>
 
 <header>
-  <div class="header-container">
-      <a class="logo" href="/">SIML</a>
-    <Nav {segment} />
-  </div>
+    <div class="content">
+        <a class="brand" href="/">SIML</a>
+        <nav>
+            <a class='{segment === undefined ? "selected" : ""}' href='.'>home</a>
+            <a class='{segment === "publication" ? "selected" : ""}' href='publication'>publication</a>
+            <a class='{segment === "people" ? "selected" : ""}' href='people'>people</a>
+        </nav>
+    </div>
 </header>

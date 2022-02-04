@@ -2,64 +2,61 @@
   import publication from 'data/publication.md';
 </script>
 
-<style lang="scss">
-  .container {
-    :global(h2) {
-      margin-top: 0;
-    }
+<style lang="scss" global>
+    @import "utils/style";
 
-    :global(h2:not(:first-child)) {
-      margin-top: 2.5em;
-    }
+    .container {
+        grid-area: content;
+        max-width: 100%;
+        @include padding-x(0);
 
-    :global(ul) {
-      list-style: none;
-      padding: 0;
-
-      :global(li) {
-        font-size: .8em;
-        line-height: 1.5em;
-        padding: .2em 0;
-        margin: 1em 0;
-
-        :global(p) {
-          font-size: 1em;
-          line-height: 1.5em;
-          margin-bottom: .5em;
-
-          :global(a) {
-            font-weight: bold;
-          }
+        h2:not(:first-child) {
+            margin-top: 2em;
         }
 
-        :global(ul) {
-          margin: 0;
-          padding-left: .5em;
-
-          :global(li) {
-            margin: 0;
-
-            :global(a) {
-              text-decoration: none;
-              box-shadow: inset 0 -0.12em 0 #1487C8;
-              transition: color linear .15s;
-            }
-
-            :global(a:hover) {
-              box-shadow: inset 0 -1.5em 0 #1487C8;
-              color: #FFF;
-            }
-          }
+        a {
+            @include decorate-a;
         }
-      }
+
+        ul {
+            list-style: none;
+            padding: 0;
+
+            li {
+                font-size: 1rem;
+                line-height: 1.5em;
+                padding: .2em 0;
+                margin: 1em 0;
+
+                p {
+                    font-size: 1em;
+                    line-height: 1.5em;
+                    margin-bottom: .5em;
+
+                    a {
+                      font-weight: bold;
+                    }
+                }
+
+                ul {
+                    margin: 0;
+                    padding-left: .5em;
+
+                    li {
+                        margin: 0;
+                    }
+                }
+            }
+        }
     }
-  }
 </style>
 
 <svelte:head>
-  <title>Publication</title>
+    <title>SIML - Publication</title>
 </svelte:head>
 
-<div class="container">
-  {@html publication.html}
-</div>
+<main>
+    <div class="container">
+        {@html publication.html}
+    </div>
+</main>
