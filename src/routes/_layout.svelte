@@ -20,14 +20,14 @@
 <style lang="scss" global>
     @import "node_modules/modern-css-reset/dist/reset";
     @import "node_modules/bootstrap/scss/bootstrap";
-    @import "styles/util";
+    @import "utils/style";
 
     body {
         display: grid;
         grid-template-rows: [header-start] max-content [header-end] #{$blank} [main-start] 1fr [main-end] #{$blank} [footer-start] max-content [footer-end];
         grid-template-columns: [screen-start] 1fr [screen-end];
 
-        font-family: "Helvetica", sans-serif;
+        font-family: Helvetica, sans-serif;
     }
 
     main {
@@ -37,12 +37,15 @@
         grid-column: screen;
 
         grid-template-columns: $page-grid-template-columns;
-            // [screen-start] auto [content-start] min(96%, #{$max-content-width}) [content-end] auto [screen-end]
         grid-template-rows: [content-start] 1fr [content-end];
     }
 
     a {
         text-decoration: none;
+    }
+
+    h2 {
+        font-size: 1.5rem;
     }
 </style>
 

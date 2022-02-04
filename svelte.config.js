@@ -4,13 +4,17 @@ const path = require('path');
 module.exports = {
     preprocess: sveltePreprocess({
         replace: [
-            [/(?<!\/)components(?=\/)/g, path.resolve(__dirname, 'src', 'components')],
-            [/(?<!\/)pages(?=\/)/g, path.resolve(__dirname, 'src', 'pages')],
             [/(?<!\/)data(?=\/)/g, path.resolve(__dirname, 'data')],
             [/(?<!\/)static(?=\/)/g, path.resolve(__dirname, 'static')],
-            [/(?<!\/)styles(?=\/)/g, path.resolve(__dirname, 'src', 'styles')],
+            [/(?<!\/)components(?=\/)/g, path.resolve(__dirname, 'src', 'components')],
+            [/(?<!\/)utils(?=\/)/g, path.resolve(__dirname, 'src', 'utils')],
             [/(?<!\/)node_modules(?=\/)/g, path.resolve(__dirname, 'node_modules')],
-            [/(?<!\/)templates(?=\/)/g, path.resolve(__dirname, 'templates')],
         ],
     }),
+    onwarn: (warning, handler) => {
+        const { code, frame } = warning;
+        if (code === 'css-unused-selector')
+            return;
+        handler(warning);
+      },
 };

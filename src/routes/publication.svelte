@@ -1,92 +1,62 @@
-<script>
-    import Paper from 'components/Paper.svelte';
-
-    import publications from 'data/publications.json';
-    // import publications from 'data/publications.bib';
-
-    const preprints = publications.filter(x => x.type === 'preprint');
-    const conferences = publications.filter(x => x.type === 'conference');
-
-    const errors = publications.filter(x => (x.type !== 'preprint' && x.type !== 'conference'));
+<script context="module">
+  import publication from 'data/publication.md';
 </script>
 
-<style lang="scss">
-    @import "styles/util";
+<style lang="scss" global>
+    @import "utils/style";
 
-    main .content {
+    .container {
         grid-area: content;
+        max-width: 100%;
+        @include padding-x(0);
 
-        display: grid;
-
-        grid-auto-flow: row;
-        grid-auto-rows: max-content;
-        grid-template-columns: 1fr;
-        gap: $blank * 5;
-
-        @include padding-y($blank * 2);
-
-        h3 {
-            @include padding-bottom($blank);
+        h2:not(:first-child) {
+            margin-top: 2em;
         }
 
-        .list {
-            display: grid;
-
-            grid-auto-flow: row;
-            grid-auto-rows: max-content;
-            grid-auto-columns: 1fr;
-            gap: $blank * 1;
+        a {
+            @include decorate-a;
         }
-    }
 
-    @include media-breakpoint-only(xs) {
-        main .content {
-            gap: $blank * 2;
+        ul {
+            list-style: none;
+            padding: 0;
 
-            @include padding-x($blank * 1);
-        }
-    }
+            li {
+                font-size: 1rem;
+                line-height: 1.5em;
+                padding: .2em 0;
+                margin: 1em 0;
 
-    @include media-breakpoint-only(sm) {
-        main .content {
-            gap: $blank * 2;
-        }
-    }
+                p {
+                    font-size: 1em;
+                    line-height: 1.5em;
+                    margin-bottom: .5em;
 
-    @include media-breakpoint-only(md) {
-        main .content {
-            gap: $blank * 3;
+                    a {
+                      font-weight: bold;
+                    }
+                }
+
+                ul {
+                    margin: 0;
+                    padding-left: .5em;
+
+                    li {
+                        margin: 0;
+                    }
+                }
+            }
         }
     }
 </style>
 
+<svelte:head>
+    <title>SIML - Publication</title>
+</svelte:head>
+
 <main>
-    <div class="content">
-        {#if errors.length > 0}
-            <div>
-                <h1 style="color: red">Unknown types!</h1>
-                <div class="list">
-                    {#each errors as p}
-                        <Paper paper={p} />
-                    {/each}
-                </div>
-            </div>
-        {/if}
-        <div>
-            <h3>Preprints</h3>
-            <div class="list">
-                {#each preprints as p}
-                    <Paper paper={p} />
-                {/each}
-            </div>
-        </div>
-        <div>
-            <h3>Conferences</h3>
-            <div class="list">
-                {#each conferences as p}
-                    <Paper paper={p} />
-                {/each}
-            </div>
-        </div>
+    <div class="container">
+        {@html publication.html}
     </div>
 </main>

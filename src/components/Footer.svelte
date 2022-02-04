@@ -1,5 +1,5 @@
 <style lang="scss">
-    @import "styles/util";
+    @import "utils/style";
 
     footer {
         display: grid;
@@ -13,8 +13,8 @@
         @include padding-x(0);
         @include padding-y($blank * 1.5);
 
-        color: $gray-500;
-        background-color: $dark;
+        color: $kaist-dark-gray;
+        background-color: $kaist-white;
 
         .content {
             grid-area: content;
@@ -48,12 +48,10 @@
     }
 
     a {
-        color: $gray-500;
+        @include decorate-a;
+        color: $kaist-dark-gray;
     }
 
-    a:hover {
-        color: $gray-300 !important;
-    }
 
     @include media-breakpoint-down(sm) {
         footer {
@@ -72,9 +70,9 @@
 <footer>
     <div class="content">
         <p class="justify-left">
+            <i class="bi bi-geo-alt"></i>
             <a href="https://goo.gl/maps/mga73qU9oT8Bhz8D6">
-                <i class="bi bi-geo-alt"></i>
-                KAIST N5 2225
+                KAIST, Basic Experiment and Research Building (N5), Room 2225
             </a>
         </p>
     </div>

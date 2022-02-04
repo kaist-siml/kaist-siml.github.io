@@ -1,14 +1,15 @@
 <script>
-    import people from 'data/people.json';
+  import people from 'data/people.yaml';
 
-    import Profile from 'components/Profile.svelte';
+  import Profile from 'components/Profile.svelte';
 </script>
 
 <style lang="scss">
-    @import "styles/util";
+    @import "utils/style";
 
-    main .content {
+    .content {
         grid-area: content;
+        max-width: 100%;
 
         display: grid;
 
@@ -17,11 +18,11 @@
         grid-template-columns: 1fr;
         gap: $blank * 5;
 
-        @include padding-y($blank * 2);
+        @include padding-x(0);
     }
 
     @include media-breakpoint-only(xs) {
-        main .content {
+        .content {
             gap: $blank * 2;
 
             @include padding-x($blank * 1);
@@ -29,22 +30,26 @@
     }
 
     @include media-breakpoint-only(sm) {
-        main .content {
+        .content {
             gap: $blank * 2;
         }
     }
 
     @include media-breakpoint-only(md) {
-        main .content {
+        .content {
             gap: $blank * 3;
         }
     }
 </style>
 
+<svelte:head>
+  <title>SIML - People</title>
+</svelte:head>
+
 <main>
     <div class="content">
         <div>
-            <h3>Professor</h3>
+            <h2>Professor</h2>
             <div class="row">
                 {#each people.professor as person}
                     <Profile {...person} />
@@ -52,7 +57,7 @@
             </div>
         </div>
         <div>
-            <h3>PhD Students</h3>
+            <h2>PhD Students</h2>
             <div class="row">
                 {#each people.phd as person}
                     <Profile {...person} />
@@ -60,7 +65,7 @@
             </div>
         </div>
         <div>
-            <h3>MS Students</h3>
+            <h2>MS Students</h2>
             <div class="row row-cols-auto">
                 {#each people.ms as person}
                     <Profile {...person} />

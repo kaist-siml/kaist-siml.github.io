@@ -1,17 +1,22 @@
 <style lang="scss">
-    @import "styles/util";
+    @import "utils/style";
 
     main {
         .content {
             grid-area: content;
+
+			display: grid;
+            align-items: center;
+			justify-items: center;
         }
     }
 </style>
 
 <main>
     <div class="content">
-        <h2>
-            Page not found
-        </h2>
+		<div>
+			<h1>Page not found</h1>
+			<h2>The page you are looking for does not exist.</h2>
+		</div>
     </div>
 </main>

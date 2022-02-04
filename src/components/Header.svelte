@@ -3,7 +3,7 @@
 </script>
 
 <style lang="scss">
-    @import "styles/util";
+    @import "utils/style";
 
     header {
         display: grid;
@@ -14,9 +14,10 @@
         grid-template-columns: $page-grid-template-columns;
         grid-template-rows: [content-start] 1fr [content-end];
 
-        @include padding(0);
+        @include padding-x(0);
+        @include padding-y($blank);
 
-        background-color: $dark;
+        background-color: inherit;
 
         .content {
             grid-area: content;
@@ -38,32 +39,78 @@
             .brand {
                 grid-area: brand;
 
-                font-size: 2rem;
+                font-size: 2.5rem;
                 align-self: center;
 
-                color: $light;
+                color: $black;
+
+                text-decoration: none;
+                font-family: Rubik, sans-serif;
+                font-weight: 500;
+                text-transform: uppercase;
             }
 
-            .nav {
+            nav {
                 grid-area: nav;
-
-                font-size: larger;
                 align-self: center;
+
+                font-size: large;
+                font-family: Rubik, sans-serif;
+                font-weight: 500;
+                text-transform: uppercase;
 
                 display: grid;
                 gap: $blank * 2;
                 grid-auto-flow: column;
 
                 a {
-                    color: $gray-500;
+                    color: inherit;
+                    text-decoration: none;
+                    padding: 5px .5em;
+                    display: block;
+                    position: relative;
+
+                    &:not(.selected) {
+                        opacity: 0.7;
+                    }
+
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        transition: transform .3s ease;
+                        left: 0;
+                        bottom: 0;
+                        width: 100%;
+                        height: 2px;
+                        background: $kaist-dark-gray;
+                        transform: scaleX(0);
+                    }
                 }
 
-                a:hover {
-                    color: $gray-300;
+                a:hover::before,
+                .selected::before {
+                    transform: scaleX(1);
                 }
 
-                a.current {
-                    color: $light;
+                .selected::before {
+                    background: $kaist-dark-blue;
+                }
+            }
+        }
+    }
+
+    @include media-breakpoint-down(lg) {
+        header {
+            @include padding-y(0);
+            padding-bottom: $blank;
+
+            .content {
+                .brand {
+                    font-size: 1.5rem;
+                }
+
+                nav {
+                    font-size: 1rem;
                 }
             }
         }
@@ -77,8 +124,8 @@
 
                 text-align: center;
 
-                .nav {
-                    font-size: large;
+                nav {
+                    font-size: small;
                     grid-auto-flow: column;
                 }
             }
@@ -88,12 +135,11 @@
 
 <header>
     <div class="content">
-        <a class="brand" href="home">SIML</a>
-        <div class="nav">
-            <a href="/home" class:current={segment === 'home'}>Home</a>
-            <a href="/publication" class:current={segment === 'publication'}>Publication</a>
-            <!-- <a href="/project" class:current={segment === 'project'}>Project</a> -->
-            <a href="/people" class:current={segment === 'people'}>People</a>
-        </div>
+        <a class="brand" href="/">SIML</a>
+        <nav>
+            <a class='{segment === undefined ? "selected" : ""}' href='.'>home</a>
+            <a class='{segment === "publication" ? "selected" : ""}' href='publication'>publication</a>
+            <a class='{segment === "people" ? "selected" : ""}' href='people'>people</a>
+        </nav>
     </div>
 </header>

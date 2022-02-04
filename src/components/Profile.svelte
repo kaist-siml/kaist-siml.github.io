@@ -9,9 +9,10 @@
 </script>
 
 <style lang="scss">
-    @import "styles/util";
+    @import "utils/style";
 
     article {
+        font-family: sans-serif;
         display: grid;
         grid-template-rows: [image-start detail-start] 1fr [image-end detail-end];
         grid-template-columns: [image-start] max-content [image-end detail-start] auto [detail-end];
@@ -28,21 +29,32 @@
         }
 
         section {
-            @include padding-y($blank * 1.5);
+            @include padding-y($blank * 0.5);
 
             grid-area: detail;
 
-            h5 a{
-                color: $blue-700;
+            .name {
+                font-weight: bold;
             }
 
             ul {
                 margin-top: -5px;
-                padding-left: 0px;
-                margin-left: 18px;
+                padding-left: 10px;
+
+                li {
+                    @include margin-y(.2em);
+
+                    &::marker {
+                        content: "- ";
+                    }
+                }
+
             }
         }
 
+        a {
+            @include decorate-a;
+        }
     }
 
     @media (max-width: 370px) {
@@ -55,6 +67,10 @@
     @include media-breakpoint-down(sm) {
         article section {
             @include padding-y($blank * 0.5);
+            img {
+                width: 96px;
+                height: 120px;
+            }
         }
     }
 </style>
@@ -62,14 +78,16 @@
 <article class="col-12 col-sm-12 col-md-6 col-lg-6">
     <img src={image || 'image/dummy.svg'} alt="...">
     <section>
-        <h5>
-            {name}
+        <p class="name">
             {#if url}
-                <a href={url} target="_blank"><i class="bi bi-link"></i></a>
+                <a href={url} target="_blank">{name}</a>
+            {:else}
+                {name}
             {/if}
-        </h5>
-        <!-- <p class="card-text"><a href="mailto:{email}">{email}</a></p> -->
-        <p class="card-text">{email}</p>
+        </p>
+        <p>
+            <i class="bi bi-envelope"></i> {email}
+        </p>
         <ul>
             {#each interests as interest}
                 <li>{interest}</li>

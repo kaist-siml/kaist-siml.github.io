@@ -1,26 +1,40 @@
-@import "../../node_modules/bootstrap/scss/functions";
-@import "../../node_modules/bootstrap/scss/variables";
-@import "../../node_modules/bootstrap/scss/mixins";
-@import "../../node_modules/bootstrap/scss/utilities";
-
-@import "../../node_modules/bootstrap/scss/helpers";
-
-@import "../../node_modules/bootstrap/scss/utilities/api";
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+@import "node_modules/bootstrap/scss/helpers";
+@import "node_modules/bootstrap/scss/utilities";
+@import "node_modules/bootstrap/scss/utilities/api";
 
 
 /* Variables */
 
-$max-content-width: 1140px;
+$kaist-white: #FFFFFF;
+$kaist-dark-gray: #7C7C7C;
+$kaist-light-blue: #5FBEEB;
+$kaist-blue: #1487C8;
+$kaist-medium-blue: #005AAA;
+$kaist-dark-blue: #004191;
 
 $slate-space: .5rem;
 $blank: .5rem;
 
-$dark-gray: #121314;
-
+$max-content-width: 1140px;
 $page-grid-template-columns: [screen-start] auto [content-start] min(96%, #{$max-content-width}) [content-end] auto [screen-end];
 
-
 /* Mixins */
+
+@mixin decorate-a {
+    text-decoration: none;
+    color: $black;
+    box-shadow: inset 0 -0.1em 0 $kaist-medium-blue;
+    transition: box-shadow .2s ease-in-out, color .2s ease-in-out;
+    padding: 2px;
+
+    &:hover {
+        box-shadow: inset 0 -1.5em 0 $kaist-medium-blue;
+        color: $kaist-white;
+    }
+}
 
 // margin
 
@@ -85,6 +99,3 @@ $page-grid-template-columns: [screen-start] auto [content-start] min(96%, #{$max
 @mixin padding-right($value) {
     padding-right: $value;
 }
-
-
-/* media */
