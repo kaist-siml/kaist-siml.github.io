@@ -39,12 +39,18 @@
 
             ul {
                 margin-top: -5px;
-                padding-left: 10px;
+                padding-left: 1px;
+                list-style: none;
 
                 li {
                     @include margin-y(.2em);
+                    position: relative;
+                    display: block;
+                    padding-left: 10px;
 
-                    &::marker {
+                    &:before {
+                        position: absolute;
+                        left: 0;
                         content: "- ";
                     }
                 }
