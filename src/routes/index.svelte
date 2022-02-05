@@ -2,11 +2,22 @@
     @import "utils/style";
 
     main {
+        background-image: url("/kaist-gsai-bg.jpg");
+        background-size: cover;
+        background-position: top left, bottom left;
+        background-repeat: no-repeat, no-repeat;
+
         .content {
             grid-area: content;
 
             display: grid;
             align-items: center;
+
+            color: $kaist-white;
+            text-shadow: -1px  1px 0 $kaist-dark-blue,
+				          1px  1px 0 $kaist-dark-blue,
+				          1px -1px 0 $kaist-dark-blue,
+				         -1px -1px 0 $kaist-dark-blue;  // text-outline
         }
     }
 

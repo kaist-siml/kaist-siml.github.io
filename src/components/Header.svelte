@@ -17,8 +17,6 @@
         @include padding-x(0);
         @include padding-y($blank);
 
-        background-color: inherit;
-
         .content {
             grid-area: content;
 
@@ -99,7 +97,7 @@
         }
     }
 
-    @include media-breakpoint-down(lg) {
+    @include media-breakpoint-down(md) {
         header {
             @include padding-y(0);
             padding-bottom: $blank;

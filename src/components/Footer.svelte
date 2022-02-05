@@ -14,7 +14,6 @@
         @include padding-y($blank * 1.5);
 
         color: $kaist-dark-gray;
-        background-color: $kaist-white;
 
         .content {
             grid-area: content;
