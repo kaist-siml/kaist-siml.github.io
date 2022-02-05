@@ -1,116 +1,116 @@
 professor:
-    - name: "Juho Lee"
-      email: "juholee@kaist.ac.kr"
+    - name: Juho Lee
+      email: juholee@kaist.ac.kr
       interests:
-        - "Bayesian deep learning & deep Bayesian learning"
-        - "Bayesian nonparametric models"
-        - "Random graph models"
-      url: "https://juho-lee.github.io"
-      image: "image/people/jhlee.jpg"
+        - Bayesian deep learning & deep Bayesian learning
+        - Bayesian nonparametric models
+        - Random graph models
+      url: https://juho-lee.github.io
+      image: image/people/jhlee.jpg
 
 phd:
-  - name: "Jongmin Yoon"
-    email: "jm.yoon@kaist.ac.kr"
+  - name: Jongmin Yoon
+    email: jm.yoon@kaist.ac.kr
     interests:
-      - "Generative modeling"
-      - "Adversarial robustness"
-    url: "https://jmyoon1.github.io"
-    image: "image/people/jmyoon.jpg"
+      - Generative modeling
+      - Adversarial robustness
+    url: https://jmyoon1.github.io
+    image: image/people/jmyoon.jpg
 
-  - name: "Balhae Kim"
-    email: "balhaekim@kaist.ac.kr"
+  - name: Balhae Kim
+    email: balhaekim@kaist.ac.kr
     interests:
-      - "Meta-Learning"
-    image: "image/people/bhkim.jpg"
+      - Meta-Learning
+    image: image/people/bhkim.jpg
 
-  - name: "Jungwon Choi"
-    email: "jungwon.choi@kaist.ac.kr"
+  - name: Jungwon Choi
+    email: jungwon.choi@kaist.ac.kr
     interests:
-      - "Domain Generalization"
-      - "Causal Inference"
-    image: "image/people/jwchoi.jpg"
+      - Domain Generalization
+      - Causal Inference
+    image: image/people/jwchoi.jpg
 
-  - name: "Hyunsu Kim"
-    email: "kim.hyunsu@kaist.ac.kr"
+  - name: Hyunsu Kim
+    email: kim.hyunsu@kaist.ac.kr
     interests:
-      - "Markov chain Monte Carlo"
-      - "Variational Autoencoder"
-    image: "image/people/hskim.jpg"
+      - Markov chain Monte Carlo
+      - Variational Autoencoder
+    image: image/people/hskim.jpg
 
-  # - name: "Some One"
-  #   email: "example@kaist.ac.kr"
+  # - name: Some One
+  #   email: example@kaist.ac.kr
   #   interests:
-  #     - "Don't know"
-  #     - "Whatever"
-  #   image: "image/dummy.svg"  # Change to real image
+  #     - Don't know
+  #     - Whatever
+  #   url: https://example.com
+  #   image: image/dummy.svg  # Change to real image
 
 ms:
-  - name: "Hyungi Lee"
-    email: "lhk2708@kaist.ac.kr"
+  - name: Hyungi Lee
+    email: lhk2708@kaist.ac.kr
     interests:
-      - "Neural Network Gaussian Process"
-    image: "image/people/hglee.jpg"
+      - Neural Network Gaussian Process
+    image: image/people/hglee.jpg
 
-  - name: "Giung Nam"
-    email: "giung@kaist.ac.kr"
+  - name: Giung Nam
+    email: giung@kaist.ac.kr
     interests:
-      - "Bayesian inference"
-    url: "https://cs-giung.github.io"
-    image: "image/people/gunam.jpg"
+      - Bayesian inference
+    url: https://cs-giung.github.io
+    image: image/people/gunam.jpg
 
-  - name: "Hyun Mog Kim"
-    email: "hyunmog2020@kaist.ac.kr"
+  - name: Hyun Mog Kim
+    email: hyunmog2020@kaist.ac.kr
     interests:
-      - "Equivariant representations for deep learning"
-    image: "image/people/hmkim.jpg"
+      - Equivariant representations for deep learning
+    image: image/people/hmkim.jpg
 
-  - name: "Sunguk Jang"
-    email: "tommy9773@kaist.ac.kr"
+  - name: Sunguk Jang
+    email: tommy9773@kaist.ac.kr
     interests:
-      - "Bayesian deep learning"
-    image: "image/people/sujang.jpg"
+      - Bayesian deep learning
+    image: image/people/sujang.jpg
 
-  - name: "Hyemin Lee"
-    email: "hyemin.lee@kaist.ac.kr"
+  - name: Hyemin Lee
+    email: hyemin.lee@kaist.ac.kr
     interests:
-      - "Generative modeling"
-      - "Self-supervised learning"
-    image: "image/people/hmlee.jpg"
+      - Generative modeling
+      - Self-supervised learning
+    image: image/people/hmlee.jpg
 
-  - name: "Eunggu Yun"
-    email: "eunggu.yun@kaist.ac.kr"
+  - name: Eunggu Yun
+    email: eunggu.yun@kaist.ac.kr
     interests:
-      - "Neural Process"
-    url: "https://yuneg11.github.io"
-    image: "image/people/egyun.jpg"
+      - Neural Process
+    url: https://yuneg11.github.io
+    image: image/people/egyun.jpg
 
-  - name: "EuiYul Song"
-    email: "thddmlduf@gmail.com"
+  - name: EuiYul Song
+    email: thddmlduf@gmail.com
     interests:
-      - "Baysesian Deep Learning"
-    url: "https://linkedin.com/in/euiyul-song"
-    image: "image/people/eysong.jpg"
+      - Baysesian Deep Learning
+    url: https://linkedin.com/in/euiyul-song
+    image: image/people/eysong.jpg
 
-  - name: "Taehong Moon"
-    email: "josephmoon2019@gmail.com"
-    interests: [
-        "Generative modeling"
-    ]
-    image: "image/people/thmoon.jpg"
+  - name: Taehong Moon
+    email: josephmoon2019@gmail.com
+    interests:
+      - Generative modeling
+    image: image/people/thmoon.jpg
 
-  - name: "Seanie Lee"
-    email: "lsnfamily02@gmail.com"
-    interests: [
-        "Natural Language Processing",
-        "Bayesian Network",
-        "Meta-Learning"
-    ]
-    url: "https://seanie12.github.io"
-    image: "image/people/snlee.jpg"
+  - name: Seanie Lee
+    email: lsnfamily02@gmail.com
+    interests:
+      - Natural Language Processing
+      - Bayesian Network
+      - Meta-Learning
+    url: https://seanie12.github.io
+    image: image/people/snlee.jpg
 
-  # - name: "Some One"
-  #   email: "example@kaist.ac.kr"
+  # - name: Some One
+  #   email: example@kaist.ac.kr
   #   interests:
-  #     - "Don't know"
-  #     - "Whatever"
-  #   image: "image/dummy.svg"  # Change to real image
+  #     - Don't know
+  #     - Whatever
+  #   url: https://example.com
+  #   image: image/dummy.svg  # Change to real image

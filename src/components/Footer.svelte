@@ -72,7 +72,7 @@
         <p class="justify-left">
             <i class="bi bi-geo-alt"></i>
             <a href="https://goo.gl/maps/mga73qU9oT8Bhz8D6" target="_blank">
-                KAIST, Basic Experiment and Research Building (N5), Room 2225
+                KAIST N5, Room 2225
             </a>
         </p>
     </div>

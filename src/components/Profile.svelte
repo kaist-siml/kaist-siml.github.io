@@ -91,9 +91,7 @@
                 {name}
             {/if}
         </p>
-        <p>
-            <i class="bi bi-envelope"></i> {email}
-        </p>
+        <p>{email}</p>
         <ul>
             {#each interests as interest}
                 <li>{interest}</li>

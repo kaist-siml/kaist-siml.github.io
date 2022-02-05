@@ -27,6 +27,8 @@
                 line-height: 1.5em;
                 padding: .2em 0;
                 margin: 1em 0;
+                text-align: justify;
+                text-justify: auto;
 
                 p {
                     font-size: 1em;

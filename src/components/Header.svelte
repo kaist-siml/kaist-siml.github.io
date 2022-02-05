@@ -125,7 +125,6 @@
                 text-align: center;
 
                 nav {
-                    font-size: small;
                     grid-auto-flow: column;
                 }
             }
