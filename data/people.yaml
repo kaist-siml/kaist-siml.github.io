@@ -36,6 +36,15 @@ phd:
       - Markov chain Monte Carlo
       - Variational Autoencoder
     image: image/people/hskim.jpg
+    
+  - name: Seanie Lee
+    email: lsnfamily02@gmail.com
+    interests:
+      - Natural Language Processing
+      - Bayesian Network
+      - Meta-Learning
+    url: https://seanie12.github.io
+    image: image/people/snlee.jpg
 
   # - name: Some One
   #   email: example@kaist.ac.kr
@@ -97,15 +106,6 @@ ms:
     interests:
       - Generative modeling
     image: image/people/thmoon.jpg
-
-  - name: Seanie Lee
-    email: lsnfamily02@gmail.com
-    interests:
-      - Natural Language Processing
-      - Bayesian Network
-      - Meta-Learning
-    url: https://seanie12.github.io
-    image: image/people/snlee.jpg
 
   - name: Seongho Keum
     email: matabear8@kaist.ac.kr
