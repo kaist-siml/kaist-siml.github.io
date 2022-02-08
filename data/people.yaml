@@ -1,12 +1,12 @@
 professor:
-    - name: Juho Lee
-      email: juholee@kaist.ac.kr
-      interests:
-        - Bayesian deep learning & deep Bayesian learning
-        - Bayesian nonparametric models
-        - Random graph models
-      url: https://juho-lee.github.io
-      image: image/people/jhlee.jpg
+  - name: Juho Lee
+    email: juholee@kaist.ac.kr
+    interests:
+      - Bayesian deep learning & deep Bayesian learning
+      - Bayesian nonparametric models
+      - Random graph models
+    url: https://juho-lee.github.io
+    image: image/people/jhlee.jpg
 
 phd:
   - name: Jongmin Yoon
@@ -71,12 +71,12 @@ ms:
       - Bayesian deep learning
     image: image/people/sujang.jpg
 
-  - name: Hyemin Lee
-    email: hyemin.lee@kaist.ac.kr
-    interests:
-      - Generative modeling
-      - Self-supervised learning
-    image: image/people/hmlee.jpg
+  # - name: Hyemin Lee
+  #   email: hyemin.lee@kaist.ac.kr
+  #   interests:
+  #     - Generative modeling
+  #     - Self-supervised learning
+  #   image: image/people/hmlee.jpg
 
   - name: Eunggu Yun
     email: eunggu.yun@kaist.ac.kr
@@ -106,6 +106,12 @@ ms:
       - Meta-Learning
     url: https://seanie12.github.io
     image: image/people/snlee.jpg
+
+  - name: Seongho Keum
+    email: matabear8@kaist.ac.kr
+    interests:
+      - Attention mechanisms
+    image: image/people/shkeum.jpg
 
   # - name: Some One
   #   email: example@kaist.ac.kr
