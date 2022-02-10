@@ -113,6 +113,12 @@ ms:
       - Attention mechanisms
     image: image/people/shkeum.jpg
 
+  - name: SeungHyun Kim
+    email: sh0776879@gmail.com
+    interests:
+      - Bayesian deep learning
+    image: image/people/shkim.jpg
+
   # - name: Some One
   #   email: example@kaist.ac.kr
   #   interests:
