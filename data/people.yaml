@@ -36,7 +36,7 @@ phd:
       - Markov chain Monte Carlo
       - Variational Autoencoder
     image: image/people/hskim.jpg
-    
+
   - name: Seanie Lee
     email: lsnfamily02@gmail.com
     interests:
@@ -108,10 +108,16 @@ ms:
     image: image/people/thmoon.jpg
 
   - name: Seongho Keum
-    email: matabear8@kaist.ac.kr
+    email: shkeum@kaist.ac.kr
     interests:
       - Attention mechanisms
     image: image/people/shkeum.jpg
+
+  - name: Seohyeon Jung
+    email: heon2203@kaist.ac.kr
+    interests:
+      - Active learning
+    image: image/people/shjung.jpg
 
   - name: SeungHyun Kim
     email: sh0776879@gmail.com
