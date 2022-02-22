@@ -46,6 +46,13 @@ phd:
     url: https://seanie12.github.io
     image: image/people/snlee.jpg
 
+  - name: Moonseok Choi
+    email: ms.choi@kaist.ac.kr
+    interests:
+      - Optimization
+      - Loss landscape
+    image: image/people/mschoi.jpg
+
   # - name: Some One
   #   email: example@kaist.ac.kr
   #   interests:
