@@ -22,17 +22,17 @@
 
 - [Scale Mixtures of Neural Network Gaussian Processes](https://openreview.net/forum?id=YVPBh4k78iZ)
   - **Hyungi Lee**, **Eunggu Yun**, Hongseok Yang, **Juho Lee**
-  - ICLR 2022 (To appear)
-  - [arXiv](https://arxiv.org/abs/2107.01408)
+  - ICLR 2022
+  - [arXiv](https://arxiv.org/abs/2107.01408), [code](https://github.com/Hyungi-Lee/Scale-Mixtures-of-Neural-Network-Gaussian-Processes)
 
 - [Sequential Reptile: inter-task gradient alignment for multilingual learning](https://openreview.net/forum?id=ivQruZvXxtz)
   - Seanie Lee, Hae Beom Lee, **Juho Lee**, Sung Ju Hwang
-  - ICLR 2022 (To appear)
+  - ICLR 2022
   - [arXiv](https://arxiv.org/abs/2110.02600)
 
 - [Meta learning low rank covariance factors for energy-based deterministic uncertainty](https://openreview.net/forum?id=GQd7mXSPua)
   - Jeffrey Ryan Willette, Hae Beom Lee, **Juho Lee**, Sung Ju Hwang
-  - ICLR 2022 (To appear)
+  - ICLR 2022
   - [arXiv](https://arxiv.org/abs/2110.06381)
 
 - [Diversity matters when learning from ensembles](https://papers.nips.cc/paper/2021/hash/466473650870501e3600d9a1b4ee5d44-Abstract.html)
