@@ -20,11 +20,11 @@
 
 ## Conferences
 
-- Improving ensemble distillation with weight averaging and diversifying perturbation
+- [Improving ensemble distillation with weight averaging and diversifying perturbation]()
   - **Giung Nam**, Byeongho Heo, **Juho Lee**
   - ICML 2022 (To appear)
 
-- Set based stochastic subsampling
+- [Set based stochastic subsampling]()
   - Bruno Andreis, Seanie Lee, A. Tuan Nguyen, **Juho Lee**, Eunho Yang, Sung Ju Hwang
   - ICML 2022 (To appear)
 
