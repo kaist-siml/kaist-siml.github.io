@@ -1,5 +1,5 @@
 <script context="module">
-  import publication from 'data/publication.md';
+    import publication from 'data/publication.md';
 </script>
 
 <style lang="scss" global>

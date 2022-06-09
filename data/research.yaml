@@ -1,0 +1,19 @@
+- name: Bayesian Deep Learning
+  description: |
+    WIP - Description here
+  image: image/dummy_wide.svg
+
+- name: Diffusion
+  description: |
+    WIP - Description here
+  image: image/dummy_wide.svg
+
+- name: Meta-Learning
+  description: |
+    WIP - Description here
+  image: image/dummy_wide.svg
+
+- name: Healthcare
+  description: |
+    WIP - Description here
+  image: image/dummy_wide.svg

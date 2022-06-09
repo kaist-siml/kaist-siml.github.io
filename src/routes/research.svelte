@@ -1,6 +1,5 @@
 <script>
-    import people from 'data/people.yaml';
-    import Profile from 'components/Profile.svelte';
+    import research from 'data/research.yaml';
 </script>
 
 <style lang="scss">
@@ -18,6 +17,17 @@
         gap: $blank * 5;
 
         @include padding-x(0);
+
+        div {
+            h2 {
+                margin-bottom: $blank * 2;
+            }
+            img {
+                width: 100%;
+                height: auto;
+                @include margin-y($blank);
+            }
+        }
     }
 
     @include media-breakpoint-only(xs) {
@@ -42,34 +52,17 @@
 </style>
 
 <svelte:head>
-  <title>SIML - People</title>
+  <title>SIML - Research</title>
 </svelte:head>
 
 <main>
     <div class="content">
-        <div>
-            <h2>Professor</h2>
-            <div class="row">
-                {#each people.professor as person}
-                    <Profile {...person} />
-                {/each}
+        {#each research as topic}
+            <div>
+                <h2>{topic.name}</h2>
+                <p>{topic.description}</p>
+                <img src={topic.image || 'image/dummy_wide.svg'} alt="...">
             </div>
-        </div>
-        <div>
-            <h2>PhD Students</h2>
-            <div class="row">
-                {#each people.phd as person}
-                    <Profile {...person} />
-                {/each}
-            </div>
-        </div>
-        <div>
-            <h2>MS Students</h2>
-            <div class="row row-cols-auto">
-                {#each people.ms as person}
-                    <Profile {...person} />
-                {/each}
-            </div>
-        </div>
+        {/each}
     </div>
 </main>

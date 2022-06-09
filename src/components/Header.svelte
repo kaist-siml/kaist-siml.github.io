@@ -135,6 +135,7 @@
         <a class="brand" href="/">SIML</a>
         <nav>
             <a class='{segment === undefined ? "selected" : ""}' href='.'>home</a>
+            <a class='{segment === "research" ? "selected" : ""}' href='research'>research</a>
             <a class='{segment === "publication" ? "selected" : ""}' href='publication'>publication</a>
             <a class='{segment === "people" ? "selected" : ""}' href='people'>people</a>
         </nav>
