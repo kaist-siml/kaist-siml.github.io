@@ -6,19 +6,20 @@
     While the classical training of deep neural networks aims to find a single solution, the Bayesian approach considers multiple possible solutions by performing marginalization.
     We are studying various sub-fields involving deep neural networks from the Bayesian perspective.
 
-- name: Diffusion
-  image: image/dummy_wide.svg
-  description: |
-    WIP - Description here
+# - name: Diffusion
+#   image: image/dummy_wide.svg
+#   description: |
+#     WIP - Description here
 
 - name: Meta-Learning
   image: image/research/meta-learning.png
   description: |
-    Meta-learning basically refers to a learning algorithm that learns how to learn, but more broadly it refers to any learning algorithm that learns meta-knowledge that helps other learning.
-    Meta-learning is essential to creating human-like AI, such as being able to continuously learn or process multimodal data.
-    In our lab, we are interested in both the fundamentals and applications of meta-learning.
-    For example, we are interested in developing meta-learning algorithms and learning representations of meta-knowledge under real-world constraints, such as when there is only limited data.
-    We also develop meta-learning algorithms for various fields such as domain generalization, generative modeling, and Bayesian learning.
+    Meta-learning refers to algorithms that learn how to learn; more broadly, any algorithm that uses meta-knowledge to facilitate other learning tasks is an instance of meta-learning.
+    Unlike hand-designed learning algorithms, meta-learned algorithms can directly leverage common structure or inherent knowledge extracted from multiple related tasks.
+    This is essential for human-like AI capabilities such as continuously learning or processing multimodal data.
+    In our lab, we are interested in the fundamentals of meta-learning and its applications.
+    Specifically, we develop general meta-learning algorithms that learn meta-knowledge under real-world constraints, such as in settings with limited data.
+    We also formulate domain-specific meta-learning methods for problem settings such as domain generalization, generative modeling, and Bayesian learning.
 
 - name: Healthcare
   image: image/dummy_wide.svg
