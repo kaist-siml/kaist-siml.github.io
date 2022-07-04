@@ -22,6 +22,9 @@
             h2 {
                 margin-bottom: $blank * 2;
             }
+            p {
+                text-align: justify;
+            }
             img {
                 width: 100%;
                 height: auto;
