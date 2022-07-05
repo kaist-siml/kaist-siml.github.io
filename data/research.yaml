@@ -1,5 +1,5 @@
 - name: Bayesian Deep Learning
-  image: image/dummy_wide.svg
+  image: image/research/bayesian.png
   description: |
     Modern deep neural networks are typically overparameterized and thus under-specified by the available data.
     In other words, deep neural networks often contain multiple solutions which can express hypotheses describing the data.
@@ -22,10 +22,11 @@
     We also formulate domain-specific meta-learning methods for problem settings such as domain generalization, generative modeling, and Bayesian learning.
 
 - name: Healthcare
-  image: image/dummy_wide.svg
+  image: image/research/healthcare.png
   description: |
     Detecting cancer was doctors’ exclusive work before. Nowadays, thanks to the development of WSI(whole slide image), AI can detect cancer either.
     AS WSI is too big to fit into modern CNN architectures, it is divided into thousand of patches.
     Also, there are only about 1000 WSI labels per dataset which easily provokes an over-fitting problem.
     Our lab focuses on multiple instance learning, where only slide-level labels are given.
     We are trying to make pseudo-WSI labels by using information between patches. Furthermore, we are interested in self-supervised learning to extract adequate features for WSI.
+    We are also studying a reliable medical classification model based on multimodal data (MRI, natural language, omics, etc.) by applying confidence estimation through Bayesian deep learning and interpretability using explainable AI techniques.

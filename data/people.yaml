@@ -10,19 +10,6 @@ professor:
 
 phd:
 
-  - name: Jungwon Choi
-    email: jungwon.choi@kaist.ac.kr
-    interests:
-      - Domain generalization
-      - Causal inference
-    image: image/people/jwchoi.jpg
-
-  - name: Balhae Kim
-    email: balhaekim@kaist.ac.kr
-    interests:
-      - Meta-Learning
-    image: image/people/bhkim.jpg
-
   - name: Jongmin Yoon
     email: jm.yoon@kaist.ac.kr
     interests:
@@ -30,6 +17,19 @@ phd:
       - Adversarial robustness
     url: https://jmyoon1.github.io
     image: image/people/jmyoon.jpg
+
+  - name: Balhae Kim
+    email: balhaekim@kaist.ac.kr
+    interests:
+      - Meta-Learning
+    image: image/people/bhkim.jpg
+
+  - name: Jungwon Choi
+    email: jungwon.choi@kaist.ac.kr
+    interests:
+      - Domain generalization
+      - Causal inference
+    image: image/people/jwchoi.jpg
 
   - name: Hyunsu Kim
     email: kim.hyunsu@kaist.ac.kr
