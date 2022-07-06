@@ -38,12 +38,6 @@ phd:
       - Variational autoencoder
     image: image/people/hskim.jpg
 
-  - name: Hyun Mog Kim
-    email: hyunmog2020@kaist.ac.kr
-    interests:
-      - Graph neural network
-    image: image/people/hmkim.jpg
-
   - name: Seanie Lee
     email: lsnfamily02@gmail.com
     interests:
@@ -83,6 +77,12 @@ ms:
       - Bayesian inference
     url: https://cs-giung.github.io
     image: image/people/gunam.jpg
+
+  - name: Hyun Mog Kim
+    email: hyunmog2020@kaist.ac.kr
+    interests:
+      - Graph neural network
+    image: image/people/hmkim.jpg
 
   - name: Sunguk Jang
     email: tommy9773@kaist.ac.kr
