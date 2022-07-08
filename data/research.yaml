@@ -6,10 +6,12 @@
     While the classical training of deep neural networks aims to find a single solution, the Bayesian approach considers multiple possible solutions by performing marginalization.
     We are studying various sub-fields involving deep neural networks from the Bayesian perspective.
 
-# - name: Diffusion
-#   image: image/dummy_wide.svg
-#   description: |
-#     WIP - Description here
+- name: Diffusion
+  image: image/dummy_wide.svg
+  description: |
+    Diffusion probabilistic models, or score-based generative models, are a class of generative models that have been achieving the state-of-the-art image generating quality, beating existing generative models such as GANs and variational autoencoders.
+    Diffusion model recover the data distribution from a simple and tractable distribution such as normal, by learning the score function to reverse the diffusion process from the data to noise distributions.
+    Our group is interested in both theoretical and applications of the diffusion models, such as the fast generation of high-quality samples and the downstream tasks involving the diffusion model such as adversarial robustness, few-shot learning, and the text-to-image generation.
 
 - name: Meta-Learning
   image: image/research/meta-learning.png
