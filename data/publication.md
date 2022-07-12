@@ -20,14 +20,14 @@
 
 ## Conferences
 
-- [Improving ensemble distillation with weight averaging and diversifying perturbation]()
+- [Improving ensemble distillation with weight averaging and diversifying perturbation](https://proceedings.mlr.press/v162/nam22a.html)
   - **Giung Nam**, **Hyungi Lee**, Byeongho Heo, **Juho Lee**
-  - ICML 2022 (To appear)
+  - ICML 2022
   - [arXiv](https://arxiv.org/abs/2206.15047), [code](https://github.com/cs-giung/distill-latentbe)
 
-- [Set based stochastic subsampling]()
+- [Set based stochastic subsampling](https://proceedings.mlr.press/v162/andreis22a.html)
   - Bruno Andreis, Seanie Lee, A. Tuan Nguyen, **Juho Lee**, Eunho Yang, Sung Ju Hwang
-  - ICML 2022 (To appear)
+  - ICML 2022
   - [arXiv](https://arxiv.org/abs/2006.14222)
 
 - [Scale Mixtures of Neural Network Gaussian Processes](https://openreview.net/forum?id=YVPBh4k78iZ)
