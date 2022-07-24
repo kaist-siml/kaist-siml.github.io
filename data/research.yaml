@@ -7,7 +7,7 @@
     We are studying various sub-fields involving deep neural networks from the Bayesian perspective.
 
 - name: Diffusion
-  image: image/dummy_wide.svg
+  image: image/research/diffusion.png
   description: |
     Diffusion probabilistic models, or score-based generative models, are a class of generative models that have been achieving the state-of-the-art image generating quality, beating existing generative models such as GANs and variational autoencoders.
     Diffusion model recover the data distribution from a simple and tractable distribution such as normal, by learning the score function to reverse the diffusion process from the data to noise distributions.
@@ -26,7 +26,7 @@
 - name: Healthcare
   image: image/research/healthcare.png
   description: |
-    Detecting cancer was doctors’ exclusive work before. Nowadays, thanks to the development of WSI(whole slide image), AI can detect cancer either.
+    Detecting cancer was doctors' exclusive work before. Nowadays, thanks to the development of WSI(whole slide image), AI can detect cancer either.
     AS WSI is too big to fit into modern CNN architectures, it is divided into thousand of patches.
     Also, there are only about 1000 WSI labels per dataset which easily provokes an over-fitting problem.
     Our lab focuses on multiple instance learning, where only slide-level labels are given.
