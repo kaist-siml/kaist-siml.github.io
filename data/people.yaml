@@ -55,15 +55,6 @@ phd:
       - Loss landscape
     image: image/people/mschoi.jpg
 
-  # - name: Some One
-  #   email: example@kaist.ac.kr
-  #   interests:
-  #     - Don't know
-  #     - Whatever
-  #   url: https://example.com
-  #   image: image/dummy.svg  # Change to real image
-
-ms:
   - name: Hyungi Lee
     email: lhk2708@kaist.ac.kr
     interests:
@@ -79,6 +70,15 @@ ms:
     url: https://cs-giung.github.io
     image: image/people/gunam.jpg
 
+  # - name: Some One
+  #   email: example@kaist.ac.kr
+  #   interests:
+  #     - Don't know
+  #     - Whatever
+  #   url: https://example.com
+  #   image: image/dummy.svg  # Change to real image
+
+ms:
   - name: Hyun Mog Kim
     email: hyunmog2020@kaist.ac.kr
     interests:
@@ -122,6 +122,12 @@ ms:
     interests:
       - Bayesian deep learning
     image: image/people/shkim.jpg
+
+  # - name: Sanghyun Kim
+  #   email: nannullna00@gmail.com
+  #   interests:
+  #     - Bayesian deep learning
+  #   image: image/dummy.svg
 
   # - name: Some One
   #   email: example@kaist.ac.kr
