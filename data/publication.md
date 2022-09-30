@@ -21,12 +21,12 @@
 ## Conferences
 
 - On divergence measures for Bayesian pseudocoresets
-  - Balhae Kim, Jungwon Choi, Seanie Lee, Yoonho Lee, Jung-Woo Ha, Juho Lee
+  - **Balhae Kim**, **Jungwon Choi**, **Seanie Lee**, Yoonho Lee, Jung-Woo Ha, **Juho Lee**
   - NeurIPS 2022
   - (To appear)
 
 - Set-based meta-interpolation for few-task meta-learning
-  - Seanie Lee, Bruno Andreis, Kenji Kawaguchi, Juho Lee, Sung Ju Hwang
+  - **Seanie Lee**, Bruno Andreis, Kenji Kawaguchi, **Juho Lee**, Sung Ju Hwang
   - NeurIPS 2022
   - (To appear)
 
@@ -36,7 +36,7 @@
   - [arXiv](https://arxiv.org/abs/2206.15047), [code](https://github.com/cs-giung/distill-latentbe)
 
 - [Set based stochastic subsampling](https://proceedings.mlr.press/v162/andreis22a.html)
-  - Bruno Andreis, Seanie Lee, A. Tuan Nguyen, **Juho Lee**, Eunho Yang, Sung Ju Hwang
+  - Bruno Andreis, **Seanie Lee**, A. Tuan Nguyen, **Juho Lee**, Eunho Yang, Sung Ju Hwang
   - ICML 2022
   - [arXiv](https://arxiv.org/abs/2006.14222)
 
@@ -46,7 +46,7 @@
   - [arXiv](https://arxiv.org/abs/2107.01408), [code](https://github.com/Hyungi-Lee/Scale-Mixtures-of-Neural-Network-Gaussian-Processes)
 
 - [Sequential Reptile: inter-task gradient alignment for multilingual learning](https://openreview.net/forum?id=ivQruZvXxtz)
-  - Seanie Lee, Hae Beom Lee, **Juho Lee**, Sung Ju Hwang
+  - **Seanie Lee**, Hae Beom Lee, **Juho Lee**, Sung Ju Hwang
   - ICLR 2022
   - [arXiv](https://arxiv.org/abs/2110.02600)
 
@@ -76,7 +76,7 @@
   - [arXiv](https://arxiv.org/abs/2106.06041), [code](https://github.com/jmyoon1/adp)
 
 - [Learning to perturb word embeddings for out-of-distribution QA](https://aclanthology.org/2021.acl-long.434/)
-  - Seanie Lee, Minki Kang, **Juho Lee**, Sung Ju Hwang
+  - **Seanie Lee**, Minki Kang, **Juho Lee**, Sung Ju Hwang
   - ACL 2021
   - [arXiv](https://arxiv.org/abs/2105.02692)
 
