@@ -94,8 +94,8 @@ ms:
   - name: Eunggu Yun
     email: eunggu.yun@kaist.ac.kr
     interests:
+      - Loss landscape
       - Neural processes
-      - Efficient ensemble
     url: https://yuneg11.github.io
     image: image/people/egyun.jpg
 
