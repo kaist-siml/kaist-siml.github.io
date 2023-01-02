@@ -123,11 +123,12 @@ ms:
       - Bayesian deep learning
     image: image/people/shkim.jpg
 
-  # - name: Sanghyun Kim
-  #   email: nannullna00@gmail.com
-  #   interests:
-  #     - Bayesian deep learning
-  #   image: image/dummy.svg
+  - name: Sanghyun Kim
+    email: nannullna@kaist.ac.kr
+    interests:
+      - Data-efficient learning
+      - Causal inference
+    image: image/sanghyun.jpg
 
   # - name: Some One
   #   email: example@kaist.ac.kr
