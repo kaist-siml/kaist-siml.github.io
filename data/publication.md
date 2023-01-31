@@ -24,23 +24,23 @@
 
 ## Conferences
 
-- **Martingale posterior neural processes**
+- [Martingale posterior neural processes]()
   - **Hyungi Lee**, **Eunggu Yun**, **Giung Nam**, Edwin Fong, **Juho Lee**
   - To appear in ICLR 2023 (spotlight)
 
-- **Decoupled training for long-tailed classification with stochastic representations**
+- [Decoupled training for long-tailed classification with stochastic representations]()
   - **Giung Nam**\*, **Sunguk Jang**\*, **Juho Lee**
   - To appear in ICLR 2023
 
-- **A simple yet powerful deep active learning with snapshot ensembles**
+- [A simple yet powerful deep active learning with snapshot ensembles]()
   - **Seohyeon Jung**\*, **Sanghyun Kim**\*, **Juho Lee**
   - To appear in ICLR 2023
 
-- **Self-distillation for further pre-training of transformers**
+- [Self-distillation for further pre-training of transformers]()
   - **Seanie Lee**, Minki Kang, **Juho Lee**, Sung Ju Hwang, Kenji Kawaguchi
   - To appear in ICLR 2023
 
-- **Exploring the role of mean teachers in self-supervised masked auto-encoders**
+- [Exploring the role of mean teachers in self-supervised masked auto-encoders]()
   - Youngwan Lee\*, Jeffrey Ryan Willette\*, Jonghee Kim, **Juho Lee**, Sung Ju Hwang
   - To appear in ICLR 2023
 
