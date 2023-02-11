@@ -31,43 +31,48 @@
 ##################################################
 
 - name: "Martingale posterior neural processes"
+  image: image/publication/C2023_05.png
   category: Conference
   author: Hyungi Lee, Eunggu Yun, Giung Nam, Edwin Fong, Juho Lee
-  label: International Conference on Learning Representations (ICLR), 2023
-  url:
+  label: International Conference on Learning Representations (ICLR), 2023 (spotlight)
+  url: https://openreview.net/forum?id=-9PVqZ-IR_
   preprint:
   code:
 
 - name: "Decoupled training for long-tailed classification with stochastic representations"
+  image: image/publication/C2023_04.png
   category: Conference
   author: Giung Nam*, Sunguk Jang*, Juho Lee
   label: International Conference on Learning Representations (ICLR), 2023
-  url:
+  url: https://openreview.net/forum?id=bcYZwYo-0t
   preprint:
   code:
 
 - name: "A simple yet powerful deep active learning with snapshot ensembles"
+  image: image/publication/C2023_03.png
   category: Conference
   author: Seohyeon Jung*, Sanghyun Kim*, Juho Lee
   label: International Conference on Learning Representations (ICLR), 2023
-  url:
+  url: https://openreview.net/forum?id=IVESH65r0Ar
   preprint:
   code:
 
 - name: "Self-distillation for further pre-training of transformers"
+  image: image/publication/C2023_02.png
   category: Conference
   author: Seanie Lee, Minki Kang, Juho Lee, Sung Ju Hwang, Kenji Kawaguchi
   label: International Conference on Learning Representations (ICLR), 2023
-  url:
-  preprint:
+  url: https://openreview.net/forum?id=kj6oK_Hj40
+  preprint: https://arxiv.org/abs/2210.02871
   code:
 
 - name: "Exploring the role of mean teachers in self-supervised masked auto-encoders"
+  image: image/publication/C2023_01.png
   category: Conference
   author: Youngwan Lee*, Jeffrey Ryan Willette*, Jonghee Kim, Juho Lee, Sung Ju Hwang
   label: International Conference on Learning Representations (ICLR), 2023
-  url:
-  preprint:
+  url: https://openreview.net/forum?id=7sn6Vxp92xV
+  preprint: https://arxiv.org/abs/2210.02077
   code:
 
 - name: "On divergence measures for Bayesian pseudocoresets"
@@ -216,7 +221,7 @@
 - name: "Beyond the Chinese restaurant and Pitman-Yor processes: statistical models with double power-law behavior"
   category: Conference
   author: Fadhel Ayed*, Juho Lee*, François Caron
-  label: International Conference on Machine Learning (ICML), 2019
+  label: International Conference on Machine Learning (ICML), 2019 (long oral presentation)
   url: https://proceedings.mlr.press/v97/ayed19a.html
   preprint: https://arxiv.org/abs/1902.04714
   code:
@@ -240,7 +245,7 @@
 - name: "A Bayesian model for sparse graphs with flexible degree distribution and overlapping community structure"
   category: Conference
   author: Juho Lee, Lancelot F. James, Seungjin Choi, François Caron
-  label: International Conference on Artificial Intelligence and Statistics (AISTATS), 2019
+  label: International Conference on Artificial Intelligence and Statistics (AISTATS), 2019 (oral presentation)
   url: https://proceedings.mlr.press/v89/lee19b.html
   preprint: https://arxiv.org/abs/1810.01778
   code: https://github.com/OxCSML-BayesNP/BNRG
