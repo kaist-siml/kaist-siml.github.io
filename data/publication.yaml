@@ -89,6 +89,7 @@
   code:
 
 - name: "Improving ensemble distillation with weight averaging and diversifying perturbation"
+  image: image/publication/2022-05.png
   category: Conference
   author: Giung Nam, Hyungi Lee, Byeongho Heo, Juho Lee
   label: International Conference on Machine Learning (ICML), 2022
@@ -97,6 +98,7 @@
   code: https://github.com/cs-giung/distill-latentbe
 
 - name: "Set based stochastic subsampling"
+  image: image/publication/2022-04.png
   category: Conference
   author: Bruno Andreis, Seanie Lee, A. Tuan Nguyen, Juho Lee, Eunho Yang, Sung Ju Hwang
   label: International Conference on Machine Learning (ICML), 2022
