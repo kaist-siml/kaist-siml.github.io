@@ -118,6 +118,26 @@
         {/if}
         {/each}
     </ul>
+
+    <h2>Workshops</h2>
+    <ul>
+        {#each publication as paper}
+        {#if paper.category == 'Workshop'}
+        <li><a href={paper.url} target="_blank">
+            <img src={paper.image || 'image/dummy_paper.svg'} alt="...">
+                <div class='wrap'>
+                <p><b>{paper.name}</b></p>
+                <p>{paper.author}</p>
+                <p>{paper.label}</p>
+                <p>
+                    {#if paper.preprint}<a href={paper.preprint} target="_blank">preprint</a>{/if}
+                    {#if paper.code}<a href={paper.code} target="_blank">code</a>{/if}
+                </p>
+                </div>
+        </a></li>
+        {/if}
+        {/each}
+    </ul>
     
     </div>
 </main>

@@ -71,7 +71,7 @@
   code:
 
 - name: "On divergence measures for Bayesian pseudocoresets"
-  image: image/publication/2022-07.png
+  image: image/publication/C2022_07.png
   category: Conference
   author: Balhae Kim, Jungwon Choi, Seanie Lee, Yoonho Lee, Jung-Woo Ha, Juho Lee
   label: Neural Information Processing Systems (NeurIPS), 2022
@@ -80,7 +80,7 @@
   code:
 
 - name: "Set-based meta-interpolation for few-task meta-learning"
-  image: image/publication/2022-06.png
+  image: image/publication/C2022_06.png
   category: Conference
   author: Seanie Lee*, Bruno Andreis*, Kenji Kawaguchi, Juho Lee, Sung Ju Hwang
   label: Neural Information Processing Systems (NeurIPS), 2022
@@ -89,7 +89,7 @@
   code:
 
 - name: "Improving ensemble distillation with weight averaging and diversifying perturbation"
-  image: image/publication/2022-05.png
+  image: image/publication/C2022_05.png
   category: Conference
   author: Giung Nam, Hyungi Lee, Byeongho Heo, Juho Lee
   label: International Conference on Machine Learning (ICML), 2022
@@ -98,7 +98,7 @@
   code: https://github.com/cs-giung/distill-latentbe
 
 - name: "Set based stochastic subsampling"
-  image: image/publication/2022-04.png
+  image: image/publication/C2022_04.png
   category: Conference
   author: Bruno Andreis, Seanie Lee, A. Tuan Nguyen, Juho Lee, Eunho Yang, Sung Ju Hwang
   label: International Conference on Machine Learning (ICML), 2022
@@ -107,7 +107,7 @@
   code:
 
 - name: "Scale Mixtures of Neural Network Gaussian Processes"
-  image: image/publication/2022-03.png
+  image: image/publication/C2022_03.png
   category: Conference
   author: Hyungi Lee, Eunggu Yun, Hongseok Yang, Juho Lee
   label: International Conference on Learning Representations (ICLR), 2022
@@ -116,7 +116,7 @@
   code: https://github.com/Hyungi-Lee/Scale-Mixtures-of-Neural-Network-Gaussian-Processes
 
 - name: "Sequential Reptile: inter-task gradient alignment for multilingual learning"
-  image: image/publication/2022-02.png
+  image: image/publication/C2022_02.png
   category: Conference
   author: Seanie Lee*, Hae Beom Lee*, Juho Lee, Sung Ju Hwang
   label: International Conference on Learning Representations (ICLR), 2022
@@ -125,7 +125,7 @@
   code:
 
 - name: "Meta learning low rank covariance factors for energy-based deterministic uncertainty"
-  image: image/publication/2022-01.png
+  image: image/publication/C2022_01.png
   category: Conference
   author: Jeffrey Ryan Willette, Hae Beom Lee, Juho Lee, Sung Ju Hwang
   label: International Conference on Learning Representations (ICLR), 2022
@@ -306,5 +306,41 @@
   author: Juho Lee, Suha Kwak, Bohyung Han, Seungjin Choi
   label: European Conference on Computer Vision (ECCV), 2012
   url: https://link.springer.com/chapter/10.1007/978-3-642-33765-9_61
+  preprint:
+  code:
+
+##################################################
+# Workshops
+##################################################
+
+- name: "Modeling uplift from observational time-series in continual scenarios"
+  category: Workshop
+  author: Sanghyun Kim, Jungwon Choi, NamHee Kim, Jaesung Ryu, Juho Lee
+  label: AAAI-23 Bridge on Continual Casality, 2023 (oral presentation)
+  url: https://openreview.net/forum?id=pKyB5wMnTiy
+  preprint:
+  code:
+
+- name: "Adaptive strategy for resetting a non-stationary Markov chain during learning via joint stochastic optimization"
+  category: Workshop
+  author: Hyunsu Kim, Juho Lee, Hongseok Yang
+  label: Third Symposium on Advances in Approximate Bayesian Inference, 2021
+  url: https://openreview.net/forum?id=fuHh4CC3-5Z
+  preprint:
+  code:
+
+- name: "Towards deep amortized clustering"
+  category: Workshop
+  author: Juho Lee, Yoonho Lee, Yee Whye Teh
+  label: NeurIPS 2019 Sets & Partitions workshop, 2019 (contributed talk)
+  url: https://slideslive.com/38923511/contributed-talk-towards-deep-amortized-clustering
+  preprint:
+  code:
+
+- name: "Graph embedding VAE: a permutation invariant model of graph structure"
+  category: Workshop
+  author: Tony Duan, Juho Lee
+  label: NeurIPS 2019 Graph Representation Learning workshop, 2019
+  url: https://grlearning.github.io/papers/19.pdf
   preprint:
   code:
