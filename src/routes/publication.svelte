@@ -89,6 +89,7 @@
                 <p><b>{paper.name}</b></p>
                 <p>{paper.author}</p>
                 <p>{paper.label}</p>
+                <p><b>{#if paper.note}{paper.note}{/if}</b></p>
                 <p>
                     {#if paper.preprint}<a href={paper.preprint} target="_blank">preprint</a>{/if}
                     {#if paper.code}<a href={paper.code} target="_blank">code</a>{/if}
@@ -112,6 +113,7 @@
                 <p>
                     {#if paper.preprint}<a href={paper.preprint} target="_blank">preprint</a>{/if}
                     {#if paper.code}<a href={paper.code} target="_blank">code</a>{/if}
+                    <b>{#if paper.note}{paper.note}{/if}</b>
                 </p>
                 </div>
         </a></li>
@@ -129,6 +131,7 @@
                 <p><b>{paper.name}</b></p>
                 <p>{paper.author}</p>
                 <p>{paper.label}</p>
+                <p><b>{#if paper.note}{paper.note}{/if}</b></p>
                 <p>
                     {#if paper.preprint}<a href={paper.preprint} target="_blank">preprint</a>{/if}
                     {#if paper.code}<a href={paper.code} target="_blank">code</a>{/if}

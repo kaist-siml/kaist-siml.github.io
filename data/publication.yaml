@@ -34,10 +34,11 @@
   image: image/publication/C2023_05.png
   category: Conference
   author: Hyungi Lee, Eunggu Yun, Giung Nam, Edwin Fong, Juho Lee
-  label: International Conference on Learning Representations (ICLR), 2023 (spotlight)
+  label: International Conference on Learning Representations (ICLR), 2023
   url: https://openreview.net/forum?id=-9PVqZ-IR_
   preprint:
   code:
+  note: Spotlight Presentation (notable-top-25%)
 
 - name: "Decoupled training for long-tailed classification with stochastic representations"
   image: image/publication/C2023_04.png
@@ -221,10 +222,11 @@
 - name: "Beyond the Chinese restaurant and Pitman-Yor processes: statistical models with double power-law behavior"
   category: Conference
   author: Fadhel Ayed*, Juho Lee*, François Caron
-  label: International Conference on Machine Learning (ICML), 2019 (long oral presentation)
+  label: International Conference on Machine Learning (ICML), 2019
   url: https://proceedings.mlr.press/v97/ayed19a.html
   preprint: https://arxiv.org/abs/1902.04714
   code:
+  note: Long Oral Presentation
 
 - name: "Set transformer: a framework for attention-based permutation-invariant neural networks"
   category: Conference
@@ -245,10 +247,11 @@
 - name: "A Bayesian model for sparse graphs with flexible degree distribution and overlapping community structure"
   category: Conference
   author: Juho Lee, Lancelot F. James, Seungjin Choi, François Caron
-  label: International Conference on Artificial Intelligence and Statistics (AISTATS), 2019 (oral presentation)
+  label: International Conference on Artificial Intelligence and Statistics (AISTATS), 2019
   url: https://proceedings.mlr.press/v89/lee19b.html
   preprint: https://arxiv.org/abs/1810.01778
   code: https://github.com/OxCSML-BayesNP/BNRG
+  note: Oral Presentation
 
 - name: "Uncertainty-aware attention for reliable interpretation and prediction"
   category: Conference
@@ -321,10 +324,11 @@
 - name: "Modeling uplift from observational time-series in continual scenarios"
   category: Workshop
   author: Sanghyun Kim, Jungwon Choi, NamHee Kim, Jaesung Ryu, Juho Lee
-  label: AAAI-23 Bridge on Continual Casality, 2023 (oral presentation)
+  label: AAAI-23 Bridge on Continual Casality, 2023
   url: https://openreview.net/forum?id=pKyB5wMnTiy
   preprint:
   code:
+  note: Oral Presentation
 
 - name: "Adaptive strategy for resetting a non-stationary Markov chain during learning via joint stochastic optimization"
   category: Workshop
@@ -337,10 +341,11 @@
 - name: "Towards deep amortized clustering"
   category: Workshop
   author: Juho Lee, Yoonho Lee, Yee Whye Teh
-  label: NeurIPS 2019 Sets & Partitions workshop, 2019 (contributed talk)
+  label: NeurIPS 2019 Sets & Partitions workshop, 2019
   url: https://slideslive.com/38923511/contributed-talk-towards-deep-amortized-clustering
   preprint:
   code:
+  note: Contributed Talk
 
 - name: "Graph embedding VAE: a permutation invariant model of graph structure"
   category: Workshop
