@@ -71,6 +71,7 @@
   code:
 
 - name: "On divergence measures for Bayesian pseudocoresets"
+  image: image/publication/2022-07.png
   category: Conference
   author: Balhae Kim, Jungwon Choi, Seanie Lee, Yoonho Lee, Jung-Woo Ha, Juho Lee
   label: Neural Information Processing Systems (NeurIPS), 2022
@@ -79,6 +80,7 @@
   code:
 
 - name: "Set-based meta-interpolation for few-task meta-learning"
+  image: image/publication/2022-06.png
   category: Conference
   author: Seanie Lee*, Bruno Andreis*, Kenji Kawaguchi, Juho Lee, Sung Ju Hwang
   label: Neural Information Processing Systems (NeurIPS), 2022
