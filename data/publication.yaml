@@ -107,6 +107,7 @@
   code:
 
 - name: "Scale Mixtures of Neural Network Gaussian Processes"
+  image: image/publication/2022-03.png
   category: Conference
   author: Hyungi Lee, Eunggu Yun, Hongseok Yang, Juho Lee
   label: International Conference on Learning Representations (ICLR), 2022
@@ -115,14 +116,16 @@
   code: https://github.com/Hyungi-Lee/Scale-Mixtures-of-Neural-Network-Gaussian-Processes
 
 - name: "Sequential Reptile: inter-task gradient alignment for multilingual learning"
+  image: image/publication/2022-02.png
   category: Conference
-  author: Seanie Lee, Hae Beom Lee, Juho Lee, Sung Ju Hwang
+  author: Seanie Lee*, Hae Beom Lee*, Juho Lee, Sung Ju Hwang
   label: International Conference on Learning Representations (ICLR), 2022
   url: https://openreview.net/forum?id=ivQruZvXxtz
   preprint: https://arxiv.org/abs/2110.02600
   code:
 
 - name: "Meta learning low rank covariance factors for energy-based deterministic uncertainty"
+  image: image/publication/2022-01.png
   category: Conference
   author: Jeffrey Ryan Willette, Hae Beom Lee, Juho Lee, Sung Ju Hwang
   label: International Conference on Learning Representations (ICLR), 2022
