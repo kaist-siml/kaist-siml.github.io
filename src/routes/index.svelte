@@ -94,16 +94,17 @@
             <li>(2022.05) 2 papers were accepted to ICML 2022.</li>
             <li>(2022.01) 3 papers were accepted to ICLR 2022.</li>
             <li>(2021.09) 2 papers were accepted to NeurIPS 2021.</li>
+            <li>(2021.07) 1 paper was accepted to ICCV 2021.</li>
             <li>(2021.05) 1 paper was accepted to ICML 2021.</li>
             <li>(2020.07) Prof. Juho Lee started directing the SIML Laboratory as an assistant professor at KAIST AI.
             </ul>
         <h2>For prospective students</h2>
             <p>
             We are looking for self-motivated students interested in machine learning, deep learning, and Bayesian methods.
-            <a href="https://juho-lee.github.io/" target="_blank">Prof. Juho Lee</a> currently advises students in
-            <a href="https://gsai.kaist.ac.kr/" target="_blank">Kim Jaechul Graduate School of AI</a> at KAIST, so please get admission before contacting him.
-            It is strongly recommended to contact him in advance (at least two or three months earlier than the graduate school admission deadline)
-            and conduct a research project with the professor.
+            Since <a href="https://juho-lee.github.io/" target="_blank">Prof. Juho Lee</a> only can advise students at
+            <a href="https://gsai.kaist.ac.kr/" target="_blank">Kim Jaechul Graduate School of AI</a> for now, please get admission to join us.
+            It is strongly recommended to contact the professor in advance (at least two or three months earlier than the graduate school admission deadline)
+            and conduct a research project.
             </p>
     </div>
 </main>
