@@ -3,6 +3,7 @@
 ##################################################
 
 - name: "The Normal-Generalised Gamma-Pareto process: A novel pure-jump Lévy process with flexible tail and jump-activity properties"
+  image: image/publication/J_03.png
   category: Journal
   author: Fadhel Ayed, Juho Lee, François Caron
   label: To appear in Bayesian Anaylsis
@@ -11,6 +12,7 @@
   code:
 
 - name: "A unified construction for series representations and finite approximations of completely random measures"
+  image: image/publication/J_02.png
   category: Journal
   author: Juho Lee, Xenia Miscouridou, François Caron
   label: To appear in Bernoulli
@@ -19,6 +21,7 @@
   code:
 
 - name: "Benefits of stochastic weight averaging in developing neural network radiation scheme for numerical weather prediction"
+  image: image/publication/J_01.png
   category: Journal
   author: Hwan-Jin Song, Soonyoung Roh, Juho Lee, Giung Nam, Eunggu Yun, Jongmin Yoon, Park Sa Kim
   label: Journal of Advances in Modeling Earth Systems, October 2022
