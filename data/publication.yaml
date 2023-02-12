@@ -271,6 +271,7 @@
   note: (Oral Presentation)
 
 - name: "Uncertainty-aware attention for reliable interpretation and prediction"
+  image: image/publication/C2018_02.png
   category: Conference
   author: Jay Heo*, Hae Beom Lee*, Saehoon Kim, Juho Lee, Kwang Joon Kim, Eunho Yang, Sung Ju Hwang
   label: Neural Information Processing Systems (NeurIPS), 2018
@@ -279,6 +280,7 @@
   code:
 
 - name: "Dropmax: adaptive variational softmax"
+  image: image/publication/C2018_01.png
   category: Conference
   author: Hae Beom Lee, Juho Lee, Saehoon Kim, Eunho Yang, Sung Ju Hwang
   label: Neural Information Processing Systems (NeurIPS), 2018
@@ -287,6 +289,7 @@
   code: https://github.com/haebeom-lee/dropmax
 
 - name: "Bayesian inference on random simple graphs with power law degree distributions"
+  image: image/publication/C2017_01.png
   category: Conference
   author: Juho Lee, Creighton Heakulani, Zoubin Ghahramani, Lancelot F. James, Seingjin Choi
   label: International Conference on Machine Learning (ICML), 2017
@@ -295,6 +298,7 @@
   code: https://github.com/juho-lee/powerlawgraph
 
 - name: "Finite-dimensional BFRY priors and variational Bayesian inference for power law models"
+  image: image/publication/C2016_01.png
   category: Conference
   author: Juho Lee, Lancelot F. James, Seungjin Choi
   label: Neural Information Processing Systems (NIPS; NeurIPS), 2016
@@ -303,6 +307,7 @@
   code:
 
 - name: "Tree-guided MCMC inference for normalized random measure mixture models"
+  image: image/publication/C2015_02.png
   category: Conference
   author: Juho Lee, Seungjin Choi
   label: Neural Information Processing Systems (NIPS; NeurIPS), 2015
@@ -311,6 +316,7 @@
   code: https://github.com/juho-lee/nrmm.cpp
 
 - name: "Bayesian hierarchical clustering with exponential family: small-variance asymptotics and reducibility"
+  image: image/publication/C2015_01.png
   category: Conference
   author: Juho Lee, Seungjin Choi
   label: International Conference on Artificial Intelligence and Statistics (AISTATS), 2015
@@ -319,6 +325,7 @@
   code:
 
 - name: "Incremental tree-based inference with dependent normalized random measures"
+  image: image/publication/C2014_01.png
   category: Conference
   author: Juho Lee, Seungjin Choi
   label: International Conference on Artificial Intelligence and Statistics (AISTATS), 2014
@@ -327,6 +334,7 @@
   code:
 
 - name: "Online video segmentation by Bayesian split-merge clustering"
+  image: image/publication/C2012_01.png
   category: Conference
   author: Juho Lee, Suha Kwak, Bohyung Han, Seungjin Choi
   label: European Conference on Computer Vision (ECCV), 2012
