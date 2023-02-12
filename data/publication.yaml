@@ -41,7 +41,7 @@
   url: https://openreview.net/forum?id=-9PVqZ-IR_
   preprint:
   code:
-  note: Spotlight Presentation (notable-top-25%)
+  note: (Spotlight Presentation; notable-top-25%)
 
 - name: "Decoupled training for long-tailed classification with stochastic representations"
   image: image/publication/C2023_04.png
@@ -197,6 +197,7 @@
   code: https://github.com/jw9730/setvae
 
 - name: "Bootstrapping neural processes"
+  image: image/publication/C2020_04.png
   category: Conference
   author: Juho Lee*, Yoonho Lee*, Jungtaek Kim, Eunho Yang, Sung Ju Hwang, Yee Whye Teh
   label: Neural Information Processing Systems (NeurIPS), 2020
@@ -205,6 +206,7 @@
   code: https://github.com/juho-lee/bnp
 
 - name: "Neural complexity measures"
+  image: image/publication/C2020_03.png
   category: Conference
   author: Yoonho Lee, Juho Lee, Sung Ju Hwang, Eunho Yang, Seungjin Choi
   label: Neural Information Processing Systems (NeurIPS), 2020
@@ -213,6 +215,7 @@
   code: https://github.com/yoonholee/neural-complexity
 
 - name: "Cost-effective interactive attention learning with neural attention processes"
+  image: image/publication/C2020_02.png
   category: Conference
   author: Jay Heo, Junhyeon Park, Hyewon Jeong, Kwang Joon Kim, Juho Lee, Eunho Yang, Sung Ju Hwang
   label: International Conference on Machine Learning (ICML), 2020
@@ -221,6 +224,7 @@
   code:
 
 - name: "Deep mixed effect model using Gaussian processes: a personalized and reliable prediction for healthcare"
+  image: image/publication/C2020_01.png
   category: Conference
   author: Ingyo Chung, Saehoon Kim, Juho Lee, Sung Ju Hwang, Eunho Yang
   label: Association for the Advancement of Artificial Intelligence (AAAI), 2020
@@ -229,23 +233,26 @@
   code:
 
 - name: "Beyond the Chinese restaurant and Pitman-Yor processes: statistical models with double power-law behavior"
+  image: image/publication/C2019_04.png
   category: Conference
   author: Fadhel Ayed*, Juho Lee*, François Caron
   label: International Conference on Machine Learning (ICML), 2019
   url: https://proceedings.mlr.press/v97/ayed19a.html
   preprint: https://arxiv.org/abs/1902.04714
   code:
-  note: Long Oral Presentation
+  note: (Long Oral Presentation)
 
 - name: "Set transformer: a framework for attention-based permutation-invariant neural networks"
+  image: image/publication/C2019_03.png
   category: Conference
   author: Fadhel Ayed*, Juho Lee*, François Caron
   label: International Conference on Machine Learning (ICML), 2019
-  url: https://github.com/juho-lee/set_transformer
+  url: https://proceedings.mlr.press/v97/lee19d.html
   preprint: https://arxiv.org/abs/1810.00825
-  code:
+  code: https://github.com/juho-lee/set_transformer
 
 - name: "Learning to propagate labels: transductive propagation network for few-shot learning"
+  image: image/publication/C2019_02.png
   category: Conference
   author: Yanbin Liu, Juho Lee, Minseop Park, Saehoon Kim, Eunho Yang, Sung Ju Hwang, Yi Yang
   label: International Conference on Learning Representations (ICLR), 2019
@@ -254,13 +261,14 @@
   code:
 
 - name: "A Bayesian model for sparse graphs with flexible degree distribution and overlapping community structure"
+  image: image/publication/C2019_01.png
   category: Conference
   author: Juho Lee, Lancelot F. James, Seungjin Choi, François Caron
   label: International Conference on Artificial Intelligence and Statistics (AISTATS), 2019
   url: https://proceedings.mlr.press/v89/lee19b.html
   preprint: https://arxiv.org/abs/1810.01778
   code: https://github.com/OxCSML-BayesNP/BNRG
-  note: Oral Presentation
+  note: (Oral Presentation)
 
 - name: "Uncertainty-aware attention for reliable interpretation and prediction"
   category: Conference
@@ -331,15 +339,17 @@
 ##################################################
 
 - name: "Modeling uplift from observational time-series in continual scenarios"
+  image: image/publication/W_04.png
   category: Workshop
   author: Sanghyun Kim, Jungwon Choi, NamHee Kim, Jaesung Ryu, Juho Lee
   label: AAAI-23 Bridge on Continual Casality, 2023
   url: https://openreview.net/forum?id=pKyB5wMnTiy
   preprint:
   code:
-  note: Oral Presentation
+  note: (Oral Presentation)
 
 - name: "Adaptive strategy for resetting a non-stationary Markov chain during learning via joint stochastic optimization"
+  image: image/publication/W_03.png
   category: Workshop
   author: Hyunsu Kim, Juho Lee, Hongseok Yang
   label: Third Symposium on Advances in Approximate Bayesian Inference, 2021
@@ -348,15 +358,17 @@
   code:
 
 - name: "Towards deep amortized clustering"
+  image: image/publication/W_02.png
   category: Workshop
   author: Juho Lee, Yoonho Lee, Yee Whye Teh
   label: NeurIPS 2019 Sets & Partitions workshop, 2019
   url: https://slideslive.com/38923511/contributed-talk-towards-deep-amortized-clustering
   preprint:
   code:
-  note: Contributed Talk
+  note: (Contributed Talk)
 
 - name: "Graph embedding VAE: a permutation invariant model of graph structure"
+  image: image/publication/W_01.png
   category: Workshop
   author: Tony Duan, Juho Lee
   label: NeurIPS 2019 Graph Representation Learning workshop, 2019
