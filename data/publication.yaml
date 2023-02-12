@@ -143,6 +143,7 @@
   code:
 
 - name: "Diversity matters when learning from ensembles"
+  image: image/publication/C2021_06.png
   category: Conference
   author: Giung Nam*, Jongmin Yoon*, Yoonho Lee, Juho Lee
   label: Neural Information Processing Systems (NeurIPS), 2021
@@ -151,6 +152,7 @@
   code: https://github.com/cs-giung/giung2/tree/main/projects/Diversity-Matters
 
 - name: "Mini-batch consistent slot set encoder for scalable set encoding"
+  image: image/publication/C2021_05.png
   category: Conference
   author: Andreis Bruno, Jeffrey Ryan Willette, Juho Lee, Sung Ju Hwang
   label: Neural Information Processing Systems (NeurIPS), 2021
@@ -159,6 +161,7 @@
   code:
 
 - name: "A multi-mode modulator for multi-domain few-shot classification"
+  image: image/publication/C2021_04.png
   category: Conference
   author: Yanbin Liu, Juho Lee, Linchao Zhu, Ling Chen, Humphrey Shi, Yi Yang
   label: International Conference on Computer Vision (ICCV), 2021
@@ -167,6 +170,7 @@
   code: https://github.com/csyanbin/tri-M-ICCV
 
 - name: "Adversarial purification with score-based generative models"
+  image: image/publication/C2021_03.png
   category: Conference
   author: Jongmin Yoon, Sung Ju Hwang, Juho Lee
   label: International Conference on Machine Learning (ICML), 2021
@@ -175,6 +179,7 @@
   code: https://github.com/jmyoon1/adp
 
 - name: "Learning to perturb word embeddings for out-of-distribution QA"
+  image: image/publication/C2021_02.png
   category: Conference
   author: Seanie Lee, Minki Kang, Juho Lee, Sung Ju Hwang
   label: Association for Computational Linguistics (ACL), 2021
@@ -183,6 +188,7 @@
   code:
 
 - name: "SetVAE: learning hierarchical composition for generative modeling of set-structured data"
+  image: image/publication/C2021_01.png
   category: Conference
   author: Jinwoo Kim, Jaehoon Yoo, Juho Lee, Seunghoon Hong
   label: Conference on Computer Vision and Pattern Recognition (CVPR), 2021
