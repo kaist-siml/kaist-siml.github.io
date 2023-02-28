@@ -14,6 +14,9 @@ postdoc:
     email: becre1776@kaist.ac.kr
     interests:
       - Bayesian deep learning
+      - Gaussian process model and Kernel method
+      - PAC-Bayes generalization bound
+    url: https://e2ee22.github.io/
     image: image/people/yhjung.jpg
 
 ##################################################
