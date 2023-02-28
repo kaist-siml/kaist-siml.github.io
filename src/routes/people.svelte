@@ -56,6 +56,14 @@
             </div>
         </div>
         <div>
+            <h2>Postdocs</h2>
+            <div class="row">
+                {#each people.postdoc as person}
+                    <Profile {...person} />
+                {/each}
+            </div>
+        </div>
+        <div>
             <h2>PhD Students</h2>
             <div class="row">
                 {#each people.phd as person}
@@ -70,6 +78,17 @@
                     <Profile {...person} />
                 {/each}
             </div>
+        </div>
+        <div>
+            <h2>Alumni</h2>
+            <ul>
+            {#each people.alumni as person}
+            <li>
+            <b>{#if person.url} <a href={person.url} target="_blank">{person.name}</a> {:else} {person.name} {/if}</b>
+            {person.note}
+            </li>
+            {/each}
+            </ul>
         </div>
     </div>
 </main>

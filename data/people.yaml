@@ -8,8 +8,16 @@ professor:
     url: https://juho-lee.github.io
     image: image/people/jhlee.jpg
 
-phd:
+##################################################
+postdoc:
+  - name: Yohan Jung
+    email: becre1776@kaist.ac.kr
+    interests:
+      - Bayesian deep learning
+    image: image/people/yhjung.jpg
 
+##################################################
+phd:
   - name: Jongmin Yoon
     email: jm.yoon@kaist.ac.kr
     interests:
@@ -78,26 +86,8 @@ phd:
   #   url: https://example.com
   #   image: image/dummy.svg  # Change to real image
 
+##################################################
 ms:
-  - name: Hyun Mog Kim
-    email: hyunmog2020@kaist.ac.kr
-    interests:
-      - Graph neural network
-    image: image/people/hmkim.jpg
-
-  - name: Sunguk Jang
-    email: tommy9773@kaist.ac.kr
-    interests:
-      - Bayesian deep learning
-    image: image/people/sujang.jpg
-
-  - name: Eunggu Yun
-    email: eunggu.yun@kaist.ac.kr
-    interests:
-      - Loss landscape
-      - Neural processes
-    url: https://yuneg11.github.io
-    image: image/people/egyun.jpg
 
   - name: Taehong Moon
     email: josephmoon2019@gmail.com
@@ -130,6 +120,12 @@ ms:
       - Causal inference
     image: image/people/sanghyun.jpg
 
+  - name: Chaeyun Jang
+    email: jcy9911@kaist.ac.kr
+    interests:
+      - Bayesian deep learning
+    image: image/dummy.svg
+
   # - name: Some One
   #   email: example@kaist.ac.kr
   #   interests:
@@ -137,3 +133,19 @@ ms:
   #     - Whatever
   #   url: https://example.com
   #   image: image/dummy.svg  # Change to real image
+
+##################################################
+alumni:
+
+  - name: Hyun Mog Kim
+    image: image/people/hmkim.jpg
+    note: (MS 2023)
+
+  - name: Sunguk Jang
+    image: image/people/sujang.jpg
+    note: (MS 2023)
+
+  - name: Eunggu Yun
+    image: image/people/egyun.jpg
+    url: https://yuneg11.github.io
+    note: (MS 2023)
