@@ -17,7 +17,7 @@
         a {
             @include decorate-a;
             padding: 0px;
-            
+
             &:hover {
                 box-shadow: inset 0 -1.5em 0 $kaist-medium-blue;
                 color: $kaist-blue;
@@ -68,6 +68,12 @@
                     }
                 }
             }
+
+            .links {
+                a {
+                    @include decorate-a;
+                }
+            }
         }
     }
 </style>
@@ -79,68 +85,33 @@
 <main>
     <div class="container">
 
-    <h2>Journals</h2>
-    <ul>
-        {#each publication as paper}
-        {#if paper.category == 'Journal'}
-        <li><a href={paper.url} target="_blank">
-            <img src={paper.image || 'image/dummy_paper.svg'} alt="...">
-                <div class='wrap'>
-                <p><b>{paper.name}</b></p>
-                <p>{paper.author}</p>
-                <p>{paper.label}</p>
-                <p><b>{#if paper.note}{paper.note}{/if}</b></p>
-                <p>
-                    {#if paper.preprint}<a href={paper.preprint} target="_blank">preprint</a>{/if}
-                    {#if paper.code}<a href={paper.code} target="_blank">code</a>{/if}
-                </p>
-                </div>
-        </a></li>
-        {/if}
-        {/each}
-    </ul>
+    {#each Object.entries(publication) as [type, papers]}
+        <h2>{type}</h2>
+        <ul>
 
-    <h2>Conferences</h2>
-    <ul>
-        {#each publication as paper}
-        {#if paper.category == 'Conference'}
-        <li><a href={paper.url} target="_blank">
-            <img src={paper.image || 'image/dummy_paper.svg'} alt="...">
-                <div class='wrap'>
-                <p><b>{paper.name}</b></p>
-                <p>{paper.author}</p>
-                <p>{paper.label}</p>
-                <p>
-                    {#if paper.preprint}<a href={paper.preprint} target="_blank">preprint</a>{/if}
-                    {#if paper.code}<a href={paper.code} target="_blank">code</a>{/if}
-                    <b>{#if paper.note}{paper.note}{/if}</b>
-                </p>
-                </div>
-        </a></li>
-        {/if}
+        {#each papers as paper}
+            <li>
+                <a href={paper.url} target="_blank">
+                    <img src={paper.image || 'image/dummy_paper.svg'} alt="...">
+                    <div class='wrap'>
+                        <p><b>{paper.name}</b></p>
+                        <p>{@html paper.author}</p>
+                        <p>{@html paper.label}</p>
+                        {#if paper.note}<p><b>{paper.note}</b></p>{/if}
+                        <p class="links">
+                            {#each Object.entries(paper.links || {}) as [name, url], i}
+                            {#if url}
+                                {#if i > 0}&nbsp;{/if}<a href={url} target="_blank">{name}</a>
+                            {/if}
+                            {/each}
+                        </p>
+                    </div>
+                </a>
+            </li>
         {/each}
-    </ul>
 
-    <h2>Workshops</h2>
-    <ul>
-        {#each publication as paper}
-        {#if paper.category == 'Workshop'}
-        <li><a href={paper.url} target="_blank">
-            <img src={paper.image || 'image/dummy_paper.svg'} alt="...">
-                <div class='wrap'>
-                <p><b>{paper.name}</b></p>
-                <p>{paper.author}</p>
-                <p>{paper.label}</p>
-                <p><b>{#if paper.note}{paper.note}{/if}</b></p>
-                <p>
-                    {#if paper.preprint}<a href={paper.preprint} target="_blank">preprint</a>{/if}
-                    {#if paper.code}<a href={paper.code} target="_blank">code</a>{/if}
-                </p>
-                </div>
-        </a></li>
-        {/if}
-        {/each}
-    </ul>
-    
+        </ul>
+    {/each}
+
     </div>
 </main>

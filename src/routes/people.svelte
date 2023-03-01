@@ -18,6 +18,11 @@
         gap: $blank * 5;
 
         @include padding-x(0);
+
+    }
+
+    a {
+        @include decorate-a;
     }
 
     @include media-breakpoint-only(xs) {
