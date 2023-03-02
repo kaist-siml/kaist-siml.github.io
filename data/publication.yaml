@@ -48,7 +48,7 @@ Conference:
 
   - name: "A simple yet powerful deep active learning with snapshot ensembles"
     image: image/publication/C2023_03.png
-    author: <b>Seohyeon Jung</b>*, <b>Sanghyun Kim</b>*, <b>Juho</b> Lee</b>
+    author: <b>Seohyeon Jung</b>*, <b>Sanghyun Kim</b>*, <b>Juho Lee</b>
     label: International Conference on Learning Representations (ICLR), 2023
     url: https://openreview.net/forum?id=IVESH65r0Ar
 
