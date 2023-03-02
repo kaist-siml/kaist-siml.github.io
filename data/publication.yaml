@@ -70,7 +70,7 @@ Conference:
 
   - name: "On divergence measures for Bayesian pseudocoresets"
     image: image/publication/C2022_07.png
-    author: Balhae Kim, Jungwon Choi, <b>Seanie Lee</b>, Yoonho Lee, Jung-Woo Ha, <b>Juho Lee</b>
+    author: <b>Balhae Kim</b>, <b>Jungwon Choi</b>, <b>Seanie Lee</b>, Yoonho Lee, Jung-Woo Ha, <b>Juho Lee</b>
     label: Neural Information Processing Systems (NeurIPS), 2022
     url: https://openreview.net/forum?id=bg7d_2jWv6
     links:
