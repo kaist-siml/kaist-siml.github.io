@@ -42,13 +42,13 @@ Conference:
 
   - name: "Decoupled training for long-tailed classification with stochastic representations"
     image: image/publication/C2023_04.png
-    author: <b>Giung Nam</b>\*, <b>Sunguk Jang</b>\*, <b>Juho Lee</b>
+    author: <b>Giung Nam</b>*, <b>Sunguk Jang</b>*, <b>Juho Lee</b>
     label: International Conference on Learning Representations (ICLR), 2023
     url: https://openreview.net/forum?id=bcYZwYo-0t
 
   - name: "A simple yet powerful deep active learning with snapshot ensembles"
     image: image/publication/C2023_03.png
-    author: <b>Seohyeon Jung</b>\*, <b><b>Sanghyun Kim</b></<b>b>\*, <b>Juho</b> Lee</b>
+    author: <b>Seohyeon Jung</b>*, <b>Sanghyun Kim</b>*, <b>Juho</b> Lee</b>
     label: International Conference on Learning Representations (ICLR), 2023
     url: https://openreview.net/forum?id=IVESH65r0Ar
 
@@ -62,7 +62,7 @@ Conference:
 
   - name: "Exploring the role of mean teachers in self-supervised masked auto-encoders"
     image: image/publication/C2023_01.png
-    author: Youngwan Lee\*, Jeffrey Ryan Willette\*, Jonghee Kim, <b>Juho Lee</b>, Sung Ju Hwang
+    author: Youngwan Lee*, Jeffrey Ryan Willette*, Jonghee Kim, <b>Juho Lee</b>, Sung Ju Hwang
     label: International Conference on Learning Representations (ICLR), 2023
     url: https://openreview.net/forum?id=7sn6Vxp92xV
     links:
@@ -78,7 +78,7 @@ Conference:
 
   - name: "Set-based meta-interpolation for few-task meta-learning"
     image: image/publication/C2022_06.png
-    author: <b>Seanie Lee</b>\*, Bruno Andreis\*, Kenji Kawaguchi, <b>Juho Lee</b>, Sung Ju Hwang
+    author: <b>Seanie Lee</b>*, Bruno Andreis*, Kenji Kawaguchi, <b>Juho Lee</b>, Sung Ju Hwang
     label: Neural Information Processing Systems (NeurIPS), 2022
     url: https://openreview.net/forum?id=78T4K99jvbE
     links:
@@ -112,7 +112,7 @@ Conference:
 
   - name: "Sequential Reptile: inter-task gradient alignment for multilingual learning"
     image: image/publication/C2022_02.png
-    author: <b>Seanie Lee</b>\*, Hae Beom Lee\*, <b>Juho Lee</b>, Sung Ju Hwang
+    author: <b>Seanie Lee</b>*, Hae Beom Lee*, <b>Juho Lee</b>, Sung Ju Hwang
     label: International Conference on Learning Representations (ICLR), 2022
     url: https://openreview.net/forum?id=ivQruZvXxtz
     links:
@@ -128,7 +128,7 @@ Conference:
 
   - name: "Diversity matters when learning from ensembles"
     image: image/publication/C2021_06.png
-    author: <b>Giung Nam</b>\*, <b>Jongmin Yoon</b>\*, Yoonho Lee, <b>Juho Lee</b>
+    author: <b>Giung Nam</b>*, <b>Jongmin Yoon</b>*, Yoonho Lee, <b>Juho Lee</b>
     label: Neural Information Processing Systems (NeurIPS), 2021
     url: https://papers.nips.cc/paper/2021/hash/466473650870501e3600d9a1b4ee5d44-Abstract.html
     links:
@@ -179,7 +179,7 @@ Conference:
 
   - name: "Bootstrapping neural processes"
     image: image/publication/C2020_04.png
-    author: <b>Juho Lee</b>\*, Yoonho Lee\*, Jungtaek Kim, Eunho Yang, Sung Ju Hwang, Yee Whye Teh
+    author: <b>Juho Lee</b>*, Yoonho Lee*, Jungtaek Kim, Eunho Yang, Sung Ju Hwang, Yee Whye Teh
     label: Neural Information Processing Systems (NeurIPS), 2020
     url: https://papers.nips.cc/paper/2020/hash/492114f6915a69aa3dd005aa4233ef51-Abstract.html
     links:
@@ -213,7 +213,7 @@ Conference:
 
   - name: "Beyond the Chinese restaurant and Pitman-Yor processes: statistical models with double power-law behavior"
     image: image/publication/C2019_04.png
-    author: Fadhel Ayed\*, <b>Juho Lee</b>\*, François Caron
+    author: Fadhel Ayed*, <b>Juho Lee</b>*, François Caron
     label: International Conference on Machine Learning (ICML), 2019
     url: https://proceedings.mlr.press/v97/ayed19a.html
     links:
@@ -222,7 +222,7 @@ Conference:
 
   - name: "Set transformer: a framework for attention-based permutation-invariant neural networks"
     image: image/publication/C2019_03.png
-    author: Fadhel Ayed\*, <b>Juho Lee</b>\*, François Caron
+    author: Fadhel Ayed*, <b>Juho Lee</b>*, François Caron
     label: International Conference on Machine Learning (ICML), 2019
     url: https://proceedings.mlr.press/v97/lee19d.html
     links:
@@ -249,7 +249,7 @@ Conference:
 
   - name: "Uncertainty-aware attention for reliable interpretation and prediction"
     image: image/publication/C2018_02.png
-    author: Jay Heo\*, Hae Beom Lee\*, Saehoon Kim, <b>Juho Lee</b>, Kwang Joon Kim, Eunho Yang, Sung Ju Hwang
+    author: Jay Heo*, Hae Beom Lee*, Saehoon Kim, <b>Juho Lee</b>, Kwang Joon Kim, Eunho Yang, Sung Ju Hwang
     label: Neural Information Processing Systems (NeurIPS), 2018
     url: https://papers.nips.cc/paper/2018/hash/285e19f20beded7d215102b49d5c09a0-Abstract.html
     links:
