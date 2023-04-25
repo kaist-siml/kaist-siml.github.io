@@ -33,18 +33,42 @@ Journal:
 ##################################################
 Conference:
 
+  - name: "Probabilistic imputation for time-series classification with missing data"
+    author: <b>SeungHyun Kim</b>*, <b>Hyunsu Kim</b>*, <b>Eunggu Yun</b>*, Hwangrae Lee, Jaehun Lee, <b>Juho Lee</b>
+    label: International Conference on Machine Learning (ICML), 2023
+    note: (To appear in ICML 2023)
+
+  - name: "Traversing between modes in function space for fast ensembling"
+    author: <b>Eunggu Yun</b>*, <b>Hyungi Lee</b>*, <b>Giung Nam</b>*, <b>Juho Lee</b>
+    label: International Conference on Machine Learning (ICML), 2023
+    note: (To appear in ICML 2023)
+
+  - name: "Regularizing towards soft equivariance under mixed symmetries"
+    author: <b>Hyunsu Kim</b>, <b>Hyungi Lee</b>, Hongseok Yang, <b>Juho Lee</b>
+    label: International Conference on Machine Learning (ICML), 2023
+    note: (To appear in ICML 2023)
+
+  - name: "Scalable set encoding with universal mini-batch consistency and unbiased full set gradient approximation"
+    author: Jeffrey Ryan Willette*, <b>Seanie Lee</b>*, Bruno Andreis, Kenji Kawaguchi, <b>Juho Lee</b>, Sung Ju Hwang
+    label: International Conference on Machine Learning (ICML), 2023
+    note: (To appear in ICML 2023)
+
   - name: "Martingale posterior neural processes"
     image: image/publication/C2023_05.png
     author: <b>Hyungi Lee</b>, <b>Eunggu Yun</b>, <b>Giung Nam</b>, Edwin Fong, <b>Juho Lee</b>
     label: International Conference on Learning Representations (ICLR), 2023
     url: https://openreview.net/forum?id=-9PVqZ-IR_
     note: (Spotlight Presentation; notable-top-25%)
+    links:
+      preprint: https://arxiv.org/abs/2304.09431
 
   - name: "Decoupled training for long-tailed classification with stochastic representations"
     image: image/publication/C2023_04.png
     author: <b>Giung Nam</b>*, <b>Sunguk Jang</b>*, <b>Juho Lee</b>
     label: International Conference on Learning Representations (ICLR), 2023
     url: https://openreview.net/forum?id=bcYZwYo-0t
+    links:
+      preprint: https://arxiv.org/abs/2304.09426
 
   - name: "A simple yet powerful deep active learning with snapshot ensembles"
     image: image/publication/C2023_03.png
