@@ -15,8 +15,8 @@ Journal:
   - name: "A unified construction for series representations and finite approximations of completely random measures"
     image: image/publication/J_02.png
     author: <b>Juho Lee</b>, Xenia Miscouridou, François Caron
-    label: To appear in Bernoulli
-    url:
+    label: Bernoulli, August 2023
+    url: https://doi.org/10.3150/22-BEJ1536
     links:
       preprint: https://arxiv.org/abs/1905.10733
 
@@ -24,7 +24,7 @@ Journal:
     image: image/publication/J_01.png
     author: Hwan-Jin Song, Soonyoung Roh, <b>Juho Lee</b>, <b>Giung Nam</b>, <b>Eunggu Yun</b>, <b>Jongmin Yoon</b>, Park Sa Kim
     label: Journal of Advances in Modeling Earth Systems, October 2022
-    url: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021MS002921
+    url: https://doi.org/10.1029/2021MS002921
     links:
       preprint: https://www.essoar.org/doi/abs/10.1002/essoar.10508964.2
 
@@ -339,13 +339,14 @@ Conference:
 Workshop:
 
   - name: "Modeling uplift from observational time-series in continual scenarios"
-    image: image/publication/W_04.png
+    image: image/publication/W_05.png
     author: <b>Sanghyun Kim</b>, <b>Jungwon Choi</b>, NamHee Kim, Jaesung Ryu, <b>Juho Lee</b>
     label: AAAI-23 Bridge on Continual Casality, 2023
     url: https://openreview.net/forum?id=pKyB5wMnTiy
     note: (Oral Presentation)
 
   - name: "Fine-tuning diffusion models with limited data"
+    image: image/publication/W_04.png
     author: <b>Taehong Moon</b>, <b>Moonseok Choi</b>, Gayoung Lee, Jung-Woo Ha, <b>Juho Lee</b>
     label: NeurIPS 2022 Workshop on Score-Based Methods, 2022
     url: https://openreview.net/forum?id=0J6afk9DqrR
