@@ -345,6 +345,11 @@ Workshop:
     url: https://openreview.net/forum?id=pKyB5wMnTiy
     note: (Oral Presentation)
 
+  - name: "Fine-tuning diffusion models with limited data"
+    author: <b>Taehong Moon</b>, <b>Moonseok Choi</b>, Gayoung Lee, Jung-Woo Ha, <b>Juho Lee</b>
+    label: NeurIPS 2022 Workshop on Score-Based Methods, 2022
+    url: https://openreview.net/forum?id=0J6afk9DqrR
+
   - name: "Adaptive strategy for resetting a non-stationary Markov chain during learning via joint stochastic optimization"
     image: image/publication/W_03.png
     author: <b>Hyunsu Kim</b>, <b>Juho Lee</b>, Hongseok Yang
