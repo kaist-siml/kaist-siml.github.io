@@ -75,6 +75,8 @@ Conference:
     author: <b>Seohyeon Jung</b>*, <b>Sanghyun Kim</b>*, <b>Juho Lee</b>
     label: International Conference on Learning Representations (ICLR), 2023
     url: https://openreview.net/forum?id=IVESH65r0Ar
+    links:
+      code: https://github.com/nannullna/snapshot-al
 
   - name: "Self-distillation for further pre-training of transformers"
     image: image/publication/C2023_02.png
