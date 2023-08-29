@@ -34,24 +34,36 @@ Journal:
 Conference:
 
   - name: "Probabilistic imputation for time-series classification with missing data"
+    image: image/publication/C2023_09.png
     author: <b>SeungHyun Kim</b>*, <b>Hyunsu Kim</b>*, <b>Eunggu Yun</b>*, Hwangrae Lee, Jaehun Lee, <b>Juho Lee</b>
     label: International Conference on Machine Learning (ICML), 2023
     url: https://proceedings.mlr.press/v202/kim23m.html
+    links:
+      preprint: https://arxiv.org/abs/2308.06738
 
   - name: "Traversing between modes in function space for fast ensembling"
+    image: image/publication/C2023_08.png
     author: <b>Eunggu Yun</b>*, <b>Hyungi Lee</b>*, <b>Giung Nam</b>*, <b>Juho Lee</b>
     label: International Conference on Machine Learning (ICML), 2023
     url: https://proceedings.mlr.press/v202/yun23a.html
+    links:
+      preprint: https://arxiv.org/abs/2306.11304
 
   - name: "Regularizing towards soft equivariance under mixed symmetries"
+    image: image/publication/C2023_07.png
     author: <b>Hyunsu Kim</b>, <b>Hyungi Lee</b>, Hongseok Yang, <b>Juho Lee</b>
     label: International Conference on Machine Learning (ICML), 2023
     url: https://proceedings.mlr.press/v202/kim23p.html
+    links:
+      preprint: https://arxiv.org/abs/2306.00356
 
   - name: "Scalable set encoding with universal mini-batch consistency and unbiased full set gradient approximation"
+    image: image/publication/C2023_06.png
     author: Jeffrey Ryan Willette*, <b>Seanie Lee</b>*, Bruno Andreis, Kenji Kawaguchi, <b>Juho Lee</b>, Sung Ju Hwang
     label: International Conference on Machine Learning (ICML), 2023
     url: https://proceedings.mlr.press/v202/willette23a.html
+    links:
+      preprint: https://arxiv.org/abs/2208.12401
 
   - name: "Martingale posterior neural processes"
     image: image/publication/C2023_05.png
