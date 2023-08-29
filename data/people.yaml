@@ -2,9 +2,9 @@ professor:
   - name: Juho Lee
     email: juholee@kaist.ac.kr
     interests:
-      - Bayesian deep learning & deep Bayesian learning
-      - Bayesian nonparametric models
-      - Random graph models
+      - Bayesian deep learning & nonparametrics
+      - Generative modeling
+      - Meta-learning
     url: https://juho-lee.github.io
     image: image/people/jhlee.jpg
 
@@ -14,7 +14,7 @@ postdoc:
     email: becre1776@kaist.ac.kr
     interests:
       - Bayesian deep learning
-      - Gaussian process model and Kernel method
+      - Gaussian processes and kernel methods
       - PAC-Bayes generalization bound
     url: https://e2ee22.github.io/
     image: image/people/yhjung.jpg
@@ -32,7 +32,7 @@ phd:
   - name: Balhae Kim
     email: balhaekim@kaist.ac.kr
     interests:
-      - Meta-Learning
+      - Meta-learning
     image: image/people/bhkim.jpg
 
   - name: Jungwon Choi
@@ -55,7 +55,7 @@ phd:
     interests:
       - Natural language processing
       - Bayesian network
-      - Meta-Learning
+      - Meta-learning
     url: https://seanie12.github.io
     image: image/people/snlee.jpg
 
