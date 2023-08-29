@@ -129,6 +129,33 @@ ms:
       - Bayesian deep learning
     image: image/people/cyjang.jpg
 
+  - name: Gyeonghoon Ko
+    email: kog@kaist.ac.kr
+    interests:
+      - Geometric deep learning
+    image: image/people/ghko.jpg
+
+  - name: Yegon Kim
+    email: jcy9911@kaist.ac.kr
+    interests:
+      - Inductive bias
+      - OOD generalization
+      - Bayesian inference
+    url: https://yegonkim.github.io
+    image: image/people/ygkim.jpg
+
+  - name: JongGeon Park
+    email: parkjonggeon@kaist.ac.kr
+    interests:
+      - Generative modeling
+    image: image/people/jgpark.jpg
+
+  - name: Jeongjun Lee
+    email: lee.jeongjun@kaist.ac.kr
+    interests:
+      - Generative modeling
+    image: image/people/jjlee.jpg
+
   # - name: Some One
   #   email: example@kaist.ac.kr
   #   interests:
