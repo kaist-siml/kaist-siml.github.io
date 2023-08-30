@@ -130,7 +130,7 @@ ms:
     image: image/people/ghko.jpg
 
   - name: Yegon Kim
-    email: jcy9911@kaist.ac.kr
+    email: yegonkim@kaist.ac.kr
     interests:
       - Inductive bias
       - OOD generalization
