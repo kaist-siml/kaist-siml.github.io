@@ -92,12 +92,6 @@ phd:
 ##################################################
 ms:
 
-  - name: Taehong Moon
-    email: josephmoon2019@gmail.com
-    interests:
-      - Generative modeling
-    image: image/people/thmoon.jpg
-
   - name: Seongho Keum
     email: shkeum@kaist.ac.kr
     interests:
@@ -178,4 +172,8 @@ alumni:
   - name: EungGu Yun
     image: image/people/egyun.jpg
     url: https://yuneg11.github.io
+    note: (MS 2023)
+
+  - name: Taehong Moon
+    image: image/people/thmoon.jpg
     note: (MS 2023)
