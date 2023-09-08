@@ -32,7 +32,10 @@ phd:
   - name: Balhae Kim
     email: balhaekim@kaist.ac.kr
     interests:
+      - Bayesian deep learning
+      - Dataset distillation
       - Meta-learning
+    url: https://www.linkedin.com/in/balhaekim/
     image: image/people/bhkim.jpg
 
   - name: Jungwon Choi
