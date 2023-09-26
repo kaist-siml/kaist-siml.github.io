@@ -33,6 +33,10 @@ Journal:
 ##################################################
 Conference:
 
+  - name: "Function space Bayesian pseudocoreset for Bayesian neural networks"
+    author: <b>Balhae Kim</b>, <b>Hyungi Lee</b>, <b>Juho Lee</b>
+    label: Neural Information Processing Systems (NeurIPS), 2023 (To appear)
+
   - name: "Probabilistic imputation for time-series classification with missing data"
     image: image/publication/C2023_09.png
     author: <b>SeungHyun Kim</b>*, <b>Hyunsu Kim</b>*, <b>Eunggu Yun</b>*, Hwangrae Lee, Jaehun Lee, <b>Juho Lee</b>
