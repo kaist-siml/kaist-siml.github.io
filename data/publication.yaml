@@ -264,7 +264,7 @@ Conference:
 
   - name: "Set transformer: a framework for attention-based permutation-invariant neural networks"
     image: image/publication/C2019_03.png
-    author: Fadhel Ayed*, <b>Juho Lee</b>*, François Caron
+    author: <b>Juho Lee</b>, Yoonho Lee, Jungtaek Kim, Adam Kosiorek, Seungjin Choi, Yee Whye Teh
     label: International Conference on Machine Learning (ICML), 2019
     url: https://proceedings.mlr.press/v97/lee19d.html
     links:
