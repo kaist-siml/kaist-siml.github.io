@@ -4,13 +4,12 @@
 
 Journal:
 
-  - name: "The Normal-Generalised Gamma-Pareto process: A novel pure-jump Lévy process with flexible tail and jump-activity properties"
-    image: image/publication/J_03.png
-    author: Fadhel Ayed, <b>Juho Lee</b>, François Caron
-    label: To appear in Bayesian Anaylsis
-    url:
+  - name: "Deep neural networks with dependent weights: Gaussian process mixture limit, heavy tails, sparsity and compressibility"
+    author: Hoil Lee, Fadhel Ayed, Paul Jung, <b>Juho Lee</b>, Hongseok Yang, François Caron
+    label: Journal of Machine Learning Research, September 2023
+    url: https://www.jmlr.org/papers/v24/22-0537.html
     links:
-      preprint: https://arxiv.org/abs/2006.10968
+      preprint: https://arxiv.org/abs/2205.08187
 
   - name: "A unified construction for series representations and finite approximations of completely random measures"
     image: image/publication/J_02.png
@@ -19,6 +18,14 @@ Journal:
     url: https://doi.org/10.3150/22-BEJ1536
     links:
       preprint: https://arxiv.org/abs/1905.10733
+
+  - name: "The Normal-Generalised Gamma-Pareto process: A novel pure-jump Lévy process with flexible tail and jump-activity properties"
+    image: image/publication/J_03.png
+    author: Fadhel Ayed, <b>Juho Lee</b>, François Caron
+    label: Bayesian Anaylsis, December 2022
+    url: https://doi.org/10.1214/22-BA1343
+    links:
+      preprint: https://arxiv.org/abs/2006.10968
 
   - name: "Benefits of stochastic weight averaging in developing neural network radiation scheme for numerical weather prediction"
     image: image/publication/J_01.png
@@ -33,9 +40,19 @@ Journal:
 ##################################################
 Conference:
 
+  - name: "Spear and shield: adversarial attacks and defense methods for model-based link prediction on continuous-time dynamic graphs"
+    author: Dongjin Lee, <b>Juho Lee</b>, Kijung Shin
+    label: Association for the Advancement of Artificial Intelligence (AAAI), 2024 (To appear)
+    url:
+    links:
+      preprint: https://arxiv.org/abs/2308.10779
+
   - name: "Function space Bayesian pseudocoreset for Bayesian neural networks"
     author: <b>Balhae Kim</b>, <b>Hyungi Lee</b>, <b>Juho Lee</b>
-    label: Neural Information Processing Systems (NeurIPS), 2023 (To appear)
+    label: Neural Information Processing Systems (NeurIPS), 2023
+    url: https://openreview.net/forum?id=bM6mynsusR
+    links:
+      preprint: https://arxiv.org/abs/2310.17852
 
   - name: "Probabilistic imputation for time-series classification with missing data"
     image: image/publication/C2023_09.png
