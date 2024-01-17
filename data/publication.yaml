@@ -68,6 +68,7 @@ Conference:
       preprint: https://arxiv.org/abs/2308.10779
 
   - name: "Function space Bayesian pseudocoreset for Bayesian neural networks"
+    image: image/publication/C2023_10.png
     author: <b>Balhae Kim</b>, <b>Hyungi Lee</b>, <b>Juho Lee</b>
     label: Neural Information Processing Systems (NeurIPS), 2023
     url: https://openreview.net/forum?id=bM6mynsusR
