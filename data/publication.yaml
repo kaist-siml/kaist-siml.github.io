@@ -5,6 +5,7 @@
 Journal:
 
   - name: "Deep neural networks with dependent weights: Gaussian process mixture limit, heavy tails, sparsity and compressibility"
+    image: image/publication/J_04.png
     author: Hoil Lee, Fadhel Ayed, Paul Jung, <b>Juho Lee</b>, Hongseok Yang, François Caron
     label: Journal of Machine Learning Research, September 2023
     url: https://www.jmlr.org/papers/v24/22-0537.html
