@@ -395,6 +395,24 @@ Conference:
 
 Workshop:
 
+  - name: "Early exiting for accelerated inference in diffusion models"
+    image: image/publication/W_08.png
+    author: <b>Taehong Moon</b>, <b>Moonseok Choi</b>, <b>EungGu Yun</b>, <b>Jongmin Yoon</b>, Gayoung Lee, <b>Juho Lee</b>
+    label: ICML 2023 workshop on Structured Probabilistic Inference & Generative Modeling, 2023
+    url: https://openreview.net/forum?id=nhGdjo9Xed
+
+  - name: "Function space Bayesian pseudocoreset for Bayesian neural networks"
+    image: image/publication/W_07.png
+    author: <b>Balhae Kim</b>, <b>Hyungi Lee</b>, <b>Juho Lee</b>
+    label: ICML 2023 workshop on Structured Probabilistic Inference & Generative Modeling, 2023
+    url: https://openreview.net/forum?id=VTtUDU9YNE
+
+  - name: "Towards safe self-distillation of internet-scale text-to-image diffusion models"
+    image: image/publication/W_06.png
+    author: <b>Sanghyun Kim</b>, <b>Seohyeon Jung</b>, <b>Balhae Kim</b>, <b>Moonseok Choi</b>, Jinwoo Shin, <b>Juho Lee</b>
+    label: ICML 2023 Workshop on Challenges in Deployable Generative AI, 2023
+    url: https://openreview.net/forum?id=6zALFeqxY0
+
   - name: "Modeling uplift from observational time-series in continual scenarios"
     image: image/publication/W_05.png
     author: <b>Sanghyun Kim</b>, <b>Jungwon Choi</b>, NamHee Kim, Jaesung Ryu, <b>Juho Lee</b>
