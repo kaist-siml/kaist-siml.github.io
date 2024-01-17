@@ -1,5 +1,6 @@
 ## Recent news from SIML
 
+- (2024.01) 5 papers were accepted to ICLR 2024.
 - (2023.09) 1 paper was accepted to NeurIPS 2023.
 - (2023.04) 4 papers were accepted to ICML 2023.
 - (2023.01) 5 papers were accepted to ICLR 2023 (including one spotlight presentation).
