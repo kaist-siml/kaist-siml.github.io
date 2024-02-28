@@ -29,15 +29,6 @@ phd:
     url: https://jmyoon1.github.io
     image: image/people/jmyoon.jpg
 
-  - name: Balhae Kim
-    email: balhaekim@kaist.ac.kr
-    interests:
-      - Bayesian deep learning
-      - Dataset distillation
-      - Meta-learning
-    url: https://www.linkedin.com/in/balhaekim/
-    image: image/people/bhkim.jpg
-
   - name: Jungwon Choi
     email: jungwon.choi@kaist.ac.kr
     interests:
@@ -84,6 +75,12 @@ phd:
     url: https://cs-giung.github.io
     image: image/people/gunam.jpg
 
+  - name: SeungHyun Kim
+    email: sh0776879@gmail.com
+    interests:
+      - Bayesian deep learning
+    image: image/people/shkim.jpg
+
   # - name: Some One
   #   email: example@kaist.ac.kr
   #   interests:
@@ -94,24 +91,6 @@ phd:
 
 ##################################################
 ms:
-
-  - name: Seongho Keum
-    email: shkeum@kaist.ac.kr
-    interests:
-      - Attention mechanisms
-    image: image/people/shkeum.jpg
-
-  - name: Seohyeon Jung
-    email: heon2203@kaist.ac.kr
-    interests:
-      - Active learning
-    image: image/people/shjung.jpg
-
-  - name: SeungHyun Kim
-    email: sh0776879@gmail.com
-    interests:
-      - Bayesian deep learning
-    image: image/people/shkim.jpg
 
   - name: Sanghyun Kim
     email: nannullna@kaist.ac.kr
@@ -153,6 +132,20 @@ ms:
       - Generative modeling
     image: image/people/jjlee.jpg
 
+  - name: Joonhyeong Park
+    email: jhpark.kaist@gmail.com
+    interests:
+      - Bayesian deep learning
+      - Generative modeling
+    image: image/dummy.svg
+
+  - name: Byoungwoo Park
+    email: bw.park@kaist.ac.kr
+    interests:
+      - Bayesian deep learning
+    url: https://bw-park.github.io/
+    image: image/dummy.svg
+
   # - name: Some One
   #   email: example@kaist.ac.kr
   #   interests:
@@ -163,6 +156,19 @@ ms:
 
 ##################################################
 alumni:
+
+  - name: Balhae Kim
+    image: image/people/bhkim.jpg
+    url: https://www.linkedin.com/in/balhaekim/
+    note: (PhD 2024)
+
+  - name: Seongho Keum
+    image: image/people/shkeum.jpg
+    note: (MS 2024)
+
+  - name: Seohyeon Jung
+    image: image/people/shjung.jpg
+    note: (MS 2024)
 
   - name: Hyun Mog Kim
     image: image/people/hmkim.jpg
