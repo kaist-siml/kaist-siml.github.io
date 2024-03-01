@@ -132,18 +132,18 @@ ms:
       - Generative modeling
     image: image/people/jjlee.jpg
 
+  - name: Byoungwoo Park
+    email: bw.park@kaist.ac.kr
+    interests:
+      - Stochastic Opitmal Control
+    url: https://bw-park.github.io/
+    image: image/people/bwpark.jpg
+
   - name: Joonhyeong Park
     email: jhpark.kaist@gmail.com
     interests:
       - Bayesian deep learning
       - Generative modeling
-    image: image/dummy.svg
-
-  - name: Byoungwoo Park
-    email: bw.park@kaist.ac.kr
-    interests:
-      - Bayesian deep learning
-    url: https://bw-park.github.io/
     image: image/dummy.svg
 
   # - name: Some One
