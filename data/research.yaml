@@ -26,7 +26,7 @@
 - name: Healthcare
   image: image/research/healthcare.png
   description: |
-    Detecting cancer was doctors' exclusive work before. Nowadays, thanks to the development of WSI(whole slide image), AI can detect cancer either.
+    Detecting cancer was doctors' exclusive work before. Nowadays, thanks to the development of WSI(whole slide image), AI can also detect cancer.
     AS WSI is too big to fit into modern CNN architectures, it is divided into thousand of patches.
     Also, there are only about 1000 WSI labels per dataset which easily provokes an over-fitting problem.
     Our lab focuses on multiple instance learning, where only slide-level labels are given.
