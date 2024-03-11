@@ -31,20 +31,26 @@ export default () => ({
         if (!/\.md$/.test(id)) return null;
 
         const fileName = path.basename(id);
-        // const { data, content: rawContent } = matter(md);
-        // const { title, date } = data;
-        // const slug = fileName.split('.')[0];
+        /*
+         * const { data, content: rawContent } = matter(md);
+         * const { title, date } = data;
+         * const slug = fileName.split('.')[0];
+         */
 
         // const html = marked(content);
         const html = marked(md);
         // const printDate = formatDate(new Date(date), 'yyyy-MM-dd');
 
         const exportFromModule = JSON.stringify({
-            // title: title || slug,
-            // slug,
+            /*
+             * title: title || slug,
+             * slug,
+             */
             html,
-            // date,
-            // printDate,
+            /*
+             * date,
+             * printDate,
+             */
         });
 
         return {
