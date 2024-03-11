@@ -18,7 +18,7 @@
         currId = currId === imgLen - 1 ? 0 : currId + 1;
         moveSlider();
     };
-        
+
     const prev = () => {
         currId = currId === 0 ? imgLen - 1 : currId - 1;
         moveSlider();
