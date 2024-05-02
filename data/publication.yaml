@@ -41,6 +41,18 @@ Journal:
 ##################################################
 Conference:
 
+  - name: "Variational partial group convolutions for input-aware partial equivariance of rotations and color-shifts"
+    author: <b>Hyunsu Kim</b>, <b>Yegon Kim</b>, Hongseok Yang, <b>Juho Lee</b>
+    label: International Conference on Machine Learning (ICML), 2024 (To appear)
+
+  - name: "A simple early exiting framework for accelerated sampling in diffusion models"
+    author: <b>Taehong Moon</b>, <b>Moonseok Choi</b>, <b>EungGu Yun</b>, <b>Jongmin Yoon</b>, Gayoung Lee, Jaewoong Cho, <b>Juho Lee</b>
+    label: International Conference on Machine Learning (ICML), 2024 (To appear)
+
+  - name: "Learning to explore for stochastic gradient MCMC"
+    author: <b>Seunghyun Kim</b>*, <b>Seohyeon Jung</b>*, <b>Seonghyeon Kim</b>, <b>Juho Lee</b>
+    label: International Conference on Machine Learning (ICML), 2024 (To appear)
+
   - name: "Fast ensembling with diffusion Schrödinger bridge"
     author: <b>Hyunsu Kim</b>*, <b>Jongmin Yoon</b>*, <b>Juho Lee</b>
     label: International Conference on Learning Representations (ICLR), 2024 (To appear)
