@@ -40,8 +40,9 @@ phd:
   - name: Hyunsu Kim
     email: kim.hyunsu@kaist.ac.kr
     interests:
-      - Markov chain Monte Carlo
-      - Variational autoencoder
+      - Bayesian Inference
+      - Symmetry in AI
+    url: https://kim-hyunsu.github.io
     image: image/people/hskim.jpg
 
   - name: Seanie Lee
