@@ -55,27 +55,32 @@ Conference:
 
   - name: "Fast ensembling with diffusion Schrödinger bridge"
     author: <b>Hyunsu Kim</b>*, <b>Jongmin Yoon</b>*, <b>Juho Lee</b>
-    label: International Conference on Learning Representations (ICLR), 2024 (To appear)
+    label: International Conference on Learning Representations (ICLR), 2024
+    url: https://openreview.net/forum?id=Mgq6kxl115
 
   - name: "Sparse weight averaging with multiple particles for iterative magnitude pruning"
     author: <b>Moonseok Choi</b>*, <b>Hyungi Lee</b>*, <b>Giung Nam</b>*, <b>Juho Lee</b>
-    label: International Conference on Learning Representations (ICLR), 2024 (To appear)
+    label: International Conference on Learning Representations (ICLR), 2024
+    url: https://openreview.net/forum?id=Y9t7MqZtCR
 
   - name: "Lipsum-FT: Robust fine-tuning of zero-shot models using random text guidance"
     author: <b>Giung Nam</b>, Byeongho Heo, <b>Juho Lee</b>
-    label: International Conference on Learning Representations (ICLR), 2024 (To appear)
+    label: International Conference on Learning Representations (ICLR), 2024
+    url: https://openreview.net/forum?id=2JF8mJRJ7M
 
   - name: "Enhancing transfer learning with flexible nonparametric posterior sampling"
     author: <b>Hyungi Lee</b>*, <b>Giung Nam</b>*, Edwin Fong, <b>Juho Lee</b>
-    label: International Conference on Learning Representations (ICLR), 2024 (To appear)
+    label: International Conference on Learning Representations (ICLR), 2024
+    url: https://openreview.net/forum?id=vSwu81S33z
 
   - name: "Self-supervised dataset distillation for transfer learning"
     author: Dong Bok Lee*, <b>Seanie Lee</b>*, Joonho Ko, Kenji Kawaguchi, <b>Juho Lee</b>, Sung Ju Hwang
-    label: International Conference on Learning Representations (ICLR), 2024 (To appear)
+    label: International Conference on Learning Representations (ICLR), 2024
+    url: https://openreview.net/forum?id=h57gkDO2Yg
 
   - name: "Spear and shield: adversarial attacks and defense methods for model-based link prediction on continuous-time dynamic graphs"
     author: Dongjin Lee, <b>Juho Lee</b>, Kijung Shin
-    label: Association for the Advancement of Artificial Intelligence (AAAI), 2024 (To appear)
+    label: Association for the Advancement of Artificial Intelligence (AAAI), 2024
     url:
     links:
       preprint: https://arxiv.org/abs/2308.10779
