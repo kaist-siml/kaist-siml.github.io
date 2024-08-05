@@ -41,6 +41,14 @@ Journal:
 ##################################################
 Conference:
 
+  - name: "Safeguard Text-to-Image Diffusion Models with Human Feedback Inversion"
+    image: image/publication/C2024_10.png
+    author: <b>Sanghyun Kim</b>, <b>Seohyeon Jung</b>, <b>Balhae Kim</b>, <b>Moonseok Choi</b>, Jinwoo Shin, <b>Juho Lee</b>
+    label: European Conference on Computer Vision (ECCV), 2024
+    url: 
+    links:
+      preprint: https://arxiv.org/abs/2407.21032
+
   - name: "Variational partial group convolutions for input-aware partial equivariance of rotations and color-shifts"
     image: image/publication/C2024_09.png
     author: <b>Hyunsu Kim</b>, <b>Yegon Kim</b>, Hongseok Yang, <b>Juho Lee</b>
