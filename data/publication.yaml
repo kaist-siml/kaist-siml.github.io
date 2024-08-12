@@ -433,6 +433,7 @@ Conference:
 ##################################################
 
 Workshop and Others:
+
   - name: "Large-scale graph representation learning of dynamic brain connectome with transformers"
     image: image/publication/W_10.png
     author: Byung-Hoon Kim*, <b>Jungwon Choi</b>*, <b>EungGu Yun</b>, Kyungsang Kim, Xiang Li, <b>Juho Lee</b>
