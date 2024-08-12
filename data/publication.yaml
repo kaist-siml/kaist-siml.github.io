@@ -432,8 +432,20 @@ Conference:
 # Workshops
 ##################################################
 
-Workshop:
+Workshop and Others:
+  - name: "Large-scale graph representation learning of dynamic brain connectome with transformers"
+    image: image/publication/W_10.png
+    author: Byung-Hoon Kim*, <b>Jungwon Choi</b>*, <b>EungGu Yun</b>, Kyungsang Kim, Xiang Li, <b>Juho Lee</b>
+    label: NeurIPS 2023 workshop on Temporal Graph Learning, 2023 and IEEE International Symposium on Biomedical Imaging (ISBI), 2024
+    url: https://openreview.net/forum?id=JXranzV2zV
+    note: (Oral Presentation)
 
+  - name: "A generative self-supervised framework using functional connectivity in fMRI data"
+    image: image/publication/W_09.png
+    author: <b>Jungwon Choi</b>, <b>Seongho Keum</b>, <b>EungGu Yun</b>,  Byung-Hoon Kim, <b>Juho Lee</b>
+    label: NeurIPS 2023 workshop on Temporal Graph Learning, 2023
+    url: https://openreview.net/forum?id=JXranzV2zV
+    
   - name: "Early exiting for accelerated inference in diffusion models"
     image: image/publication/W_08.png
     author: <b>Taehong Moon</b>, <b>Moonseok Choi</b>, <b>EungGu Yun</b>, <b>Jongmin Yoon</b>, Gayoung Lee, <b>Juho Lee</b>
