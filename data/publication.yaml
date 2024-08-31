@@ -438,7 +438,7 @@ Symposium and Workshop:
     image: image/publication/W_10.png
     author: Byung-Hoon Kim*, <b>Jungwon Choi</b>*, <b>EungGu Yun</b>, Kyungsang Kim, Xiang Li, <b>Juho Lee</b>
     label: NeurIPS 2023 workshop on Temporal Graph Learning, 2023 and IEEE International Symposium on Biomedical Imaging (ISBI), 2024
-    url: https://openreview.net/forum?id=JXranzV2zV
+    url: https://ieeexplore.ieee.org/document/10635508
     note: (Oral Presentation)
 
   - name: "A generative self-supervised framework using functional connectivity in fMRI data"
