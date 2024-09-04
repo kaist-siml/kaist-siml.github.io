@@ -9,25 +9,18 @@ professor:
     image: image/people/jhlee.jpg
 
 ##################################################
-postdoc:
-  - name: Yohan Jung
-    email: becre1776@kaist.ac.kr
-    interests:
-      - Bayesian deep learning
-      - Gaussian processes and kernel methods
-      - PAC-Bayes generalization bound
-    url: https://e2ee22.github.io/
-    image: image/people/yhjung.jpg
+#postdoc:
+#   - name: Yohan Jung
+#     email: becre1776@kaist.ac.kr
+#     interests:
+#       - Bayesian deep learning
+#       - Gaussian processes and kernel methods
+#       - PAC-Bayes generalization bound
+#     url: https://e2ee22.github.io/
+#     image: image/people/yhjung.jpg
 
 ##################################################
 phd:
-  - name: Jongmin Yoon
-    email: jm.yoon@kaist.ac.kr
-    interests:
-      - Generative modeling
-      - Adversarial robustness
-    url: https://jmyoon1.github.io
-    image: image/people/jmyoon.jpg
 
   - name: Jungwon Choi
     email: jungwon.choi@kaist.ac.kr
@@ -82,6 +75,12 @@ phd:
       - Bayesian deep learning
     image: image/people/shkim.jpg
 
+  - name: Gyeonghoon Ko
+    email: kog@kaist.ac.kr
+    interests:
+      - Geometric deep learning
+    image: image/people/ghko.jpg
+
   # - name: Some One
   #   email: example@kaist.ac.kr
   #   interests:
@@ -93,24 +92,11 @@ phd:
 ##################################################
 ms:
 
-  - name: Sanghyun Kim
-    email: nannullna@kaist.ac.kr
-    interests:
-      - Data-efficient learning
-      - Causal inference
-    image: image/people/sanghyun.jpg
-
   - name: Chaeyun Jang
     email: jcy9911@kaist.ac.kr
     interests:
       - Bayesian deep learning
     image: image/people/cyjang.jpg
-
-  - name: Gyeonghoon Ko
-    email: kog@kaist.ac.kr
-    interests:
-      - Geometric deep learning
-    image: image/people/ghko.jpg
 
   - name: Yegon Kim
     email: yegonkim@kaist.ac.kr
@@ -145,7 +131,15 @@ ms:
     interests:
       - Bayesian deep learning
       - Generative modeling
-    image: image/dummy.svg
+    image: image/people/jhpark.jpg
+
+  - name: Seungyoo Lee
+    email: punctuate@kaist.ac.kr
+    interests:
+      - Natural language processing
+      - Large language model
+      - Data-efficient learning
+    image: image/people/sylee.jpg
 
   # - name: Some One
   #   email: example@kaist.ac.kr
@@ -157,11 +151,24 @@ ms:
 
 ##################################################
 alumni:
+  - name: Yohan Jung
+    image: image/people/yhjung.jpg
+    url: https://e2ee22.github.io/
+    note: (PostDoc 2024)
 
+  - name: Jongmin Yoon
+    image: image/people/jmyoon.jpg
+    url: https://jmyoon1.github.io
+    note: (PhD 2024)
+    
   - name: Balhae Kim
     image: image/people/bhkim.jpg
     url: https://www.linkedin.com/in/balhaekim/
     note: (PhD 2024)
+
+  - name: Sanghyun Kim
+    image: image/people/sanghyun.jpg
+    note: (MS 2024)
 
   - name: Seongho Keum
     image: image/people/shkeum.jpg
