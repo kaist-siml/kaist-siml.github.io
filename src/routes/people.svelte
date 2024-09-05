@@ -60,7 +60,6 @@
                 {/each}
             </div>
         </div>
-        <!--
         <div>
             <h2>Postdocs</h2>
             <div class="row">
@@ -69,7 +68,6 @@
                 {/each}
             </div>
         </div>
-        -->
         <div>
             <h2>PhD Students</h2>
             <div class="row">

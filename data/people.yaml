@@ -9,15 +9,15 @@ professor:
     image: image/people/jhlee.jpg
 
 ##################################################
-#postdoc:
-#   - name: Yohan Jung
-#     email: becre1776@kaist.ac.kr
-#     interests:
-#       - Bayesian deep learning
-#       - Gaussian processes and kernel methods
-#       - PAC-Bayes generalization bound
-#     url: https://e2ee22.github.io/
-#     image: image/people/yhjung.jpg
+postdoc:
+   - name: Haebeom Lee
+     email: haebeom.lee@kaist.ac.kr
+     interests:
+       - Meta-learning
+       - AutoML
+       - Probabilistic/Bayesian inference
+     url: https://haebeom-lee.github.io/
+     image: image/people/hblee.jpg
 
 ##################################################
 phd:
