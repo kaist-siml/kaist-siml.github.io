@@ -70,8 +70,8 @@
     <div class="content">
         <p class="justify-left">
             <i class="bi bi-geo-alt"></i>
-            <a href="https://goo.gl/maps/mga73qU9oT8Bhz8D6" target="_blank">
-                KAIST N5, Room 2225
+            <a href="https://maps.app.goo.gl/pUsxLKwNetAkt3pg8" target="_blank">
+                Seoul AI Hub, 5th Floor
             </a>
         </p>
     </div>

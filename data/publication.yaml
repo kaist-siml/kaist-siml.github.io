@@ -41,6 +41,33 @@ Journal:
 ##################################################
 Conference:
 
+  - name: "Model Fusion through Bayesian Optimization in Language Model Fine-Tuning"
+    image: 
+    author: <b>Chaeyun Jang</b>*, <b>Hyungi Lee</b>*, Jungtaek Kim, <b>Juho Lee</b>
+    label: Neural Information Processing Systems (NeurIPS), 2024
+    url: 
+    note: (Spotlight Presentation)
+
+  - name: "Ex Uno Pluria: Insights on Ensembling in Low Precision Number Systems"
+    image: 
+    author: <b>Giung Nam</b>, <b>Juho Lee</b>
+    label: Neural Information Processing Systems (NeurIPS), 2024
+    url: 
+
+  - name: "Learning Infinitesimal Generators of Continuous Symmetries from Data"
+    image: 
+    author: <b>Gyeonghoon Ko</b>, <b>Hyunsu Kim</b>, <b>Juho Lee</b>
+    label: Neural Information Processing Systems (NeurIPS), 2024
+    url: 
+
+  - name: "Stochastic Optimal Control for Diffusion Bridges in Function Spaces"
+    image: image/publication/C2024_11.png
+    author: <b>Byoungwoo Park</b>, <b>Jungwon Choi</b>, Sungbin Lim, <b>Juho Lee</b>
+    label: Neural Information Processing Systems (NeurIPS), 2024
+    url: 
+    links: 
+      preprint: https://arxiv.org/abs/2405.20630
+
   - name: "Safeguard Text-to-Image Diffusion Models with Human Feedback Inversion"
     image: image/publication/C2024_10.png
     author: <b>Sanghyun Kim</b>, <b>Seohyeon Jung</b>, <b>Balhae Kim</b>, <b>Moonseok Choi</b>, Jinwoo Shin, <b>Juho Lee</b>
