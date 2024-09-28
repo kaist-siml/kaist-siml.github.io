@@ -461,14 +461,14 @@ Conference:
 
 Symposium and Workshop:
   - name: "Learning Dynamic Brain Connectome with Graph Transformers for Psychiatric Diagnosis Classification"
-    image: image/publication/S_2.png
+    image: image/publication/S_02.png
     author: Byung-Hoon Kim*, <b>Jungwon Choi</b>*, <b>EungGu Yun</b>, Kyungsang Kim, Xiang Li, <b>Juho Lee</b>
     label: IEEE International Symposium on Biomedical Imaging (ISBI), 2024
     url: https://ieeexplore.ieee.org/document/10635508
     note: (Oral Presentation)
 
   - name: "Large-scale graph representation learning of dynamic brain connectome with transformers"
-    image: image/publication/W_9.png
+    image: image/publication/W_09.png
     author: Byung-Hoon Kim*, <b>Jungwon Choi</b>*, <b>EungGu Yun</b>, Kyungsang Kim, Xiang Li, <b>Juho Lee</b>
     label: NeurIPS 2023 workshop on Temporal Graph Learning, 2023
     url: https://openreview.net/forum?id=WvFHDkIhmp
