@@ -460,53 +460,58 @@ Conference:
 ##################################################
 
 Symposium and Workshop:
-
-  - name: "Large-scale graph representation learning of dynamic brain connectome with transformers"
-    image: image/publication/W_10.png
+  - name: "Learning Dynamic Brain Connectome with Graph Transformers for Psychiatric Diagnosis Classification"
+    image: image/publication/S_2.png
     author: Byung-Hoon Kim*, <b>Jungwon Choi</b>*, <b>EungGu Yun</b>, Kyungsang Kim, Xiang Li, <b>Juho Lee</b>
-    label: NeurIPS 2023 workshop on Temporal Graph Learning, 2023 and IEEE International Symposium on Biomedical Imaging (ISBI), 2024
+    label: IEEE International Symposium on Biomedical Imaging (ISBI), 2024
     url: https://ieeexplore.ieee.org/document/10635508
     note: (Oral Presentation)
 
+  - name: "Large-scale graph representation learning of dynamic brain connectome with transformers"
+    image: image/publication/W_9.png
+    author: Byung-Hoon Kim*, <b>Jungwon Choi</b>*, <b>EungGu Yun</b>, Kyungsang Kim, Xiang Li, <b>Juho Lee</b>
+    label: NeurIPS 2023 workshop on Temporal Graph Learning, 2023
+    url: https://openreview.net/forum?id=WvFHDkIhmp
+
   - name: "A generative self-supervised framework using functional connectivity in fMRI data"
-    image: image/publication/W_09.png
+    image: image/publication/W_08.png
     author: <b>Jungwon Choi</b>, <b>Seongho Keum</b>, <b>EungGu Yun</b>,  Byung-Hoon Kim, <b>Juho Lee</b>
     label: NeurIPS 2023 workshop on Temporal Graph Learning, 2023
     url: https://openreview.net/forum?id=JXranzV2zV
-    
+
   - name: "Early exiting for accelerated inference in diffusion models"
-    image: image/publication/W_08.png
+    image: image/publication/W_07.png
     author: <b>Taehong Moon</b>, <b>Moonseok Choi</b>, <b>EungGu Yun</b>, <b>Jongmin Yoon</b>, Gayoung Lee, <b>Juho Lee</b>
     label: ICML 2023 workshop on Structured Probabilistic Inference & Generative Modeling, 2023
     url: https://openreview.net/forum?id=nhGdjo9Xed
 
   - name: "Function space Bayesian pseudocoreset for Bayesian neural networks"
-    image: image/publication/W_07.png
+    image: image/publication/W_06.png
     author: <b>Balhae Kim</b>, <b>Hyungi Lee</b>, <b>Juho Lee</b>
     label: ICML 2023 workshop on Structured Probabilistic Inference & Generative Modeling, 2023
     url: https://openreview.net/forum?id=VTtUDU9YNE
 
   - name: "Towards safe self-distillation of internet-scale text-to-image diffusion models"
-    image: image/publication/W_06.png
+    image: image/publication/W_05.png
     author: <b>Sanghyun Kim</b>, <b>Seohyeon Jung</b>, <b>Balhae Kim</b>, <b>Moonseok Choi</b>, Jinwoo Shin, <b>Juho Lee</b>
     label: ICML 2023 Workshop on Challenges in Deployable Generative AI, 2023
     url: https://openreview.net/forum?id=6zALFeqxY0
 
   - name: "Modeling uplift from observational time-series in continual scenarios"
-    image: image/publication/W_05.png
+    image: image/publication/W_04.png
     author: <b>Sanghyun Kim</b>, <b>Jungwon Choi</b>, NamHee Kim, Jaesung Ryu, <b>Juho Lee</b>
     label: AAAI-23 Bridge on Continual Casality, 2023
     url: https://openreview.net/forum?id=pKyB5wMnTiy
     note: (Oral Presentation)
 
   - name: "Fine-tuning diffusion models with limited data"
-    image: image/publication/W_04.png
+    image: image/publication/W_03.png
     author: <b>Taehong Moon</b>, <b>Moonseok Choi</b>, Gayoung Lee, Jung-Woo Ha, <b>Juho Lee</b>
     label: NeurIPS 2022 Workshop on Score-Based Methods, 2022
     url: https://openreview.net/forum?id=0J6afk9DqrR
 
   - name: "Adaptive strategy for resetting a non-stationary Markov chain during learning via joint stochastic optimization"
-    image: image/publication/W_03.png
+    image: image/publication/S_01.png
     author: <b>Hyunsu Kim</b>, <b>Juho Lee</b>, Hongseok Yang
     label: Third Symposium on Advances in Approximate Bayesian Inference, 2021
     url: https://openreview.net/forum?id=fuHh4CC3-5Z
