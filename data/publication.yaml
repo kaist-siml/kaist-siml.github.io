@@ -42,10 +42,12 @@ Journal:
 Conference:
 
   - name: "Model Fusion through Bayesian Optimization in Language Model Fine-Tuning"
-    image: 
+    image: image/publication/C2024_14.png
     author: <b>Chaeyun Jang</b>*, <b>Hyungi Lee</b>*, Jungtaek Kim, <b>Juho Lee</b>
     label: Neural Information Processing Systems (NeurIPS), 2024
     url: 
+    links:
+      preprint: https://arxiv.org/abs/2411.06710
     note: (Spotlight Presentation)
 
   - name: "Ex Uno Pluria: Insights on Ensembling in Low Precision Number Systems"
