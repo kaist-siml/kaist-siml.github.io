@@ -87,18 +87,24 @@ Conference:
     author: <b>Hyunsu Kim</b>, <b>Yegon Kim</b>, Hongseok Yang, <b>Juho Lee</b>
     label: International Conference on Machine Learning (ICML), 2024
     url: https://proceedings.mlr.press/v235/kim24q.html
+    links:
+      preprint: https://arxiv.org/abs/2407.04271
 
   - name: "A simple early exiting framework for accelerated sampling in diffusion models"
     image: image/publication/C2024_08.png
     author: <b>Taehong Moon</b>, <b>Moonseok Choi</b>, <b>EungGu Yun</b>, <b>Jongmin Yoon</b>, Gayoung Lee, Jaewoong Cho, <b>Juho Lee</b>
     label: International Conference on Machine Learning (ICML), 2024
     url: https://proceedings.mlr.press/v235/moon24a.html
+    links:
+      preprint: https://arxiv.org/abs/2408.05927
 
   - name: "Learning to explore for stochastic gradient MCMC"
     image: image/publication/C2024_07.png
     author: <b>Seunghyun Kim</b>*, <b>Seohyeon Jung</b>*, <b>Seonghyeon Kim</b>, <b>Juho Lee</b>
     label: International Conference on Machine Learning (ICML), 2024
     url: https://proceedings.mlr.press/v235/kim24k.html
+    links:
+      preprint: https://arxiv.org/abs/2408.09140
 
   - name: "Fast ensembling with diffusion Schrödinger bridge"
     image: image/publication/C2024_06.png
@@ -113,24 +119,32 @@ Conference:
     author: <b>Moonseok Choi</b>*, <b>Hyungi Lee</b>*, <b>Giung Nam</b>*, <b>Juho Lee</b>
     label: International Conference on Learning Representations (ICLR), 2024
     url: https://openreview.net/forum?id=Y9t7MqZtCR
+    links:
+      preprint: https://arxiv.org/abs/2305.14852
 
   - name: "Lipsum-FT: robust fine-tuning of zero-shot models using random text guidance"
     image: image/publication/C2024_04.png
     author: <b>Giung Nam</b>, Byeongho Heo, <b>Juho Lee</b>
     label: International Conference on Learning Representations (ICLR), 2024
     url: https://openreview.net/forum?id=2JF8mJRJ7M
+    links:
+      preprint: https://arxiv.org/abs/2404.00860
 
   - name: "Enhancing transfer learning with flexible nonparametric posterior sampling"
     image: image/publication/C2024_03.png
     author: <b>Hyungi Lee</b>*, <b>Giung Nam</b>*, Edwin Fong, <b>Juho Lee</b>
     label: International Conference on Learning Representations (ICLR), 2024
     url: https://openreview.net/forum?id=vSwu81S33z
+    links:
+      preprint: https://arxiv.org/abs/2403.07282
 
   - name: "Self-supervised dataset distillation for transfer learning"
     image: image/publication/C2024_02.png
     author: Dong Bok Lee*, <b>Seanie Lee</b>*, Joonho Ko, Kenji Kawaguchi, <b>Juho Lee</b>, Sung Ju Hwang
     label: International Conference on Learning Representations (ICLR), 2024
     url: https://openreview.net/forum?id=h57gkDO2Yg
+    links:
+      preprint: https://arxiv.org/abs/2310.06511
 
   - name: "Spear and shield: adversarial attacks and defense methods for model-based link prediction on continuous-time dynamic graphs"
     image: image/publication/C2024_01.png
