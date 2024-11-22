@@ -41,43 +41,44 @@ Journal:
 ##################################################
 Conference:
 
-  - name: "Model Fusion through Bayesian Optimization in Language Model Fine-Tuning"
+  - name: "Model fusion through Bayesian optimization in language model fine-tuning"
     image: image/publication/C2024_14.png
     author: <b>Chaeyun Jang</b>*, <b>Hyungi Lee</b>*, Jungtaek Kim, <b>Juho Lee</b>
     label: Neural Information Processing Systems (NeurIPS), 2024
-    url: 
+    url: https://openreview.net/forum?id=lV4kTHTgpJ
     links:
       preprint: https://arxiv.org/abs/2411.06710
     note: (Spotlight Presentation)
 
-  - name: "Ex Uno Pluria: Insights on Ensembling in Low Precision Number Systems"
-    image: 
+  - name: "Ex uno pluria: insights on ensembling in low precision number systems"
+    image: image/publication/C2024_13.png
     author: <b>Giung Nam</b>, <b>Juho Lee</b>
     label: Neural Information Processing Systems (NeurIPS), 2024
-    url: 
+    url: https://openreview.net/forum?id=CbtkDWZzDq
 
-  - name: "Learning Infinitesimal Generators of Continuous Symmetries from Data"
+  - name: "Learning infinitesimal generators of continuous symmetries from data"
     image: 
     author: <b>Gyeonghoon Ko</b>, <b>Hyunsu Kim</b>, <b>Juho Lee</b>
     label: Neural Information Processing Systems (NeurIPS), 2024
-    url: 
+    url: https://openreview.net/forum?id=wl44W8xpc7
 
-  - name: "Stochastic Optimal Control for Diffusion Bridges in Function Spaces"
+  - name: "Stochastic optimal control for diffusion bridges in function spaces"
     image: image/publication/C2024_11.png
     author: <b>Byoungwoo Park</b>, <b>Jungwon Choi</b>, Sungbin Lim, <b>Juho Lee</b>
     label: Neural Information Processing Systems (NeurIPS), 2024
-    url: 
+    url: https://openreview.net/forum?id=WyQW4G57Zd
     links: 
       preprint: https://arxiv.org/abs/2405.20630
       code: https://github.com/bw-park/DBFS
 
-  - name: "Safeguard Text-to-Image Diffusion Models with Human Feedback Inversion"
+  - name: "Safeguard text-to-image diffusion models with human feedback inversion"
     image: image/publication/C2024_10.png
     author: <b>Sanghyun Kim</b>, <b>Seohyeon Jung</b>, <b>Balhae Kim</b>, <b>Moonseok Choi</b>, Jinwoo Shin, <b>Juho Lee</b>
     label: European Conference on Computer Vision (ECCV), 2024
-    url: 
+    url: https://link.springer.com/chapter/10.1007/978-3-031-72855-6_8
     links:
       preprint: https://arxiv.org/abs/2407.21032
+      code: https://nannullna.github.io/safeguard-hfi/
 
   - name: "Variational partial group convolutions for input-aware partial equivariance of rotations and color-shifts"
     image: image/publication/C2024_09.png
@@ -111,7 +112,7 @@ Conference:
     label: International Conference on Learning Representations (ICLR), 2024
     url: https://openreview.net/forum?id=Y9t7MqZtCR
 
-  - name: "Lipsum-FT: Robust fine-tuning of zero-shot models using random text guidance"
+  - name: "Lipsum-FT: robust fine-tuning of zero-shot models using random text guidance"
     image: image/publication/C2024_04.png
     author: <b>Giung Nam</b>, Byeongho Heo, <b>Juho Lee</b>
     label: International Conference on Learning Representations (ICLR), 2024
