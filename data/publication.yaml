@@ -57,10 +57,12 @@ Conference:
     url: https://openreview.net/forum?id=CbtkDWZzDq
 
   - name: "Learning infinitesimal generators of continuous symmetries from data"
-    image: 
+    image: image/publication/C2024_12.png
     author: <b>Gyeonghoon Ko</b>, <b>Hyunsu Kim</b>, <b>Juho Lee</b>
     label: Neural Information Processing Systems (NeurIPS), 2024
     url: https://openreview.net/forum?id=wl44W8xpc7
+    links:
+      preprint: https://arxiv.org/abs/2410.21853
 
   - name: "Stochastic optimal control for diffusion bridges in function spaces"
     image: image/publication/C2024_11.png
