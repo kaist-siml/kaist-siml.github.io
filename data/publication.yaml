@@ -54,8 +54,9 @@ Conference:
     image: image/publication/C2024_13.png
     author: <b>Giung Nam</b>, <b>Juho Lee</b>
     label: Neural Information Processing Systems (NeurIPS), 2024
-      preprint: https://arxiv.org/abs/2411.14860
     url: https://openreview.net/forum?id=CbtkDWZzDq
+    links:
+      preprint: https://arxiv.org/abs/2411.14860
 
   - name: "Learning infinitesimal generators of continuous symmetries from data"
     image: image/publication/C2024_12.png
