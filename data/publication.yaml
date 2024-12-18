@@ -43,7 +43,7 @@ Conference:
 
   - name: "Model fusion through Bayesian optimization in language model fine-tuning"
     image: image/publication/C2024_14.png
-    author: <b>Chaeyun Jang</b>*, <b>Hyungi Lee</b>*, Jungtaek Kim, <b>Juho Lee</b>
+    author: <b>Chaeyun Jang</b>*, <b>Hyungi Lee</b>*, Jungtaek Kim†, <b>Juho Lee</b>†
     label: Neural Information Processing Systems (NeurIPS), 2024
     url: https://openreview.net/forum?id=lV4kTHTgpJ
     links:
@@ -68,7 +68,7 @@ Conference:
 
   - name: "Stochastic optimal control for diffusion bridges in function spaces"
     image: image/publication/C2024_11.png
-    author: <b>Byoungwoo Park</b>, <b>Jungwon Choi</b>, Sungbin Lim, <b>Juho Lee</b>
+    author: <b>Byoungwoo Park</b>, <b>Jungwon Choi</b>, Sungbin Lim†, <b>Juho Lee</b>†
     label: Neural Information Processing Systems (NeurIPS), 2024
     url: https://openreview.net/forum?id=WyQW4G57Zd
     links: 
