@@ -2,3 +2,6 @@ node_modules
 /__sapper__/
 /static/bootstrap.*
 .DS_Store
+._.DS_Store
+**/.DS_Store
+**/._.DS_Store
