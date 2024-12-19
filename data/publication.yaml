@@ -489,17 +489,17 @@ Symposium and Workshop:
     url: https://ieeexplore.ieee.org/document/10635508
     note: (Oral Presentation)
 
-  - name: "Large-scale graph representation learning of dynamic brain connectome with transformers"
-    image: image/publication/W_09.png
-    author: Byung-Hoon Kim*, <b>Jungwon Choi</b>*, <b>EungGu Yun</b>, Kyungsang Kim, Xiang Li, <b>Juho Lee</b>
-    label: NeurIPS 2023 workshop on Temporal Graph Learning, 2023
-    url: https://openreview.net/forum?id=WvFHDkIhmp
-
   - name: "A generative self-supervised framework using functional connectivity in fMRI data"
-    image: image/publication/W_08.png
+    image: image/publication/W_09.png
     author: <b>Jungwon Choi</b>, <b>Seongho Keum</b>, <b>EungGu Yun</b>,  Byung-Hoon Kim, <b>Juho Lee</b>
     label: NeurIPS 2023 workshop on Temporal Graph Learning, 2023
     url: https://openreview.net/forum?id=JXranzV2zV
+
+  - name: "Large-scale graph representation learning of dynamic brain connectome with transformers"
+    image: image/publication/W_08.png
+    author: Byung-Hoon Kim*, <b>Jungwon Choi</b>*, <b>EungGu Yun</b>, Kyungsang Kim, Xiang Li, <b>Juho Lee</b>
+    label: NeurIPS 2023 workshop on Temporal Graph Learning, 2023
+    url: https://openreview.net/forum?id=WvFHDkIhmp
 
   - name: "Early exiting for accelerated inference in diffusion models"
     image: image/publication/W_07.png
