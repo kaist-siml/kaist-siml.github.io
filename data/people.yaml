@@ -58,7 +58,8 @@ phd:
     email: lhk2708@kaist.ac.kr
     interests:
       - Stochastic process
-      - Loss landscape
+      - Bayesian inference
+      - Uncertainty calibration for LLM
     url: https://hyungi-lee.github.io/
     image: image/people/hglee.jpg
 
@@ -95,7 +96,8 @@ ms:
   - name: Chaeyun Jang
     email: jcy9911@kaist.ac.kr
     interests:
-      - Bayesian deep learning
+      - Large language models
+      - Uncertainty calibration
     image: image/people/cyjang.jpg
 
   - name: Yegon Kim
