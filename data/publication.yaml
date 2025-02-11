@@ -72,6 +72,7 @@ Conference:
     url: https://openreview.net/forum?id=8zJRon6k5v
     links:
       preprint: https://arxiv.org/pdf/2410.05602
+    note: (Oral Presentation)
 
   - name: "Learning Diverse Attacks on Large Language Models for Robust Red-Teaming and Safety Tuning"
     image: image/dummy_paper.svg
