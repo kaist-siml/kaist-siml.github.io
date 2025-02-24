@@ -9,15 +9,16 @@ professor:
     image: image/people/jhlee.jpg
 
 ##################################################
-postdoc:
-   - name: Haebeom Lee
-     email: haebeom.lee@kaist.ac.kr
-     interests:
-       - Meta-learning
-       - AutoML
-       - Probabilistic/Bayesian inference
-     url: https://haebeom-lee.github.io/
-     image: image/people/hblee.jpg
+# see src/routes/people.svetlte to add postdoc (<!-- ~ -->)
+# postdoc:
+#    - name: Haebeom Lee
+#      email: haebeom.lee@kaist.ac.kr
+#      interests:
+#        - Meta-learning
+#        - AutoML
+#        - Probabilistic/Bayesian inference
+#      url: https://haebeom-lee.github.io/
+#      image: image/people/hblee.jpg
 
 ##################################################
 phd:
@@ -70,17 +71,25 @@ phd:
     url: https://cs-giung.github.io
     image: image/people/gunam.jpg
 
-  - name: SeungHyun Kim
-    email: sh0776879@gmail.com
-    interests:
-      - Bayesian deep learning
-    image: image/people/shkim.jpg
-
   - name: Gyeonghoon Ko
     email: kog@kaist.ac.kr
     interests:
       - Geometric deep learning
     image: image/people/ghko.jpg
+
+  - name: Chaeyun Jang
+    email: jcy9911@kaist.ac.kr
+    interests:
+      - Large language models
+      - Uncertainty calibration
+    image: image/people/cyjang.jpg
+
+  - name: Joonhyeong Park
+    email: jhpark.kaist@gmail.com
+    interests:
+      - Bayesian deep learning
+      - Generative modeling
+    image: image/people/jhpark.jpg
 
   # - name: Some One
   #   email: example@kaist.ac.kr
@@ -93,13 +102,6 @@ phd:
 ##################################################
 ms:
 
-  - name: Chaeyun Jang
-    email: jcy9911@kaist.ac.kr
-    interests:
-      - Large language models
-      - Uncertainty calibration
-    image: image/people/cyjang.jpg
-
   - name: Yegon Kim
     email: yegonkim@kaist.ac.kr
     interests:
@@ -109,7 +111,7 @@ ms:
     url: https://yegonkim.github.io
     image: image/people/ygkim.jpg
 
-  - name: JongGeon Park
+  - name: Jonggeon Park
     email: parkjonggeon@kaist.ac.kr
     interests:
       - Generative modeling
@@ -128,13 +130,6 @@ ms:
     url: https://bw-park.github.io/
     image: image/people/bwpark.jpg
 
-  - name: Joonhyeong Park
-    email: jhpark.kaist@gmail.com
-    interests:
-      - Bayesian deep learning
-      - Generative modeling
-    image: image/people/jhpark.jpg
-
   - name: Seungyoo Lee
     email: punctuate@kaist.ac.kr
     interests:
@@ -142,6 +137,20 @@ ms:
       - Large language model
       - Data-efficient learning
     image: image/people/sylee.jpg
+
+  - name: Sunghyun Kim
+    email: shkim0824@kaist.ac.kr
+    interests:
+      - Bayesian inference
+      - Generative modeling
+    image: image/people/shkim2.png
+
+  - name: Younghwan Gil
+    email: yhgil99@kaist.ac.kr
+    interests:
+      - Mahine unlearning
+      - Self-supervised learnig
+    image: image/people/yhgil.jpg
 
   # - name: Some One
   #   email: example@kaist.ac.kr
@@ -153,6 +162,11 @@ ms:
 
 ##################################################
 alumni:
+  - name: Haebeom Lee
+    image: image/people/hblee.jpg
+    url: https://haebeom-lee.github.io/
+    note: (PostDoc 2024)
+
   - name: Yohan Jung
     image: image/people/yhjung.jpg
     url: https://e2ee22.github.io/
@@ -180,7 +194,7 @@ alumni:
     image: image/people/shjung.jpg
     note: (MS 2024)
 
-  - name: Hyun Mog Kim
+  - name: Hyunmog Kim
     image: image/people/hmkim.jpg
     note: (MS 2023)
 
@@ -188,9 +202,13 @@ alumni:
     image: image/people/sujang.jpg
     note: (MS 2023)
 
-  - name: EungGu Yun
+  - name: Eunggu Yun
     image: image/people/egyun.jpg
     url: https://yuneg11.github.io
+    note: (MS 2023)
+
+  - name: Seunghyun Kim
+    image: image/people/shkim.jpg
     note: (MS 2023)
 
   - name: Taehong Moon
