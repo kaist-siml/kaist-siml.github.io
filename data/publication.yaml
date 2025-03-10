@@ -42,12 +42,12 @@ Journal:
 Conference:
 
   - name: "Parameter Expanded Stochastic Gradient Markov Chain Monte Carlo"
-    image: image/dummy_paper.svg
+    image: image/publication/C2025_06.png
     author: <b>Hyunsu Kim</b>, <b>Giung Nam</b>, Chulhee Yun, Hongseok Yang, and <b>Juho Lee</b>
     label: International Conference on Learning Representations (ICLR), 2025
     url: https://openreview.net/forum?id=exgLs4snap
     links:
-      preprint: 
+      preprint: https://arxiv.org/abs/2503.00699
 
   - name: "Dimension Agnostic Neural Processes"
     image: image/dummy_paper.svg
