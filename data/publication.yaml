@@ -66,12 +66,13 @@ Conference:
       preprint: 
 
   - name: "Amortized Control of Continuous State Space Feynman-Kac Model for Irregular Time Series"
-    image: image/dummy_paper.svg
+    image: image/publication/C2025_03.png
     author: <b>Byoungwoo Park</b>, <b>Hyungi Lee</b>, and <b>Juho Lee</b>
     label: International Conference on Learning Representations (ICLR), 2025
     url: https://openreview.net/forum?id=8zJRon6k5v
     links:
       preprint: https://arxiv.org/pdf/2410.05602
+      code: https://github.com/bw-park/acssm
     note: (Oral Presentation)
 
   - name: "Learning Diverse Attacks on Large Language Models for Robust Red-Teaming and Safety Tuning"
