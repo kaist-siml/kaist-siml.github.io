@@ -82,20 +82,20 @@ Conference:
       preprint: https://arxiv.org/abs/2503.00699
 
   - name: "Dimension Agnostic Neural Processes"
-    image: image/dummy_paper.svg
+    image: image/publication/C2025_05.png
     author: <b>Hyungi Lee</b>, <b>Chaeyun Jang</b>, Dong Bok Lee, and <b>Juho Lee</b>
     label: International Conference on Learning Representations (ICLR), 2025
     url: https://openreview.net/forum?id=uGJxl2odR0
     links:
-      preprint: 
+      preprint: https://arxiv.org/pdf/2502.20661
 
   - name: "Variational Bayesian Pseudo-Coreset"
-    image: image/dummy_paper.svg
+    image: image/publication/C2025_04.png
     author: <b>Hyungi Lee</b>, <b>Seungyoo Lee</b>, and <b>Juho Lee</b>
     label: International Conference on Learning Representations (ICLR), 2025
     url: https://openreview.net/forum?id=0NAVeUm7sk
     links:
-      preprint: 
+      preprint: https://arxiv.org/pdf/2502.21143
 
   - name: "Amortized Control of Continuous State Space Feynman-Kac Model for Irregular Time Series"
     image: image/publication/C2025_03.png
@@ -108,7 +108,7 @@ Conference:
     note: (Oral Presentation)
 
   - name: "Learning Diverse Attacks on Large Language Models for Robust Red-Teaming and Safety Tuning"
-    image: image/dummy_paper.svg
+    image: image/publication/C2025_02.png
     author: <b>Seanie Lee</b>, Minsu Kim, Lynn Cherif, David Dobre, <b>Juho Lee</b>, Sung Ju Hwang, Kenji Kawaguchi, Gauthier Gidel, Yoshua Bengio, Nikolay Malkin, and Moksh Jain
     label: International Conference on Learning Representations (ICLR), 2025
     url: https://openreview.net/forum?id=1mXufFuv95
@@ -116,7 +116,7 @@ Conference:
       preprint: https://arxiv.org/pdf/2405.18540
 
   - name: "HarmAug: Effective Data Augmentation for Knowledge Distillation of Safety Guard Models"
-    image: image/dummy_paper.svg
+    image: image/publication/C2025_01.png
     author: <b>Seanie Lee</b>*, Haebin Seong*, Dong Bok Lee, Minki Kang, Xiaoyin Chen, Dominik Wagner, Yoshua Bengio, <b>Juho Lee</b>, and Sung Ju Hwang
     label: International Conference on Learning Representations (ICLR), 2025
     url: https://openreview.net/forum?id=y3zswp3gek
