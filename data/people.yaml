@@ -31,14 +31,6 @@ phd:
     url: https://jungwon-choi.github.io
     image: image/people/jwchoi.jpg
 
-  - name: Hyunsu Kim
-    email: kim.hyunsu@kaist.ac.kr
-    interests:
-      - Bayesian Inference
-      - Symmetry in AI
-    url: https://kim-hyunsu.github.io
-    image: image/people/hskim.jpg
-
   - name: Seanie Lee
     email: lsnfamily02@gmail.com
     interests:
@@ -54,15 +46,6 @@ phd:
       - Optimization
       - Loss landscape
     image: image/people/mschoi.jpg
-
-  - name: Hyungi Lee
-    email: lhk2708@kaist.ac.kr
-    interests:
-      - Stochastic process
-      - Bayesian inference
-      - Uncertainty calibration for LLM
-    url: https://hyungi-lee.github.io/
-    image: image/people/hglee.jpg
 
   - name: Giung Nam
     email: giung@kaist.ac.kr
@@ -91,6 +74,21 @@ phd:
       - Generative modeling
     image: image/people/jhpark.jpg
 
+  - name: Yegon Kim
+    email: yegonkim@kaist.ac.kr
+    interests:
+      - Inductive bias
+      - OOD generalization
+      - Bayesian inference
+    url: https://yegonkim.github.io
+    image: image/people/ygkim.jpg
+
+  - name: Jeongjun Lee
+    email: lee.jeongjun@kaist.ac.kr
+    interests:
+      - Generative modeling
+    image: image/people/jjlee.jpg
+
   # - name: Some One
   #   email: example@kaist.ac.kr
   #   interests:
@@ -101,27 +99,6 @@ phd:
 
 ##################################################
 ms:
-
-  - name: Yegon Kim
-    email: yegonkim@kaist.ac.kr
-    interests:
-      - Inductive bias
-      - OOD generalization
-      - Bayesian inference
-    url: https://yegonkim.github.io
-    image: image/people/ygkim.jpg
-
-  - name: Jonggeon Park
-    email: parkjonggeon@kaist.ac.kr
-    interests:
-      - Generative modeling
-    image: image/people/jgpark.jpg
-
-  - name: Jeongjun Lee
-    email: lee.jeongjun@kaist.ac.kr
-    interests:
-      - Generative modeling
-    image: image/people/jjlee.jpg
 
   - name: Byoungwoo Park
     email: bw.park@kaist.ac.kr
@@ -152,6 +129,13 @@ ms:
       - Self-supervised learnig
     image: image/people/yhgil.jpg
 
+  - name: Junhyun Ha
+    email: junhyunha@kaist.ac.kr
+    interests:
+      - Bayesian deep learning
+      - Bayesian inference
+    image: image/people/jhha.jpg
+
   # - name: Some One
   #   email: example@kaist.ac.kr
   #   interests:
@@ -162,6 +146,21 @@ ms:
 
 ##################################################
 alumni:
+
+  - name: Hyunsu Kim
+    image: image/people/hskim.jpg
+    url: https://kim-hyunsu.github.io
+    note: (PhD 2025)
+
+  - name: Hyungi Lee
+    image: image/people/hglee.jpg
+    url: https://hyungi-lee.github.io/
+    note: (PhD 2025)
+
+  - name: Jonggeon Park
+    image: image/people/jgpark.jpg
+    note: (MS 2025)
+
   - name: Haebeom Lee
     image: image/people/hblee.jpg
     url: https://haebeom-lee.github.io/
@@ -214,4 +213,4 @@ alumni:
   - name: Taehong Moon
     image: image/people/thmoon.jpg
     url: https://taehong-moon.github.io/
-    note: (MS 2023)
+    note: (MS 2023)    
