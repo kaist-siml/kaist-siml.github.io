@@ -43,7 +43,7 @@ Conference:
 
   - name: "Axial Neural Networks for Dimension-Free Foundation Models"
     image: image/dummy_paper.svg
-    author: <b>Hyunsu Kim</b>, Jonggeon Park, Joan Bruna, Hongseok Yang, <b>Juho Lee</b>
+    author: <b>Hyunsu Kim</b>, <b>Jonggeon Park</b>, Joan Bruna, Hongseok Yang, <b>Juho Lee</b>
     label: Neural Information Processing Systems (NeurIPS), 2025
     url: 
     links:
@@ -68,7 +68,7 @@ Conference:
 
   - name: "Compact Memory for Continual Logistic Regression"
     image: image/dummy_paper.svg
-    author: Yohan Jung*, <b>Hyungi Lee</b>*, Wenlong Chen*, Thomas Möllenhoff, Yingzhen Li, Juho Lee, Mohammad Emtiyaz Khan
+    author: Yohan Jung*, <b>Hyungi Lee</b>*, Wenlong Chen*, Thomas Möllenhoff, Yingzhen Li, <b>Juho Lee</b>, Mohammad Emtiyaz Khan
     label: Neural Information Processing Systems (NeurIPS), 2025
     url: 
     links:
@@ -99,36 +99,34 @@ Conference:
       preprint: 
 
   - name: "Bayesian Neural Scaling Laws Extrapolation with Prior-Fitted Networks"
-    image: image/dummy_paper.svg
+    image: image/publication/C2025_10.png
     author: Dongwoo Lee, Dong Bok Lee, Steven Adriaensen, <b>Juho Lee</b>, Sung Ju Hwang, Frank Hutter, Seon Joo Kim, Hae Beom Lee
     label: International Conference on Machine Learning (ICML), 2025
-    url: 
+    url: https://openreview.net/forum?id=Xsyrolw1Q1
     links:
-      preprint: 
+      preprint: https://arxiv.org/pdf/2505.23032
 
   - name: "Ensemble Distribution Distillation via Flow Matching"
-    image: image/dummy_paper.svg
+    image: image/publication/C2025_09.png
     author: <b>Jonggeon Park</b>*, <b>Giung Nam</b>*, <b>Hyunsu Kim</b>, <b>Jongmin Yoon</b>, <b>Juho Lee</b>
     label: International Conference on Machine Learning (ICML), 2025
-    url: 
+    url: https://openreview.net/forum?id=waeJHU2oeI
     links:
-      preprint: 
+      preprint: https://openreview.net/pdf?id=waeJHU2oeI
 
   - name: "Active Learning with Selective Time-Step Acquisition for PDEs"
-    image: image/dummy_paper.svg
+    image: image/publication/C2025_08.png
     author: <b>Yegon Kim</b>, <b>Hyunsu Kim</b>, <b>Gyeonghoon Ko</b>, <b>Juho Lee</b>
     label: International Conference on Machine Learning (ICML), 2025
-    url: 
+    url: https://openreview.net/forum?id=ef1UHxznNy
     links:
-      preprint: 
+      preprint: https://openreview.net/pdf?id=ef1UHxznNy
 
   - name: "StarFT: Robust Fine-tuning of Zero-shot Models via Spuriosity Alignment"
-    image: image/dummy_paper.svg
+    image: image/publication/C2025_07.png
     author: Younghyun Kim*, Jongheon Jeong*, Sangkyung Kwak, Kyungmin Lee, <b>Juho Lee</b> and Jinwoo Shin
     label: International Joint Conference on Artificial Intelligence (IJCAI), 2025
-    url: 
-    links:
-      preprint: 
+    url: https://arxiv.org/pdf/2505.13232
 
   - name: "Parameter Expanded Stochastic Gradient Markov Chain Monte Carlo"
     image: image/publication/C2025_06.png
