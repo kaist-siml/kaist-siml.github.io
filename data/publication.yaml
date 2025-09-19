@@ -68,7 +68,7 @@ Conference:
 
   - name: "Compact Memory for Continual Logistic Regression"
     image: image/dummy_paper.svg
-    author: Yohan Jung*, <b>Hyungi Lee</b>*, Wenlong Chen*, Thomas Möllenhoff, Yingzhen Li, <b>Juho Lee</b>, Mohammad Emtiyaz Khan
+    author: Yohan Jung*, Wenlong Chen*, <b>Hyungi Lee</b>, Thomas Möllenhoff, Yingzhen Li, <b>Juho Lee</b>, Mohammad Emtiyaz Khan
     label: Neural Information Processing Systems (NeurIPS), 2025
     url: 
     links:
