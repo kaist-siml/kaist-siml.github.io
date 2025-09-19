@@ -41,6 +41,63 @@ Journal:
 ##################################################
 Conference:
 
+  - name: "Axial Neural Networks for Dimension-Free Foundation Models"
+    image: image/dummy_paper.svg
+    author: <b>Hyunsu Kim</b>, Jonggeon Park, Joan Bruna, Hongseok Yang, <b>Juho Lee</b>
+    label: Neural Information Processing Systems (NeurIPS), 2025
+    url: 
+    links:
+      preprint: 
+    note: (Spotlight Presentation)      
+
+  - name: "Cost-sensitive Freeze-thaw Bayesian Optimization for Efficient Hyperparameter Tuning"
+    image: image/dummy_paper.svg
+    author: Dong Bok Lee, Aoxuan Silvia Zhang, Byungjoo Kim, Junhyeon Park, Steven Adriaensen, <b>Juho Lee</b>, Sung Ju Hwang, Hae Beom Lee
+    label: Neural Information Processing Systems (NeurIPS), 2025
+    url: 
+    links:
+      preprint: 
+
+  - name: "FedSVD: Adaptive Orthogonalization for Private Federated Learning with LoRA"
+    image: image/dummy_paper.svg
+    author: <b>Seanie Lee</b>, Sangwoo Park, Dong Bok Lee, Dominik Wagner, Haebin Seong, Tobias Bocklet, <b>Juho Lee</b>, Sung Ju Hwang
+    label: Neural Information Processing Systems (NeurIPS), 2025
+    url: 
+    links:
+      preprint: 
+
+  - name: "Compact Memory for Continual Logistic Regression"
+    image: image/dummy_paper.svg
+    author: Yohan Jung*, <b>Hyungi Lee</b>*, Wenlong Chen*, Thomas Möllenhoff, Yingzhen Li, Juho Lee, Mohammad Emtiyaz Khan
+    label: Neural Information Processing Systems (NeurIPS), 2025
+    url: 
+    links:
+      preprint: 
+
+  - name: "Test Time Scaling for Neural Processes"
+    image: image/dummy_paper.svg
+    author: <b>Hyungi Lee</b>, <b>Moonseok Choi</b>, <b>Hyunsu Kim</b>, Kyunghyun Cho, Rajesh Ranganath, <b>Juho Lee</b>
+    label: Neural Information Processing Systems (NeurIPS), 2025
+    url: 
+    links:
+      preprint: 
+
+  - name: "PANGEA: Projection-Based Augmentation with Non-Relevant General Data for Enhanced Domain Adaptation in LLMs"
+    image: image/dummy_paper.svg
+    author: <b>Seungyoo Lee</b>, <b>Giung Nam</b>, <b>Moonseok Choi</b>, <b>Hyungi Lee</b>†, <b>Juho Lee</b>†
+    label: Neural Information Processing Systems (NeurIPS), 2025
+    url: 
+    links:
+      preprint: 
+
+  - name: "Reliable Decision‑Making via Calibration‑Oriented Retrieval‑Augmented Generation"
+    image: image/dummy_paper.svg
+    author: <b>Chaeyun Jang</b>, <b>Deukhwan Cho</b>, <b>Seanie Lee</b>, <b>Hyungi Lee</b>†, <b>Juho Lee</b>†
+    label: Neural Information Processing Systems (NeurIPS), 2025
+    url: 
+    links:
+      preprint: 
+
   - name: "Bayesian Neural Scaling Laws Extrapolation with Prior-Fitted Networks"
     image: image/dummy_paper.svg
     author: Dongwoo Lee, Dong Bok Lee, Steven Adriaensen, <b>Juho Lee</b>, Sung Ju Hwang, Frank Hutter, Seon Joo Kim, Hae Beom Lee
