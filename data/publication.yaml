@@ -127,6 +127,8 @@ Conference:
     author: Younghyun Kim*, Jongheon Jeong*, Sangkyung Kwak, Kyungmin Lee, <b>Juho Lee</b> and Jinwoo Shin
     label: International Joint Conference on Artificial Intelligence (IJCAI), 2025
     url: https://arxiv.org/pdf/2505.13232
+    links:
+      preprint: https://arxiv.org/pdf/2505.13232
 
   - name: "Parameter Expanded Stochastic Gradient Markov Chain Monte Carlo"
     image: image/publication/C2025_06.png
