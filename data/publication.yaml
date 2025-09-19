@@ -50,7 +50,7 @@ Conference:
       preprint: 
     note: (Spotlight Presentation)      
 
-  - name: "Cost-sensitive Freeze-thaw Bayesian Optimization for Efficient Hyperparameter Tuning"
+  - name: "Cost-Sensitive Freeze-Thaw Bayesian Optimization for Efficient Hyperparameter Tuning"
     image: image/dummy_paper.svg
     author: Dong Bok Lee, Aoxuan Silvia Zhang, Byungjoo Kim, Junhyeon Park, Steven Adriaensen, <b>Juho Lee</b>, Sung Ju Hwang, Hae Beom Lee
     label: Neural Information Processing Systems (NeurIPS), 2025
