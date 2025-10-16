@@ -42,12 +42,12 @@ Journal:
 Conference:
 
   - name: "Axial Neural Networks for Dimension-Free Foundation Models"
-    image: image/dummy_paper.svg
+    image: image/publication/C2025_17.png
     author: <b>Hyunsu Kim</b>, <b>Jonggeon Park</b>, Joan Bruna, Hongseok Yang, <b>Juho Lee</b>
     label: Neural Information Processing Systems (NeurIPS), 2025
     url: 
     links:
-      preprint: 
+      preprint: https://arxiv.org/abs/2510.13665
       code: https://github.com/kim-hyunsu/XNN
     note: (Spotlight Presentation)      
 
