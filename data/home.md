@@ -1,4 +1,5 @@
 ## Recent news from SIML
+- (2026.01) 3 papers were accepted to ICLR 2026.
 - (2025.09) 7 papers were accepted to NeurIPS 2025 (including one spotlight presentation).
 - (2025.05) 3 papers were accepted to ICML 2025.
 - (2025.01) 6 papers were accepted to ICLR 2025 (including one oral presentation).

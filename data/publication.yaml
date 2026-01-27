@@ -41,6 +41,30 @@ Journal:
 ##################################################
 Conference:
 
+  - name: "Stochastic Optimal Control for Continuous-Time fMRI Representation Learning"
+    image: image/dummy_paper.svg
+    author: <b>Joonhyeong Park</b>*, <b>Byoungwoo Park</b>*, Chang-Bae Bang, <b>Jungwon Choi</b>, Hyungjin Chung, Byung-Hoon Kim†, <b>Juho Lee</b>†
+    label: International Conference on Learning Representations (ICLR), 2026
+    url: 
+    links:
+      preprint:
+
+  - name: "Soft Equivariance Regularization for Invariant Self-Supervised Learning"
+    image: image/dummy_paper.svg
+    author: Joohyung Lee, Changhun Kim, <b>Hyunsu Kim</b>, Kwanhyung Lee, <b>Juho Lee</b>
+    label: International Conference on Learning Representations (ICLR), 2026
+    url: 
+    links:
+      preprint:
+
+  - name: "ForestPersons: A Large-Scale Dataset for Under-Canopy Missing Person Detection"
+    image: image/dummy_paper.svg
+    author: Deokyun Kim*, <b>Jeongjun Lee</b>*, <b>Jungwon Choi</b>*, <b>Jonggeon Park</b>*, Giyoung Lee, Yookyung Kim, Myungseok Ki, <b>Juho Lee</b>, Jihun Cha
+    label: International Conference on Learning Representations (ICLR), 2026
+    url: 
+    links:
+      preprint:
+
   - name: "Axial Neural Networks for Dimension-Free Foundation Models"
     image: image/publication/C2025_17.png
     author: <b>Hyunsu Kim</b>, <b>Jonggeon Park</b>, Joan Bruna, Hongseok Yang, <b>Juho Lee</b>
@@ -49,7 +73,7 @@ Conference:
     links:
       preprint: https://arxiv.org/abs/2510.13665
       code: https://github.com/kim-hyunsu/XNN
-    note: (Spotlight Presentation)      
+    note: (Spotlight Presentation)
 
   - name: "Cost-Sensitive Freeze-Thaw Bayesian Optimization for Efficient Hyperparameter Tuning"
     image: image/dummy_paper.svg
@@ -69,7 +93,7 @@ Conference:
 
   - name: "Compact Memory for Continual Logistic Regression"
     image: image/dummy_paper.svg
-    author: Yohan Jung, <b>Hyungi Lee</b>, Wenlong Chen, Thomas Möllenhoff, Yingzhen Li, <b>Juho Lee</b>, Mohammad Emtiyaz Khan
+    author: <b>Yohan Jung</b>, <b>Hyungi Lee</b>, Wenlong Chen, Thomas Möllenhoff, Yingzhen Li, <b>Juho Lee</b>, Mohammad Emtiyaz Khan
     label: Neural Information Processing Systems (NeurIPS), 2025
     url: 
     links:
