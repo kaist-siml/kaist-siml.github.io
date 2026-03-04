@@ -8,8 +8,6 @@ professor:
     url: https://juho-lee.github.io
     image: image/people/jhlee.jpg
 
-##################################################
-# see src/routes/people.svetlte to add postdoc (<!-- ~ -->)
 postdoc:
    - name: Giung Nam
      email: giung@kaist.ac.kr
@@ -18,9 +16,7 @@ postdoc:
      url: https://cs-giung.github.io/
      image: image/people/gunam.jpg
 
-##################################################
 phd:
-
   - name: Jungwon Choi
     email: jungwon.choi@kaist.ac.kr
     interests:
@@ -72,17 +68,6 @@ phd:
       - Generative modeling
     image: image/people/jjlee.jpg
 
-  # - name: Some One
-  #   email: example@kaist.ac.kr
-  #   interests:
-  #     - Don't know
-  #     - Whatever
-  #   url: https://example.com
-  #   image: image/dummy.svg  # Change to real image
-
-##################################################
-ms:
-
   - name: Byoungwoo Park
     email: bw.park@kaist.ac.kr
     interests:
@@ -90,6 +75,7 @@ ms:
     url: https://bw-park.github.io/
     image: image/people/bwpark.jpg
 
+ms:
   - name: Seungyoo Lee
     email: punctuate@kaist.ac.kr
     interests:
