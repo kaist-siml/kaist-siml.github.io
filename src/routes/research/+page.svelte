@@ -1,48 +1,48 @@
 <script>
     import research from 'data/research.yaml';
+    import { onMount } from 'svelte';
 
-    let currId = 0;
+    let currId = $state(0);
     const images = [
-        'image/research/Slide1.PNG',
-        'image/research/Slide2.PNG',
-        'image/research/Slide3.PNG',
-        'image/research/Slide4.PNG',
-        'image/research/Slide5.PNG',
+        '/image/research/Slide1.PNG',
+        '/image/research/Slide2.PNG',
+        '/image/research/Slide3.PNG',
+        '/image/research/Slide4.PNG',
+        '/image/research/Slide5.PNG',
     ];
     const imgLen = images.length;
-    let positionLeft = 0;
-
-    const moveSlider = () => {
-        positionLeft = currId * 100;
-    };
+    let positionLeft = $derived(currId * 100);
 
     const next = () => {
         currId = currId === imgLen - 1 ? 0 : currId + 1;
-        moveSlider();
     };
 
     const prev = () => {
         currId = currId === 0 ? imgLen - 1 : currId - 1;
-        moveSlider();
     };
 
     const getIndex = index => {
         currId = index;
-        moveSlider();
     };
 
-    let interval = setInterval(next, 2000);
+    let interval;
     const autoPlay = () => {
-        interval = setInterval(next, 2000);
+        if (interval) clearInterval(interval);
+        interval = setInterval(next, 3000);
     };
 
     const stopPlay = () => {
-        clearInterval(interval);
+        if (interval) clearInterval(interval);
     };
+
+    onMount(() => {
+        autoPlay();
+        return () => stopPlay();
+    });
 </script>
 
 <style lang="scss">
-    @import "utils/style";
+    @import "utils/variables";
 
     .content {
         grid-area: content;
@@ -56,22 +56,6 @@
         gap: $blank * 5;
 
         @include padding-x(0);
-
-        div {
-            h2 {
-                margin-bottom: $blank * 2;
-            }
-
-            p {
-                text-align: justify;
-            }
-
-            img {
-                width: 100%;
-                height: auto;
-                @include margin-y($blank);
-            }
-        }
     }
 
     .container {
@@ -113,6 +97,7 @@
         bottom: 0;
         padding-bottom: 8px;
         width: 100%;
+        text-align: center;
     }
 
     .papagination button {
@@ -157,33 +142,25 @@
 <main>
     <div class="content">
 
-        <div on:focus={stopPlay} on:mouseover={stopPlay} on:mouseleave={autoPlay} class="container">
+        <div role="region" aria-label="Research slider" onfocus={stopPlay} onmouseover={stopPlay} onmouseleave={autoPlay} class="container">
             <div class="slider" style="left: -{positionLeft}%;">
                 {#each images as img}
                     <img src={img} alt="" />
                 {/each}
             </div>
             <div class="arrow">
-                <button on:click={prev} class="prev"> ◀ </button>
-                <button on:click={next} class="next"> ▶ </button>
+                <button onclick={prev} class="prev"> ◀ </button>
+                <button onclick={next} class="next"> ▶ </button>
             </div>
             <div class="papagination">
                 {#each images as _, i}
                     <button
                         class={currId === i ? 'active' : ''}
-                        on:click={() => getIndex(i)}
-                    />
+                        onclick={() => getIndex(i)}
+                        aria-label="Go to slide {i + 1}"
+                    ></button>
                 {/each}
             </div>
         </div>
-
-        <!-- {#each research as topic}
-            <div>
-                <h2>{topic.name}</h2>
-                <p>{topic.description}</p>
-                <img src={topic.image || 'image/dummy_wide.svg'} alt="...">
-            </div>
-        {/each} -->
-
     </div>
 </main>

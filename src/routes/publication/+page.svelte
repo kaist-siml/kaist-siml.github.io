@@ -1,9 +1,18 @@
 <script>
     import publication from 'data/publication.yaml';
+
+    const getImageUrl = (image) => {
+        const path = image || 'image/dummy_paper.svg';
+        return path.startsWith('/') ? path : '/' + path;
+    };
+
+    const handleItemClick = (url) => {
+        if (url) window.open(url, '_blank');
+    };
 </script>
 
 <style lang="scss">
-    @import "utils/style";
+    @import "utils/variables";
 
     .container {
         grid-area: content;
@@ -29,12 +38,17 @@
             list-style-position: inside;
             padding: 0;
 
-            li:hover {
+            .paper-item:hover {
                 background: #eee;
                 cursor: pointer;
+                color: $kaist-blue;
+
+                .title {
+                    color: $kaist-blue;
+                }
             }
 
-            li {
+            .paper-item {
                 font-size: 0.8rem;
                 line-height: 1.5em;
                 padding: .2em 0;
@@ -42,6 +56,7 @@
                 text-align: justify;
                 text-justify: auto;
                 overflow: auto;
+                transition: background 0.2s, color 0.2s;
 
                 .wrap {
                     overflow: auto;
@@ -59,12 +74,14 @@
                     overflow: auto;
                 }
 
-                ul {
-                    margin: 0;
-                    padding-left: .5em;
+                .title {
+                    text-decoration: none;
+                    color: inherit;
+                    box-shadow: none;
+                    transition: color 0.2s;
 
-                    li {
-                        margin: 0;
+                    &:hover {
+                        box-shadow: none;
                     }
                 }
             }
@@ -90,23 +107,23 @@
         <ul>
 
         {#each papers as paper}
-            <li>
-                <a href={paper.url} target="_blank">
-                    <img src={paper.image || 'image/dummy_paper.svg'} alt="...">
-                    <div class='wrap'>
-                        <p><b>{paper.name}</b></p>
-                        <p>{@html paper.author}</p>
-                        <p>{@html paper.label}</p>
-                        {#if paper.note}<p><b>{paper.note}</b></p>{/if}
-                        <p class="links">
-                            {#each Object.entries(paper.links || {}) as [name, url], i}
-                            {#if url}
-                                {#if i > 0}&nbsp;{/if}<a href={url} target="_blank">{name}</a>
-                            {/if}
-                            {/each}
-                        </p>
-                    </div>
-                </a>
+            <!-- svelte-ignore a11y_no_noninteractive_element_interactions -->
+            <!-- svelte-ignore a11y_click_events_have_key_events -->
+            <li class="paper-item" onclick={() => handleItemClick(paper.url)}>
+                <img src={getImageUrl(paper.image)} alt="...">
+                <div class='wrap'>
+                    <p><b><a href={paper.url} target="_blank" class="title" onclick={(e) => e.stopPropagation()}>{paper.name}</a></b></p>
+                    <p>{@html paper.author}</p>
+                    <p>{@html paper.label}</p>
+                    {#if paper.note}<p><b>{paper.note}</b></p>{/if}
+                    <p class="links">
+                        {#each Object.entries(paper.links || {}) as [name, url], i}
+                        {#if url}
+                            {#if i > 0}&nbsp;{/if}<a href={url} target="_blank" onclick={(e) => e.stopPropagation()}>{name}</a>
+                        {/if}
+                        {/each}
+                    </p>
+                </div>
             </li>
         {/each}
 

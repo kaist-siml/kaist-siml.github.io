@@ -1,9 +1,9 @@
-<script context="module">
+<script>
     import home from 'data/home.md';
 </script>
 
 <style lang="scss">
-    @import "utils/style";
+    @import "utils/variables";
 
     main {
         grid-template-rows: [banner-start] max-content [banner-end] 2rem [content-start] 1fr [content-end];
@@ -23,10 +23,6 @@
 
                 text-align: center;
                 color: $kaist-white;
-                // text-shadow: -1px  1px 0 $kaist-dark-blue,
-                // 	          1px  1px 0 $kaist-dark-blue,
-                // 	          1px -1px 0 $kaist-dark-blue,
-                // 	         -1px -1px 0 $kaist-dark-blue;  // text-outline
             }
 
             h2 {

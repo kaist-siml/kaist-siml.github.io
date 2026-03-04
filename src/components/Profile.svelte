@@ -1,15 +1,12 @@
 <script>
-    export let image;
-    export let name;
-    export let email;
-    export let url;
-    export let interests;
+    let { image, name, email, url, interests } = $props();
 
-    email = email.split('@').join(' (at) ');
+    let displayEmail = $derived(email.split('@').join(' (at) '));
+    let displayImage = $derived(image ? (image.startsWith('/') ? image : '/' + image) : '/image/dummy.svg');
 </script>
 
 <style lang="scss">
-    @import "utils/style";
+    @import "utils/variables";
 
     article {
         font-family: sans-serif;
@@ -71,8 +68,11 @@
     }
 
     @include media-breakpoint-down(sm) {
-        article section {
-            @include padding-y($blank * 0.5);
+        article {
+            section {
+                @include padding-y($blank * 0.5);
+            }
+            
             img {
                 width: 96px;
                 height: 120px;
@@ -82,7 +82,7 @@
 </style>
 
 <article class="col-12 col-sm-12 col-md-6 col-lg-6">
-    <img src={image || 'image/dummy.svg'} alt="...">
+    <img src={displayImage} alt="...">
     <section>
         <p class="name">
             {#if url}
@@ -91,7 +91,7 @@
                 {name}
             {/if}
         </p>
-        <p>{email}</p>
+        <p>{displayEmail}</p>
         <ul>
             {#each interests as interest}
                 <li>{interest}</li>

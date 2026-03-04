@@ -1,5 +1,5 @@
 <style lang="scss">
-    @import "utils/style";
+    @import "utils/variables";
 
     footer {
         display: grid;
@@ -38,11 +38,6 @@
                 justify-self: left;
                 text-align: left;
             }
-
-            .justify-right {
-                justify-self: right;
-                text-align: right;
-            }
         }
     }
 
@@ -56,11 +51,6 @@
         footer {
             .content {
                 grid-auto-flow: row;
-
-                .justify-right {
-                    justify-self: left;
-                    text-align: left;
-                }
             }
         }
     }

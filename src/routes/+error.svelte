@@ -1,5 +1,5 @@
 <style lang="scss">
-    @import "utils/style";
+    @import "utils/variables";
 
     main {
         .content {

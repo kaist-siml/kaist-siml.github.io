@@ -1,6 +1,6 @@
 node_modules
-/__sapper__/
-/static/bootstrap.*
+/.svelte-kit
+/build
 .DS_Store
 ._.DS_Store
 **/.DS_Store
