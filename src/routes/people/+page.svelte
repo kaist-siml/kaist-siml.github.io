@@ -2,6 +2,7 @@
     import people from 'data/people.yaml';
     import Profile from 'components/Profile.svelte';
     import Header from 'components/Header.svelte';
+    import Footer from 'components/Footer.svelte';
 </script>
 
 <style lang="scss">
@@ -142,3 +143,5 @@
         </div>
     </div>
 </main>
+
+<Footer />

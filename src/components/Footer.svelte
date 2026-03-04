@@ -1,3 +1,7 @@
+<script>
+    let { isHome = false } = $props();
+</script>
+
 <style lang="scss">
     @import "utils/variables";
 
@@ -14,6 +18,18 @@
         @include padding-y($blank * 1.5);
 
         color: $kaist-dark-gray;
+        
+        &.home-footer {
+            background-color: $black;
+            color: rgba(255, 255, 255, 0.6);
+            
+            a {
+                color: rgba(255, 255, 255, 0.6);
+                &:hover {
+                    color: $kaist-white;
+                }
+            }
+        }
 
         .content {
             grid-area: content;
@@ -56,7 +72,7 @@
     }
 </style>
 
-<footer>
+<footer class:home-footer={isHome}>
     <div class="content">
         <p class="justify-left">
             <i class="bi bi-geo-alt"></i>

@@ -1,6 +1,7 @@
 <script>
     import { page } from '$app/state';
     import Header from 'components/Header.svelte';
+    import Footer from 'components/Footer.svelte';
     
     let segment = $derived(page.url.pathname.split('/')[1] || undefined);
 </script>
@@ -29,3 +30,5 @@
 		</div>
     </div>
 </main>
+
+<Footer />

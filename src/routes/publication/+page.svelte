@@ -1,6 +1,7 @@
 <script>
     import publication from 'data/publication.yaml';
     import Header from 'components/Header.svelte';
+    import Footer from 'components/Footer.svelte';
 
     const getImageUrl = (image) => {
         const path = image || 'image/dummy_paper.svg';
@@ -151,3 +152,5 @@
 
     </div>
 </main>
+
+<Footer />

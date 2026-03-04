@@ -3,6 +3,7 @@
     import home from 'data/home.md';
     import BannerParticles from 'components/BannerParticles.svelte';
     import Header from 'components/Header.svelte';
+    import Footer from 'components/Footer.svelte';
 
     const sections = home.html.split(/(?=<h2)/).filter(s => s.trim() !== '');
 
@@ -56,6 +57,8 @@
 
     main {
         padding-top: 0;
+        padding-bottom: 0;
+        background-color: $black;
         grid-template-rows: [banner-start] 100vh [banner-end] 2rem [content-start] 1fr [content-end];
 
         .banner-container {
@@ -142,6 +145,8 @@
             grid-area: content;
             display: grid;
             gap: 3rem;
+            position: relative;
+            z-index: 1;
 
             .section-card {
                 border: 1px solid #eee;
@@ -239,3 +244,5 @@
         {/each}
     </div>
 </main>
+
+<Footer isHome={true} />
