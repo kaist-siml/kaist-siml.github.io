@@ -1,0 +1,1 @@
+import{b as a,f as n}from"../chunks/DKS9Aalg.js";import"../chunks/DIeH3L7A.js";var t=n('<main class="svelte-1j96wlh"><div class="content svelte-1j96wlh"><div><h1>Page not found</h1> <h2>The page you are looking for does not exist.</h2></div></div></main>');function s(o){var e=t();a(o,e)}export{s as component};
