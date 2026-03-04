@@ -18,7 +18,7 @@ $slate-space: .5rem;
 $blank: .5rem;
 
 $max-content-width: 1140px;
-$page-grid-template-columns: [screen-start] auto [content-start] min(96%, #{$max-content-width}) [content-end] auto [screen-end];
+$page-grid-template-columns: [screen-start] 1fr [content-start] min(calc(100vw - 2rem), #{$max-content-width}) [content-end] 1fr [screen-end];
 
 /* Mixins */
 

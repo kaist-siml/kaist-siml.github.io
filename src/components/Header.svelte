@@ -9,49 +9,40 @@
     @import "utils/variables";
 
     header {
-        display: grid;
+        display: block;
+        width: 100%;
 
-        grid-column: screen;
-
-        grid-template-columns: $page-grid-template-columns;
-        grid-template-rows: [content-start] 1fr [content-end];
-
-        @include padding-x(0);
         @include padding-y($blank);
-        
+
         transition: background-color 0.3s ease, color 0.3s ease;
         position: fixed;
         top: 0;
         left: 0;
-        width: 100%;
         background-color: $kaist-white;
         border-bottom: 1px solid #eee;
         z-index: 1000;
 
-        .content {            grid-area: content;
+        .content {
+            max-width: $max-content-width;
+            margin: 0 auto;
+            width: 96%;
 
-            display: grid;
-
-            grid-template-rows: [brand-start nav-start] 1fr [brand-end nav-end];
-            grid-template-columns: [brand-start] auto [brand-end] #{$blank} [nav-start] max-content [nav-end];
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
             gap: $blank;
 
-            @include padding-x(0);
             @include padding-y($blank);
 
             > * {
                 @include margin(0);
-                @include padding-top($blank);
+                padding-top: 0;
             }
 
             .brand {
-                grid-area: brand;
-
                 font-size: 2.5rem;
-                align-self: center;
-
                 color: $black;
-
                 text-decoration: none;
                 font-family: Rubik, sans-serif;
                 font-weight: 500;
@@ -59,17 +50,14 @@
             }
 
             nav {
-                grid-area: nav;
-                align-self: center;
-
                 font-size: large;
                 font-family: Rubik, sans-serif;
                 font-weight: 500;
                 text-transform: uppercase;
 
-                display: grid;
+                display: flex;
                 gap: $blank * 2;
-                grid-auto-flow: column;
+                flex-wrap: wrap;
 
                 a {
                     color: inherit;
@@ -107,7 +95,6 @@
     @include media-breakpoint-down(md) {
         header {
             @include padding-y(0);
-            padding-bottom: $blank;
 
             .content {
                 .brand {
@@ -116,6 +103,7 @@
 
                 nav {
                     font-size: 1rem;
+                    gap: $blank;
                 }
             }
         }
@@ -124,13 +112,11 @@
     @include media-breakpoint-down(sm) {
         header {
             .content {
-                grid-template-rows: [brand-start] auto [brand-end nav-start] auto [nav-end];
-                grid-template-columns: [brand-start nav-start] auto [brand-end nav-end];
-
-                text-align: center;
+                justify-content: center;
+                flex-direction: column;
 
                 nav {
-                    grid-auto-flow: column;
+                    justify-content: center;
                 }
             }
         }
