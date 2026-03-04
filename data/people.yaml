@@ -105,6 +105,24 @@ ms:
       - Bayesian inference
     image: image/people/jhha.jpg
 
+  - name: Deukhwan Cho
+    email: example@kaist.ac.kr
+    interests:
+      - Machine learning
+    image: image/dummy.svg
+
+  - name: Hyeonmin Yun
+    email: example@kaist.ac.kr
+    interests:
+      - Machine learning
+    image: image/dummy.svg
+
+  - name: Mingyeong Kim
+    email: example@kaist.ac.kr
+    interests:
+      - Machine learning
+    image: image/dummy.svg
+
   # - name: Some One
   #   email: example@kaist.ac.kr
   #   interests:
