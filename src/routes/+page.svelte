@@ -10,16 +10,21 @@
     let innerHeight = $state(0);
     let contentElement;
 
-    // Minimum height of the banner after collapse
-    const minHeight = 400; // 25rem in pixels roughly
+    // Minimum visible height of the banner after scrolling
+    const minHeight = 400; 
     
-    let bannerHeight = $derived(innerHeight > 0 ? Math.max(minHeight, innerHeight - scrollY) : 0);
+    // We move the banner up using transform, but stop once only minHeight is visible
+    let effectiveTranslateY = $derived(
+        innerHeight > 0 ? 
+        (scrollY > (innerHeight - minHeight) ? -(innerHeight - minHeight) : -scrollY)
+        : 0
+    );
     
-    // Banner text moves down as we scroll
-    let textTranslateY = $derived(scrollY * 0.5);
-    let textOpacity = $derived(Math.max(0, 1 - scrollY / 400));
+    // Parallax text effect
+    let textTranslateY = $derived(scrollY * 0.4);
+    let textOpacity = $derived(innerHeight > 0 ? Math.max(0, 1 - scrollY / (innerHeight * 0.6)) : 1);
 
-    // Header starts as transparent white, transitions to solid black-on-white as we scroll
+    // Header fades in as we scroll
     let homeOpacity = $derived(
         scrollY < 100 ? 0 : 
         scrollY > 300 ? 1 : 
@@ -27,21 +32,18 @@
     );
 
     function scrollToContent() {
-        if (contentElement) {
-            contentElement.scrollIntoView({ behavior: 'smooth' });
+        if (innerHeight > 0) {
+            window.scrollTo({ top: innerHeight - minHeight, behavior: 'smooth' });
         }
     }
 
     $effect(() => {
-        // Check if user came from another page on the same site
+        // Skip banner if navigating back from other internal pages
         const referrer = document.referrer;
         const currentOrigin = window.location.origin;
-        
-        // referrer matches our site but is not this exact page
         if (referrer && referrer.startsWith(currentOrigin) && !referrer.endsWith('/')) {
-            // Instant scroll to content to skip full banner
-            if (contentElement) {
-                contentElement.scrollIntoView();
+            if (innerHeight > 0) {
+                window.scrollTo({ top: innerHeight - minHeight });
             }
         }
     });
@@ -54,25 +56,39 @@
 
     main {
         padding-top: 0;
-        grid-template-rows: [banner-start] auto [banner-end] 2rem [content-start] 1fr [content-end];
+        grid-template-rows: [banner-start] 100vh [banner-end] 2rem [content-start] 1fr [content-end];
+
+        .banner-container {
+            grid-column: screen;
+            position: sticky;
+            top: 0;
+            height: 100vh;
+            z-index: 0;
+            overflow: hidden;
+            background-color: $black;
+        }
 
         .banner {
-            grid-column: screen;
-            position: relative;
-            background-color: $black;
-            
+            position: absolute;
+            top: 0;
+            left: 0;
             width: 100%;
+            height: 100%;
+            
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            overflow: hidden;
+            
+            will-change: transform;
+            backface-visibility: hidden;
 
             .banner-text {
                 position: relative;
                 z-index: 1;
                 pointer-events: none;
                 text-align: center;
+                will-change: transform, opacity;
             }
 
             h2, h3 {
@@ -202,15 +218,17 @@
 <Header homeOpacity={homeOpacity} />
 
 <main>
-    <div class="banner" style="height: {bannerHeight}px">
-        <BannerParticles />
-        <div class="banner-text" style="transform: translateY({textTranslateY}px); opacity: {textOpacity}">
-            <h2>SIML Lab.</h2>
-            <h3>Statistical Inference and Machine Learning</h3>
+    <div class="banner-container" style="height: {innerHeight}px">
+        <div class="banner" style="transform: translate3d(0, {effectiveTranslateY}px, 0)">
+            <BannerParticles />
+            <div class="banner-text" style="transform: translate3d(0, {textTranslateY}px, 0); opacity: {textOpacity}">
+                <h2>SIML Lab.</h2>
+                <h3>Statistical Inference and Machine Learning</h3>
+            </div>
+            {#if scrollY < 50}
+                <button class="scroll-down" onclick={scrollToContent} aria-label="Scroll down"></button>
+            {/if}
         </div>
-        {#if scrollY < 50}
-            <button class="scroll-down" onclick={scrollToContent} aria-label="Scroll down"></button>
-        {/if}
     </div>
 
     <div class="content" bind:this={contentElement}>

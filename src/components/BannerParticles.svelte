@@ -126,12 +126,18 @@
     function handleResize() {
         if (!canvas) return;
         const parent = canvas.parentElement;
+        if (!parent) return;
+        
         canvas.width = parent.clientWidth;
         canvas.height = parent.clientHeight;
-        init();
+        
+        if (canvas.width > 0 && canvas.height > 0) {
+            init();
+        }
     }
 
     function handleMouseMove(e) {
+        if (!canvas) return;
         const rect = canvas.getBoundingClientRect();
         mouse.x = e.clientX - rect.left;
         mouse.y = e.clientY - rect.top;
@@ -144,13 +150,22 @@
 
     onMount(() => {
         ctx = canvas.getContext('2d');
+        
+        // Use ResizeObserver for better reliability than window resize
+        const resizeObserver = new ResizeObserver(() => {
+            handleResize();
+        });
+        
+        if (canvas.parentElement) {
+            resizeObserver.observe(canvas.parentElement);
+        }
+
         handleResize();
         animate();
 
-        window.addEventListener('resize', handleResize);
         return () => {
             cancelAnimationFrame(animationId);
-            window.removeEventListener('resize', handleResize);
+            resizeObserver.disconnect();
         };
     });
 </script>
