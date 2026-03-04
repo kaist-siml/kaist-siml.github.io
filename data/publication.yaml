@@ -45,7 +45,7 @@ Conference:
     image: image/dummy_paper.svg
     author: <b>Joonhyeong Park</b>*, <b>Byoungwoo Park</b>*, Chang-Bae Bang, <b>Jungwon Choi</b>, Hyungjin Chung, Byung-Hoon Kim†, <b>Juho Lee</b>†
     label: International Conference on Learning Representations (ICLR), 2026
-    url: 
+    url: https://openreview.net/forum?id=N51nP3TBwR
     links:
       preprint:
 
@@ -53,7 +53,7 @@ Conference:
     image: image/dummy_paper.svg
     author: Joohyung Lee, Changhun Kim, <b>Hyunsu Kim</b>, Kwanhyung Lee, <b>Juho Lee</b>
     label: International Conference on Learning Representations (ICLR), 2026
-    url: 
+    url: https://openreview.net/forum?id=TuQW7VPfXF
     links:
       preprint:
 
@@ -61,25 +61,24 @@ Conference:
     image: image/dummy_paper.svg
     author: Deokyun Kim*, <b>Jeongjun Lee</b>*, <b>Jungwon Choi</b>*, <b>Jonggeon Park</b>*, Giyoung Lee, Yookyung Kim, Myungseok Ki, <b>Juho Lee</b>, Jihun Cha
     label: International Conference on Learning Representations (ICLR), 2026
-    url: 
+    url: https://openreview.net/forum?id=ZC2N9q8USm
     links:
       preprint:
 
   - name: "Axial Neural Networks for Dimension-Free Foundation Models"
     image: image/publication/C2025_17.png
     author: <b>Hyunsu Kim</b>, <b>Jonggeon Park</b>, Joan Bruna, Hongseok Yang, <b>Juho Lee</b>
-    label: Neural Information Processing Systems (NeurIPS), 2025
-    url: 
+    label: Neural Information Processing Systems (NeurIPS), 2025, <b>Spotlight Presentation</b>
+    url: https://openreview.net/forum?id=cLQlsOGqbM
     links:
       preprint: https://arxiv.org/abs/2510.13665
       code: https://github.com/kim-hyunsu/XNN
-    note: (Spotlight Presentation)
 
   - name: "Cost-Sensitive Freeze-Thaw Bayesian Optimization for Efficient Hyperparameter Tuning"
     image: image/dummy_paper.svg
     author: Dong Bok Lee, Aoxuan Silvia Zhang, Byungjoo Kim, Junhyeon Park, Steven Adriaensen, <b>Juho Lee</b>, Sung Ju Hwang, Hae Beom Lee
     label: Neural Information Processing Systems (NeurIPS), 2025
-    url: 
+    url: https://openreview.net/forum?id=ZUb4JpNoJe
     links:
       preprint: 
 
@@ -87,7 +86,7 @@ Conference:
     image: image/dummy_paper.svg
     author: <b>Seanie Lee</b>, Sangwoo Park, Dong Bok Lee, Dominik Wagner, Haebin Seong, Tobias Bocklet, <b>Juho Lee</b>, Sung Ju Hwang
     label: Neural Information Processing Systems (NeurIPS), 2025
-    url: 
+    url: https://openreview.net/forum?id=Qq19n9LZ97
     links:
       preprint: 
 
@@ -95,7 +94,7 @@ Conference:
     image: image/dummy_paper.svg
     author: <b>Yohan Jung</b>, <b>Hyungi Lee</b>, Wenlong Chen, Thomas Möllenhoff, Yingzhen Li, <b>Juho Lee</b>, Mohammad Emtiyaz Khan
     label: Neural Information Processing Systems (NeurIPS), 2025
-    url: 
+    url: https://openreview.net/forum?id=XLa5Puhqzg
     links:
       preprint: 
 
@@ -103,7 +102,7 @@ Conference:
     image: image/dummy_paper.svg
     author: <b>Hyungi Lee</b>, <b>Moonseok Choi</b>, <b>Hyunsu Kim</b>, Kyunghyun Cho, Rajesh Ranganath, <b>Juho Lee</b>
     label: Neural Information Processing Systems (NeurIPS), 2025
-    url: 
+    url: https://openreview.net/forum?id=7cirmREfbc
     links:
       preprint: 
 
@@ -111,7 +110,7 @@ Conference:
     image: image/dummy_paper.svg
     author: <b>Seungyoo Lee</b>, <b>Giung Nam</b>, <b>Moonseok Choi</b>, <b>Hyungi Lee</b>†, <b>Juho Lee</b>†
     label: Neural Information Processing Systems (NeurIPS), 2025
-    url: 
+    url: https://openreview.net/forum?id=7EjdHkOwc4
     links:
       preprint: 
 
@@ -119,7 +118,7 @@ Conference:
     image: image/dummy_paper.svg
     author: <b>Chaeyun Jang</b>, <b>Deukhwan Cho</b>, <b>Seanie Lee</b>, <b>Hyungi Lee</b>†, <b>Juho Lee</b>†
     label: Neural Information Processing Systems (NeurIPS), 2025
-    url: 
+    url: https://openreview.net/forum?id=nNQmZGjEVe
     links:
       preprint: 
 
@@ -182,12 +181,11 @@ Conference:
   - name: "Amortized Control of Continuous State Space Feynman-Kac Model for Irregular Time Series"
     image: image/publication/C2025_03.png
     author: <b>Byoungwoo Park</b>, <b>Hyungi Lee</b>, and <b>Juho Lee</b>
-    label: International Conference on Learning Representations (ICLR), 2025
+    label: International Conference on Learning Representations (ICLR), 2025, <b>Oral Presentation</b>
     url: https://openreview.net/forum?id=8zJRon6k5v
     links:
       preprint: https://arxiv.org/pdf/2410.05602
       code: https://github.com/bw-park/acssm
-    note: (Oral Presentation)
 
   - name: "Learning Diverse Attacks on Large Language Models for Robust Red-Teaming and Safety Tuning"
     image: image/publication/C2025_02.png
@@ -208,11 +206,10 @@ Conference:
   - name: "Model fusion through Bayesian optimization in language model fine-tuning"
     image: image/publication/C2024_14.png
     author: <b>Chaeyun Jang</b>*, <b>Hyungi Lee</b>*, Jungtaek Kim†, <b>Juho Lee</b>†
-    label: Neural Information Processing Systems (NeurIPS), 2024
+    label: Neural Information Processing Systems (NeurIPS), 2024, <b>Spotlight Presentation</b>
     url: https://openreview.net/forum?id=lV4kTHTgpJ
     links:
       preprint: https://arxiv.org/abs/2411.06710
-    note: (Spotlight Presentation)
 
   - name: "Ex uno pluria: insights on ensembling in low precision number systems"
     image: image/publication/C2024_13.png
@@ -363,9 +360,8 @@ Conference:
   - name: "Martingale posterior neural processes"
     image: image/publication/C2023_05.png
     author: <b>Hyungi Lee</b>, <b>Eunggu Yun</b>, <b>Giung Nam</b>, Edwin Fong, <b>Juho Lee</b>
-    label: International Conference on Learning Representations (ICLR), 2023
+    label: International Conference on Learning Representations (ICLR), 2023, <b>Spotlight Presentation</b>
     url: https://openreview.net/forum?id=-9PVqZ-IR_
-    note: (Spotlight Presentation; notable-top-25%)
     links:
       preprint: https://arxiv.org/abs/2304.09431
 
@@ -547,11 +543,10 @@ Conference:
   - name: "Beyond the Chinese restaurant and Pitman-Yor processes: statistical models with double power-law behavior"
     image: image/publication/C2019_04.png
     author: Fadhel Ayed*, <b>Juho Lee</b>*, François Caron
-    label: International Conference on Machine Learning (ICML), 2019
+    label: International Conference on Machine Learning (ICML), 2019, <b>Long Oral Presentation</b>
     url: https://proceedings.mlr.press/v97/ayed19a.html
     links:
       preprint: https://arxiv.org/abs/1902.04714
-    note: (Long Oral Presentation)
 
   - name: "Set transformer: a framework for attention-based permutation-invariant neural networks"
     image: image/publication/C2019_03.png
@@ -573,12 +568,11 @@ Conference:
   - name: "A Bayesian model for sparse graphs with flexible degree distribution and overlapping community structure"
     image: image/publication/C2019_01.png
     author: <b>Juho Lee</b>, Lancelot F. James, Seungjin Choi, François Caron
-    label: International Conference on Artificial Intelligence and Statistics (AISTATS), 2019
+    label: International Conference on Artificial Intelligence and Statistics (AISTATS), 2019, <b>Oral Presentation</b>
     url: https://proceedings.mlr.press/v89/lee19b.html
     links:
       preprint: https://arxiv.org/abs/1810.01778
       code: https://github.com/OxCSML-BayesNP/BNRG
-    note: (Oral Presentation)
 
   - name: "Uncertainty-aware attention for reliable interpretation and prediction"
     image: image/publication/C2018_02.png
@@ -649,9 +643,8 @@ Symposium and Workshop:
   - name: "Learning Dynamic Brain Connectome with Graph Transformers for Psychiatric Diagnosis Classification"
     image: image/publication/S_02.png
     author: Byung-Hoon Kim*, <b>Jungwon Choi</b>*, <b>EungGu Yun</b>, Kyungsang Kim, Xiang Li, <b>Juho Lee</b>
-    label: IEEE International Symposium on Biomedical Imaging (ISBI), 2024
+    label: IEEE International Symposium on Biomedical Imaging (ISBI), 2024, <b>Oral Presentation</b>
     url: https://ieeexplore.ieee.org/document/10635508
-    note: (Oral Presentation)
 
   - name: "A generative self-supervised framework using functional connectivity in fMRI data"
     image: image/publication/W_09.png
@@ -686,9 +679,8 @@ Symposium and Workshop:
   - name: "Modeling uplift from observational time-series in continual scenarios"
     image: image/publication/W_04.png
     author: <b>Sanghyun Kim</b>, <b>Jungwon Choi</b>, NamHee Kim, Jaesung Ryu, <b>Juho Lee</b>
-    label: AAAI-23 Bridge on Continual Casality, 2023
+    label: AAAI-23 Bridge on Continual Casality, 2023, <b>Oral Presentation</b>
     url: https://openreview.net/forum?id=pKyB5wMnTiy
-    note: (Oral Presentation)
 
   - name: "Fine-tuning diffusion models with limited data"
     image: image/publication/W_03.png
@@ -705,9 +697,8 @@ Symposium and Workshop:
   - name: "Towards deep amortized clustering"
     image: image/publication/W_02.png
     author: <b>Juho Lee</b>, Yoonho Lee, Yee Whye Teh
-    label: NeurIPS 2019 Sets & Partitions workshop, 2019
+    label: NeurIPS 2019 Sets & Partitions workshop, 2019, <b>Contributed Talk</b>
     url: https://slideslive.com/38923511/contributed-talk-towards-deep-amortized-clustering
-    note: (Contributed Talk)
 
   - name: "Graph embedding VAE: a permutation invariant model of graph structure"
     image: image/publication/W_01.png
