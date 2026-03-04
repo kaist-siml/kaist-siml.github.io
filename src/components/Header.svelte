@@ -1,5 +1,8 @@
 <script>
-    let { segment } = $props();
+    let { segment, homeOpacity = 1 } = $props();
+
+    let textVal = $derived(Math.round(255 * (1 - homeOpacity)));
+    let textColor = $derived(`rgb(${textVal}, ${textVal}, ${textVal})`);
 </script>
 
 <style lang="scss">
@@ -8,7 +11,6 @@
     header {
         display: grid;
 
-        grid-row: header;
         grid-column: screen;
 
         grid-template-columns: $page-grid-template-columns;
@@ -16,9 +18,17 @@
 
         @include padding-x(0);
         @include padding-y($blank);
+        
+        transition: background-color 0.3s ease, color 0.3s ease;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: $kaist-white;
+        border-bottom: 1px solid #eee;
+        z-index: 1000;
 
-        .content {
-            grid-area: content;
+        .content {            grid-area: content;
 
             display: grid;
 
@@ -75,12 +85,12 @@
                     &::before {
                         content: '';
                         position: absolute;
-                        transition: transform .3s ease;
+                        transition: transform .3s ease, background-color 0.3s ease;
                         left: 0;
                         bottom: 0;
                         width: 100%;
                         height: 2px;
-                        background: $kaist-dark-gray;
+                        background: var(--underline-color, #{$kaist-dark-gray});
                         transform: scaleX(0);
                     }
                 }
@@ -88,10 +98,7 @@
                 a:hover::before,
                 .selected::before {
                     transform: scaleX(1);
-                }
-
-                .selected::before {
-                    background: $kaist-dark-blue;
+                    background: var(--underline-color, #{$kaist-dark-blue});
                 }
             }
         }
@@ -130,14 +137,21 @@
     }
 </style>
 
-<header>
+<header 
+    style="
+        background-color: rgba(255, 255, 255, {homeOpacity});
+        opacity: 1;
+        pointer-events: 'auto';
+        border-bottom: {homeOpacity < 1 ? 'none' : '1px solid #eee'};
+    "
+>
     <div class="content">
-        <a class="brand" href="/">SIML</a>
+        <a class="brand" href="/" style="color: {textColor}">SIML</a>
         <nav>
-            <a class='{segment === undefined ? "selected" : ""}' href='/'>home</a>
-            <a class='{segment === "research" ? "selected" : ""}' href='/research'>research</a>
-            <a class='{segment === "publication" ? "selected" : ""}' href='/publication'>publication</a>
-            <a class='{segment === "people" ? "selected" : ""}' href='/people'>people</a>
+            <a class='{segment === undefined ? "selected" : ""}' href='/' style="color: {textColor}; --underline-color: {textColor}">home</a>
+            <a class='{segment === "research" ? "selected" : ""}' href='/research' style="color: {textColor}; --underline-color: {textColor}">research</a>
+            <a class='{segment === "publication" ? "selected" : ""}' href='/publication' style="color: {textColor}; --underline-color: {textColor}">publication</a>
+            <a class='{segment === "people" ? "selected" : ""}' href='/people' style="color: {textColor}; --underline-color: {textColor}">people</a>
         </nav>
     </div>
 </header>

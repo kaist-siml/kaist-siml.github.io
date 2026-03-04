@@ -1,3 +1,10 @@
+<script>
+    import { page } from '$app/state';
+    import Header from 'components/Header.svelte';
+    
+    let segment = $derived(page.url.pathname.split('/')[1] || undefined);
+</script>
+
 <style lang="scss">
     @import "utils/variables";
 
@@ -11,6 +18,8 @@
         }
     }
 </style>
+
+<Header {segment} />
 
 <main>
     <div class="content">

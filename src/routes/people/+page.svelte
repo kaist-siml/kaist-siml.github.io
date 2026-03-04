@@ -1,6 +1,7 @@
 <script>
     import people from 'data/people.yaml';
     import Profile from 'components/Profile.svelte';
+    import Header from 'components/Header.svelte';
 </script>
 
 <style lang="scss">
@@ -40,6 +41,29 @@
         @include decorate-a;
     }
 
+    ul {
+        list-style: none;
+        padding: 0;
+        margin-bottom: 0;
+
+        li {
+            position: relative;
+            padding-left: 1.2rem;
+            margin-bottom: 0.5rem;
+
+            &::before {
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 0.6em;
+                width: 0.5rem;
+                height: 0.5rem;
+                background-color: $kaist-blue;
+                border-radius: 2px;
+            }
+        }
+    }
+
     @include media-breakpoint-only(xs) {
         .content {
             gap: $blank * 2;
@@ -68,6 +92,8 @@
 <svelte:head>
   <title>SIML - People</title>
 </svelte:head>
+
+<Header segment="people" />
 
 <main>
     <div class="content">

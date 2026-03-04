@@ -1,5 +1,6 @@
 <script>
     import publication from 'data/publication.yaml';
+    import Header from 'components/Header.svelte';
 
     const getImageUrl = (image) => {
         const path = image || 'image/dummy_paper.svg';
@@ -112,6 +113,8 @@
 <svelte:head>
   <title>SIML - Publication</title>
 </svelte:head>
+
+<Header segment="publication" />
 
 <main>
     <div class="container">

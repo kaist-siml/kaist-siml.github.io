@@ -1,5 +1,6 @@
 <script>
     import { onMount } from 'svelte';
+    import Header from 'components/Header.svelte';
 
     let currId = $state(0);
     const images = [
@@ -137,6 +138,8 @@
 <svelte:head>
   <title>SIML - Research</title>
 </svelte:head>
+
+<Header segment="research" />
 
 <main>
     <div class="content">

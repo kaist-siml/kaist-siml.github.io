@@ -28,6 +28,5 @@
     });
 </script>
 
-<Header {segment} />
 {@render children()}
 <Footer />
