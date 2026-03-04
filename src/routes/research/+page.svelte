@@ -1,5 +1,4 @@
 <script>
-    import research from 'data/research.yaml';
     import { onMount } from 'svelte';
 
     let currId = $state(0);

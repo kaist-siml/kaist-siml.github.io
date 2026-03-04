@@ -19,8 +19,22 @@
         max-width: 100%;
         @include padding-x(0);
 
-        h2:not(:first-child) {
-            margin-top: 2em;
+        display: grid;
+        gap: 3rem;
+
+        .section-card {
+            border: 1px solid #eee;
+            border-radius: 15px;
+            padding: 2.5rem;
+            background-color: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        h2 {
+            margin-top: 0;
+            margin-bottom: 2rem;
+            font-weight: 600;
+            color: $kaist-dark-blue;
         }
 
         a {
@@ -103,31 +117,33 @@
     <div class="container">
 
     {#each Object.entries(publication) as [type, papers]}
-        <h2>{type}</h2>
-        <ul>
+        <div class="section-card">
+            <h2>{type}</h2>
+            <ul>
 
-        {#each papers as paper}
-            <!-- svelte-ignore a11y_no_noninteractive_element_interactions -->
-            <!-- svelte-ignore a11y_click_events_have_key_events -->
-            <li class="paper-item" onclick={() => handleItemClick(paper.url)}>
-                <img src={getImageUrl(paper.image)} alt="...">
-                <div class='wrap'>
-                    <p><b><a href={paper.url} target="_blank" class="title" onclick={(e) => e.stopPropagation()}>{paper.name}</a></b></p>
-                    <p>{@html paper.author}</p>
-                    <p>{@html paper.label}</p>
-                    {#if paper.note}<p><b>{paper.note}</b></p>{/if}
-                    <p class="links">
-                        {#each Object.entries(paper.links || {}) as [name, url], i}
-                        {#if url}
-                            {#if i > 0}&nbsp;{/if}<a href={url} target="_blank" onclick={(e) => e.stopPropagation()}>{name}</a>
-                        {/if}
-                        {/each}
-                    </p>
-                </div>
-            </li>
-        {/each}
+            {#each papers as paper}
+                <!-- svelte-ignore a11y_no_noninteractive_element_interactions -->
+                <!-- svelte-ignore a11y_click_events_have_key_events -->
+                <li class="paper-item" onclick={() => handleItemClick(paper.url)}>
+                    <img src={getImageUrl(paper.image)} alt="...">
+                    <div class='wrap'>
+                        <p><b><a href={paper.url} target="_blank" class="title" onclick={(e) => e.stopPropagation()}>{paper.name}</a></b></p>
+                        <p>{@html paper.author}</p>
+                        <p>{@html paper.label}</p>
+                        {#if paper.note}<p><b>{paper.note}</b></p>{/if}
+                        <p class="links">
+                            {#each Object.entries(paper.links || {}) as [name, url], i}
+                            {#if url}
+                                {#if i > 0}&nbsp;{/if}<a href={url} target="_blank" onclick={(e) => e.stopPropagation()}>{name}</a>
+                            {/if}
+                            {/each}
+                        </p>
+                    </div>
+                </li>
+            {/each}
 
-        </ul>
+            </ul>
+        </div>
     {/each}
 
     </div>

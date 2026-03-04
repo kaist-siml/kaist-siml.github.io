@@ -1,5 +1,7 @@
 <script>
     import home from 'data/home.md';
+
+    const sections = home.html.split(/(?=<h2)/).filter(s => s.trim() !== '');
 </script>
 
 <style lang="scss">
@@ -38,17 +40,50 @@
 
         .content {
             grid-area: content;
+            display: grid;
+            gap: 3rem;
 
-            :global(h2) {
-                font-size: 1.5rem;
-                font-family: Helvetica;
-                font-weight: 400;
-                color: $kaist-dark-blue;
+            .section-card {
+                border: 1px solid #eee;
+                border-radius: 15px;
+                padding: 2.5rem;
+                background-color: #fff;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+
+                @include media-breakpoint-only(xs) {
+                    padding: 1.5rem;
+                }
             }
 
+            :global(h2) {
+                margin-top: 0;
+                margin-bottom: 2rem;
+                font-size: 1.5rem;
+                font-family: Helvetica;
+                font-weight: 600;
+                color: $kaist-dark-blue;
+            }
             :global(ul) {
                 list-style: none;
                 padding: 0;
+                margin-bottom: 0;
+
+                :global(li) {
+                    position: relative;
+                    padding-left: 1.2rem;
+                    margin-bottom: 0.5rem;
+
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        left: 0;
+                        top: 0.6em;
+                        width: 0.5rem;
+                        height: 0.5rem;
+                        background-color: $kaist-blue;
+                        border-radius: 2px;
+                    }
+                }
             }
 
             :global(a) {
@@ -57,6 +92,7 @@
 
             :global(p) {
                 text-align: justify;
+                margin-bottom: 0;
             }
         }
     }
@@ -73,6 +109,10 @@
     </div>
 
     <div class="content">
-        {@html home.html}
+        {#each sections as section}
+            <div class="section-card">
+                {@html section}
+            </div>
+        {/each}
     </div>
 </main>
