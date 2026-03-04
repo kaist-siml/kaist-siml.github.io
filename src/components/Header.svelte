@@ -135,7 +135,6 @@
         <a class="brand" href="/" style="color: {textColor}">SIML</a>
         <nav>
             <a class='{segment === undefined ? "selected" : ""}' href='/' style="color: {textColor}; --underline-color: {textColor}">home</a>
-            <a class='{segment === "research" ? "selected" : ""}' href='/research' style="color: {textColor}; --underline-color: {textColor}">research</a>
             <a class='{segment === "publication" ? "selected" : ""}' href='/publication' style="color: {textColor}; --underline-color: {textColor}">publication</a>
             <a class='{segment === "people" ? "selected" : ""}' href='/people' style="color: {textColor}; --underline-color: {textColor}">people</a>
         </nav>

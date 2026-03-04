@@ -4,6 +4,7 @@
     import BannerParticles from 'components/BannerParticles.svelte';
     import Header from 'components/Header.svelte';
     import Footer from 'components/Footer.svelte';
+    import ResearchSlides from 'components/ResearchSlides.svelte';
 
     const sections = home.html.split(/(?=<h2)/).filter(s => s.trim() !== '');
 
@@ -242,6 +243,11 @@
                 {@html section}
             </div>
         {/each}
+
+        <div class="section-card">
+            <h2>Research</h2>
+            <ResearchSlides />
+        </div>
     </div>
 </main>
 
