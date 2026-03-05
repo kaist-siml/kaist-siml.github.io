@@ -44,7 +44,7 @@ phd:
       - Large language models
       - Uncertainty calibration
     url: https://chaeyoon-jang.github.io/
-    image: image/people/cyjang2.jpg
+    image: image/people/cyjang.jpg
 
   - name: Joonhyeong Park
     email: jhpark.kaist@gmail.com
@@ -82,6 +82,7 @@ ms:
       - Natural language processing
       - Large language model
       - Data-efficient learning
+    url: https://www.linkedin.com/in/seungyoo-lee-62b098281/
     image: image/people/sylee.jpg
 
   - name: Seonghyeon Kim
@@ -89,7 +90,7 @@ ms:
     interests:
       - Bayesian inference
       - Generative modeling
-    image: image/people/shkim2.png
+    image: image/people/shkim.png
 
   - name: Younghwan Gil
     email: yhgil99@kaist.ac.kr
@@ -103,6 +104,7 @@ ms:
     interests:
       - Bayesian deep learning
       - Bayesian inference
+    url: https://www.linkedin.com/in/junhyunha/
     image: image/people/jhha.jpg
 
   - name: Deukhwan Cho
@@ -115,6 +117,7 @@ ms:
     email: example@kaist.ac.kr
     interests:
       - Machine learning
+    url: https://www.linkedin.com/in/yun-2000/
     image: image/dummy.svg
 
   - name: Mingyeong Kim
@@ -135,74 +138,65 @@ ms:
 alumni:
 
   - name: Seanie Lee
-    image: image/people/snlee.jpg
-    url: https://seanie12.github.io
     note: (PhD 2026)
+    url: https://seanie12.github.io
 
   - name: Hyunsu Kim
-    image: image/people/hskim.jpg
-    url: https://kim-hyunsu.github.io
     note: (PhD 2025)
+    url: https://kim-hyunsu.github.io
 
   - name: Hyungi Lee
-    image: image/people/hglee.jpg
-    url: https://hyungi-lee.github.io/
     note: (PhD 2025)
+    url: https://hyungi-lee.github.io/
 
   - name: Jonggeon Park
-    image: image/people/jgpark.jpg
     note: (MS 2025)
+    url: https://park-jong-geon.github.io
 
   - name: Haebeom Lee
-    image: image/people/hblee.jpg
-    url: https://haebeom-lee.github.io/
     note: (PostDoc 2024)
+    url: https://haebeom-lee.github.io/
 
   - name: Yohan Jung
-    image: image/people/yhjung.jpg
-    url: https://e2ee22.github.io/
     note: (PostDoc 2024)
+    url: https://e2ee22.github.io/
 
   - name: Jongmin Yoon
-    image: image/people/jmyoon.jpg
-    url: https://jmyoon1.github.io
     note: (PhD 2024)
+    url: https://www.linkedin.com/in/jongmin-yoon-9915469a/
     
   - name: Balhae Kim
-    image: image/people/bhkim.jpg
-    url: https://www.linkedin.com/in/balhaekim/
     note: (PhD 2024)
+    url: https://www.linkedin.com/in/balhaekim/
 
   - name: Sanghyun Kim
-    image: image/people/sanghyun.jpg
     note: (MS 2024)
+    url: https://github.com/nannullna
 
   - name: Seongho Keum
-    image: image/people/shkeum.jpg
     note: (MS 2024)
+    url: https://www.linkedin.com/in/seongho-keum-b0086b267/
 
   - name: Seohyeon Jung
-    image: image/people/shjung.jpg
     note: (MS 2024)
+    url: https://www.linkedin.com/in/seohyeonjung/
 
   - name: Hyunmog Kim
-    image: image/people/hmkim.jpg
     note: (MS 2023)
+    url: https://www.linkedin.com/in/hyunmogkim/
 
   - name: Sunguk Jang
-    image: image/people/sujang.jpg
     note: (MS 2023)
+    url: https://www.linkedin.com/in/sunguk-jang-9587301a2/
 
   - name: Eunggu Yun
-    image: image/people/egyun.jpg
-    url: https://yuneg11.github.io
     note: (MS 2023)
+    url: https://yuneg11.github.io
 
   - name: Seunghyun Kim
-    image: image/people/shkim.jpg
     note: (MS 2023)
+    url: https://www.linkedin.com/in/robin-kim-05347b219/
 
   - name: Taehong Moon
-    image: image/people/thmoon.jpg
-    url: https://taehong-moon.github.io/
     note: (MS 2023)    
+    url: https://taehong-moon.github.io/
