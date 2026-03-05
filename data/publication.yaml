@@ -75,7 +75,7 @@ Conference:
       code: https://github.com/kim-hyunsu/XNN
 
   - name: "Cost-Sensitive Freeze-Thaw Bayesian Optimization for Efficient Hyperparameter Tuning"
-    image: image/dummy_paper.svg
+    image: image/publication/C2025_16.png
     author: Dong Bok Lee, Aoxuan Silvia Zhang, Byungjoo Kim, Junhyeon Park, Steven Adriaensen, <b>Juho Lee</b>, Sung Ju Hwang, Hae Beom Lee
     label: Neural Information Processing Systems (NeurIPS), 2025
     url: https://openreview.net/forum?id=ZUb4JpNoJe
@@ -83,7 +83,7 @@ Conference:
       preprint: 
 
   - name: "FedSVD: Adaptive Orthogonalization for Private Federated Learning with LoRA"
-    image: image/dummy_paper.svg
+    image: image/publication/C2025_15.png
     author: <b>Seanie Lee</b>, Sangwoo Park, Dong Bok Lee, Dominik Wagner, Haebin Seong, Tobias Bocklet, <b>Juho Lee</b>, Sung Ju Hwang
     label: Neural Information Processing Systems (NeurIPS), 2025
     url: https://openreview.net/forum?id=Qq19n9LZ97
@@ -91,7 +91,7 @@ Conference:
       preprint: 
 
   - name: "Compact Memory for Continual Logistic Regression"
-    image: image/dummy_paper.svg
+    image: image/publication/C2025_14.png
     author: <b>Yohan Jung</b>, <b>Hyungi Lee</b>, Wenlong Chen, Thomas Möllenhoff, Yingzhen Li, <b>Juho Lee</b>, Mohammad Emtiyaz Khan
     label: Neural Information Processing Systems (NeurIPS), 2025
     url: https://openreview.net/forum?id=XLa5Puhqzg
@@ -99,7 +99,7 @@ Conference:
       preprint: 
 
   - name: "Test Time Scaling for Neural Processes"
-    image: image/dummy_paper.svg
+    image: image/publication/C2025_13.png
     author: <b>Hyungi Lee</b>, <b>Moonseok Choi</b>, <b>Hyunsu Kim</b>, Kyunghyun Cho, Rajesh Ranganath, <b>Juho Lee</b>
     label: Neural Information Processing Systems (NeurIPS), 2025
     url: https://openreview.net/forum?id=7cirmREfbc
@@ -107,7 +107,7 @@ Conference:
       preprint: 
 
   - name: "PANGEA: Projection-Based Augmentation with Non-Relevant General Data for Enhanced Domain Adaptation in LLMs"
-    image: image/dummy_paper.svg
+    image: image/publication/C2025_12.png
     author: <b>Seungyoo Lee</b>, <b>Giung Nam</b>, <b>Moonseok Choi</b>, <b>Hyungi Lee</b>†, <b>Juho Lee</b>†
     label: Neural Information Processing Systems (NeurIPS), 2025
     url: https://openreview.net/forum?id=7EjdHkOwc4
@@ -115,7 +115,7 @@ Conference:
       preprint: 
 
   - name: "Reliable Decision‑Making via Calibration‑Oriented Retrieval‑Augmented Generation"
-    image: image/dummy_paper.svg
+    image: image/publication/C2025_11.png
     author: <b>Chaeyun Jang</b>, <b>Deukhwan Cho</b>, <b>Seanie Lee</b>, <b>Hyungi Lee</b>†, <b>Juho Lee</b>†
     label: Neural Information Processing Systems (NeurIPS), 2025
     url: https://openreview.net/forum?id=nNQmZGjEVe
