@@ -80,7 +80,7 @@ Conference:
     label: Neural Information Processing Systems (NeurIPS), 2025
     url: https://openreview.net/forum?id=ZUb4JpNoJe
     links:
-      preprint: 
+      preprint: https://arxiv.org/pdf/2510.21379
 
   - name: "FedSVD: Adaptive Orthogonalization for Private Federated Learning with LoRA"
     image: image/publication/C2025_15.png
@@ -88,7 +88,7 @@ Conference:
     label: Neural Information Processing Systems (NeurIPS), 2025
     url: https://openreview.net/forum?id=Qq19n9LZ97
     links:
-      preprint: 
+      preprint: https://arxiv.org/pdf/2505.12805
 
   - name: "Compact Memory for Continual Logistic Regression"
     image: image/publication/C2025_14.png
@@ -96,7 +96,7 @@ Conference:
     label: Neural Information Processing Systems (NeurIPS), 2025
     url: https://openreview.net/forum?id=XLa5Puhqzg
     links:
-      preprint: 
+      preprint: https://arxiv.org/pdf/2511.09167
 
   - name: "Test Time Scaling for Neural Processes"
     image: image/publication/C2025_13.png
@@ -104,7 +104,7 @@ Conference:
     label: Neural Information Processing Systems (NeurIPS), 2025
     url: https://openreview.net/forum?id=7cirmREfbc
     links:
-      preprint: 
+      preprint: https://openreview.net/pdf?id=7cirmREfbc
 
   - name: "PANGEA: Projection-Based Augmentation with Non-Relevant General Data for Enhanced Domain Adaptation in LLMs"
     image: image/publication/C2025_12.png
@@ -112,7 +112,7 @@ Conference:
     label: Neural Information Processing Systems (NeurIPS), 2025
     url: https://openreview.net/forum?id=7EjdHkOwc4
     links:
-      preprint: 
+      preprint: https://openreview.net/pdf?id=7EjdHkOwc4
 
   - name: "Reliable Decision‑Making via Calibration‑Oriented Retrieval‑Augmented Generation"
     image: image/publication/C2025_11.png
@@ -120,7 +120,7 @@ Conference:
     label: Neural Information Processing Systems (NeurIPS), 2025
     url: https://openreview.net/forum?id=nNQmZGjEVe
     links:
-      preprint: 
+      preprint: https://arxiv.org/pdf/2411.08891
 
   - name: "Bayesian Neural Scaling Laws Extrapolation with Prior-Fitted Networks"
     image: image/publication/C2025_10.png
