@@ -108,23 +108,25 @@ ms:
     image: image/people/jhha.jpg
 
   - name: Deukhwan Cho
-    email: example@kaist.ac.kr
+    email: macro_boomin@kaist.ac.kr
     interests:
-      - Machine learning
-    image: image/dummy.svg
+      - Large language model
+      - Knowledge Graph
+    image: image/people/dhcho.jpg
 
   - name: Hyeonmin Yun
-    email: example@kaist.ac.kr
+    email: hyeomnin.e.yun@gmail.com
     interests:
-      - Machine learning
+      - Stochastic optimal control
     url: https://www.linkedin.com/in/yun-2000/
-    image: image/dummy.svg
+    image: image/people/hmyun.jpg
 
   - name: Mingyeong Kim
-    email: example@kaist.ac.kr
+    email: kmk50411@kaist.ac.kr
     interests:
-      - Machine learning
-    image: image/dummy.svg
+      - Latent Reasoning
+      - Multi-modality
+    image: image/people/mgkim.jpg
 
   # - name: Some One
   #   email: example@kaist.ac.kr
