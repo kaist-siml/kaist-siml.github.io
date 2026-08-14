@@ -16,6 +16,15 @@ postdoc:
      url: https://cs-giung.github.io/
      image: image/people/gunam.jpg
 
+   - name: Gyusang Cho
+     email: cks1463@kaist.ac.kr
+     interests:
+       - Generative Modeling (Diffusion / Language)
+       - Inference-time Alignment
+       - AI Safety
+     url: https://gyyyyyuuuuu.github.io/
+     image: image/people/gscho.jpg
+
 phd:
   - name: Jungwon Choi
     email: jungwon.choi@kaist.ac.kr
