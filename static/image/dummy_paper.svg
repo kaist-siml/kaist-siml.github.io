@@ -1,5 +1,62 @@
-<svg class="bd-placeholder-img rounded float-end" width="120" height="90" xmlns="http://www.w3.org/2000/svg" role="img"
-    aria-label="Placeholder: 120x90" preserveAspectRatio="xMidYMid slice" focusable="false">
-    <title>Placeholder</title>
-    <rect width="100%" height="100%" fill="#868e96"></rect><text x="20%" y="50%" fill="#dee2e6" dy=".3em">No image</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title description" preserveAspectRatio="xMidYMid slice">
+  <title id="title">SIML publication</title>
+  <desc id="description">Abstract KAIST-blue visualization used when a publication figure is unavailable.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1A1A1A"/>
+      <stop offset="0.58" stop-color="#004187"/>
+      <stop offset="1" stop-color="#004191"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="48%" r="55%">
+      <stop offset="0" stop-color="#1487C8" stop-opacity="0.46"/>
+      <stop offset="1" stop-color="#1487C8" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#E1E4EB" stroke-opacity="0.075" stroke-width="1"/>
+    </pattern>
+    <filter id="soft-glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="frame">
+      <rect width="640" height="480" rx="28"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="640" height="480" fill="url(#background)"/>
+    <rect width="640" height="480" fill="url(#grid)"/>
+    <ellipse cx="360" cy="225" rx="290" ry="245" fill="url(#glow)"/>
+
+    <g fill="none" stroke-linecap="round">
+      <ellipse cx="350" cy="238" rx="205" ry="92" transform="rotate(-18 350 238)" stroke="#5FBEEB" stroke-opacity="0.72" stroke-width="3"/>
+      <ellipse cx="350" cy="238" rx="150" ry="215" transform="rotate(52 350 238)" stroke="#1487C8" stroke-opacity="0.72" stroke-width="2"/>
+      <path d="M-35 342C96 230 166 401 294 275S507 139 694 248" stroke="#5FBEEB" stroke-width="5"/>
+      <path d="M-35 372C104 269 179 427 305 307S520 174 694 280" stroke="#E1E4EB" stroke-opacity="0.38" stroke-width="2"/>
+    </g>
+
+    <g filter="url(#soft-glow)">
+      <circle cx="187" cy="272" r="10" fill="#5FBEEB" stroke="#E1E4EB" stroke-width="4"/>
+      <circle cx="351" cy="236" r="13" fill="#1487C8" stroke="#E1E4EB" stroke-width="4"/>
+      <circle cx="513" cy="197" r="9" fill="#5FBEEB" stroke="#E1E4EB" stroke-width="4"/>
+    </g>
+
+    <g fill="#E1E4EB" font-family="Arial, Helvetica, sans-serif">
+      <text x="42" y="58" font-size="17" font-weight="700" letter-spacing="4">SIML · RESEARCH</text>
+      <text x="42" y="431" fill-opacity="0.62" font-size="12" font-weight="600" letter-spacing="2.2">STATISTICAL INFERENCE &amp; MACHINE LEARNING</text>
+    </g>
+
+    <g transform="translate(492 46) rotate(45)">
+      <rect width="72" height="72" rx="15" fill="none" stroke="#E1E4EB" stroke-opacity="0.55" stroke-width="2"/>
+      <circle cx="20" cy="20" r="4" fill="#5FBEEB"/>
+      <circle cx="52" cy="20" r="4" fill="#5FBEEB"/>
+      <circle cx="36" cy="36" r="4" fill="#E1E4EB"/>
+      <circle cx="20" cy="52" r="4" fill="#1487C8"/>
+      <circle cx="52" cy="52" r="4" fill="#1487C8"/>
+    </g>
+  </g>
 </svg>

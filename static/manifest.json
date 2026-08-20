@@ -1,13 +1,15 @@
 {
-    "background_color": "#f8f9fa",
-    "theme_color": "#212529",
-    "name": "SIML",
+    "name": "SIML Laboratory",
     "short_name": "SIML",
-    "display": "minimal-ui",
+    "description": "Statistical Inference and Machine Learning Laboratory at KAIST AI",
     "start_url": "/",
+    "scope": "/",
+    "display": "minimal-ui",
+    "background_color": "#E1E4EB",
+    "theme_color": "#004191",
     "icons": [
         {
-            "src": "favicon.png",
+            "src": "/favicon.png",
             "sizes": "200x200",
             "type": "image/png"
         }

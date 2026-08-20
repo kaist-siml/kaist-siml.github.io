@@ -1,0 +1,66 @@
+news:
+  - date: "2026.06"
+    message: 1 paper was accepted to UAI 2026.
+    current: true
+  - date: "2026.05"
+    message: 5 papers were accepted to ICML 2026.
+    current: true
+  - date: "2026.01"
+    message: 3 papers were accepted to ICLR 2026.
+  - date: "2025.09"
+    message: 7 papers were accepted to NeurIPS 2025.
+  - date: "2025.05"
+    message: 3 papers were accepted to ICML 2025.
+  - date: "2025.01"
+    message: 6 papers were accepted to ICLR 2025.
+  - date: "2024.09"
+    message: 4 papers were accepted to NeurIPS 2024.
+  - date: "2024.07"
+    message: 1 paper was accepted to ECCV 2024.
+  - date: "2024.05"
+    message: 3 papers were accepted to ICML 2024.
+  - date: "2024.01"
+    message: 5 papers were accepted to ICLR 2024.
+  - date: "2023.09"
+    message: 1 paper was accepted to NeurIPS 2023.
+  - date: "2023.04"
+    message: 4 papers were accepted to ICML 2023.
+  - date: "2023.01"
+    message: 5 papers were accepted to ICLR 2023.
+  - date: "2022.09"
+    message: 2 papers were accepted to NeurIPS 2022.
+  - date: "2022.05"
+    message: 2 papers were accepted to ICML 2022.
+  - date: "2022.01"
+    message: 3 papers were accepted to ICLR 2022.
+  - date: "2021.09"
+    message: 2 papers were accepted to NeurIPS 2021.
+  - date: "2021.07"
+    message: 1 paper was accepted to ICCV 2021.
+  - date: "2021.05"
+    message: 1 paper was accepted to ICML 2021.
+  - date: "2020.07"
+    message: Prof. Juho Lee started directing the SIML Laboratory at KAIST AI.
+
+research:
+  - title: Generative Modeling & Stochastic Dynamics
+  - title: "Reliable Foundation Models: Uncertainty & Decision Making"
+    detail:
+      image: image/research/topic2.svg
+      alt: Overview of reliable foundation models, uncertainty, belief updating, and decision making
+  - title: Agentic & Self-Improving AI
+  - title: AI-Based Weather Forecasting
+
+join:
+  intro: We welcome self-motivated students to join our academic journey.
+  points:
+    - segments:
+        - text: "Since "
+        - text: Prof. Juho Lee
+          href: https://juho-lee.github.io
+        - text: " can only advise students at "
+        - text: Kim Jaechul Graduate School of AI
+          href: https://gsai.kaist.ac.kr/admission/
+        - text: " for now, please get admission to join us."
+    - segments:
+        - text: It is strongly recommended to contact the professor in advance (at least two or three months before the graduate school admission deadline) and conduct a research project.
