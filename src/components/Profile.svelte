@@ -135,7 +135,7 @@
 
     .profile-link {
         position: absolute;
-        z-index: 2;
+        z-index: 4;
         inset: 0;
         border-radius: inherit;
     }

@@ -86,6 +86,22 @@ test.describe('publication discovery and structure', () => {
         await expect(page.getByText('No publications match these filters.')).toBeVisible();
     });
 
+    test('linked publication cards use one consistent full-card hit target', async ({ page }) => {
+        const card = page.locator('.paper-item.clickable').first();
+        const expectedUrl = await card.locator('.paper-link').getAttribute('href');
+        for (const selector of ['h3', '.authors', '.venue', '.paper-badges']) {
+            const hitUrl = await card.locator(selector).evaluate(element => {
+                const bounds = element.getBoundingClientRect();
+                const hitTarget = document.elementFromPoint(
+                    bounds.left + bounds.width / 2,
+                    bounds.top + bounds.height / 2
+                );
+                return hitTarget?.closest('.paper-link')?.getAttribute('href') || null;
+            });
+            expect(hitUrl).toBe(expectedUrl);
+        }
+    });
+
     test('passes critical accessibility checks', async ({ page }) => {
         const results = await new AxeBuilder({ page })
             .withTags(['wcag2a', 'wcag2aa'])
@@ -95,6 +111,25 @@ test.describe('publication discovery and structure', () => {
         );
         expect(seriousViolations).toEqual([]);
     });
+});
+
+test('linked people cards use one consistent full-card hit target', async ({ page }) => {
+    await page.emulateMedia({ reducedMotion: 'reduce' });
+    await page.goto('/people/');
+
+    const card = page.locator('article.linked .profile-card').first();
+    const expectedUrl = await card.locator('.profile-link').getAttribute('href');
+    for (const selector of ['.portrait', '.role', '.name', '.email']) {
+        const hitUrl = await card.locator(selector).evaluate(element => {
+            const bounds = element.getBoundingClientRect();
+            const hitTarget = document.elementFromPoint(
+                bounds.left + bounds.width / 2,
+                bounds.top + bounds.height / 2
+            );
+            return hitTarget?.closest('.profile-link')?.getAttribute('href') || null;
+        });
+        expect(hitUrl).toBe(expectedUrl);
+    }
 });
 
 test('hero headings do not overflow at 320px with enlarged text', async ({ page }) => {
