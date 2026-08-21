@@ -25,6 +25,7 @@ const DISTINCTION_MATCHERS = [
     ['Long Oral', /Long Oral Presentation/i],
     ['Oral', /Oral Presentation/i],
     ['Spotlight', /Spotlight Presentation/i],
+    ['Poster', /\bPoster(?: Presentation)?\b/i],
     ['Contributed Talk', /Contributed Talk/i]
 ];
 
@@ -78,4 +79,5 @@ export const getBadges = paper => {
 export const getVenueText = label => stripHtml(label)
     .replace(/,\s*(?:Long )?Oral Presentation\s*$/i, '')
     .replace(/,\s*Spotlight Presentation\s*$/i, '')
+    .replace(/,\s*Poster(?: Presentation)?\s*$/i, '')
     .replace(/,\s*Contributed Talk\s*$/i, '');

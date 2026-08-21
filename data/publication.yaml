@@ -614,153 +614,160 @@ Symposium and Workshop:
   - name: "ASCG: adaptive spatial classifier guidance for surgical concept suppression in diffusion models"
     image: image/dummy_paper.svg
     author: <b>Younghwan Kil</b>, <b>Joonhyeong Park</b>, <b>Giung Nam</b>, <b>Juho Lee</b>
-    label: "Second Edition of Workshop on Synthetic & Adversarial ForEnsics, June 2026"
+    label: CVPR 2026 Workshop — Synthetic & Adversarial Forensics (SAFE)
     date: "2026-06"
     url: https://openreview.net/forum?id=S9HxdLOgqt
 
   - name: "Bridging the missing-modality gap: improving text-only calibration of vision language models"
     image: image/dummy_paper.svg
     author: <b>Mingyeong Kim</b>, <b>Jungwon Choi</b>, <b>Chaeyun Jang</b>, <b>Juho Lee</b>
-    label: ICLR 2026 Trustworthy AI Workshop, 2026
+    label: ICLR 2026 Workshop — Trustworthy AI
     date: "2026-03"
     url: https://openreview.net/forum?id=ATL8VtvYWd
 
   - name: "Mitigating legibility tax with decoupled prover-verifier games"
     image: image/dummy_paper.svg
     author: <b>Yegon Kim</b>, <b>Juho Lee</b>
-    label: ICLR 2026 Trustworthy AI Workshop, 2026
+    label: ICLR 2026 Workshop — Trustworthy AI
     date: "2026-03"
     url: https://openreview.net/forum?id=f1xMcM9rOz
 
   - name: "Permutation-symmetrized diffusion for unconditional molecular generation"
     image: image/dummy_paper.svg
     author: <b>Gyeonghoon Ko</b>, <b>Juho Lee</b>
-    label: ICLR 2026 DeLTa Workshop, 2026
+    label: ICLR 2026 Workshop — DeLTa
     date: "2026-03"
     url: https://openreview.net/forum?id=4D5kz15lkl
 
   - name: "Preventing representation collapse in latent prediction via context-conditional alignment under missing modalities"
     image: image/dummy_paper.svg
     author: <b>Jungwon Choi</b>, <b>Juho Lee</b>
-    label: ICLR 2026 Re-Align Workshop, 2026
+    label: ICLR 2026 Workshop — Re-Align
     date: "2026-03"
     url: https://openreview.net/forum?id=4GsUiCZNhf
+
+  - name: "Infinite dimensional adjoint sampler: scalable sampling on function spaces"
+    image: image/dummy_paper.svg
+    author: <b>Byoungwoo Park</b>, <b>Juho Lee</b>, Guan-Horng Liu
+    label: NeurIPS 2025 Workshop — Frontiers in Probabilistic Inference, Poster
+    date: "2025-12"
+    url: https://openreview.net/forum?id=0aqslPPVPM
 
   - name: "Improving constrained language generation via self-distilled twisted sequential Monte Carlo"
     image: image/dummy_paper.svg
     author: Sooyeon Kim, <b>Giung Nam</b>, <b>Byoungwoo Park</b>, <b>Juho Lee</b>
-    label: "Second Edition of Frontiers in Probabilistic Inference: Learning meets Sampling, December 2025"
+    label: NeurIPS 2025 Workshop — Frontiers in Probabilistic Inference
     date: "2025-12"
     url: https://openreview.net/forum?id=00CWDFhpWQ
 
   - name: "Verbalized confidence triggers self-verification: emergent behavior without explicit reasoning supervision"
     image: image/dummy_paper.svg
     author: <b>Chaeyun Jang</b>, <b>Moonseok Choi</b>, <b>Yegon Kim</b>, <b>Hyungi Lee</b>, <b>Juho Lee</b>
-    label: ICML 2025 R2-FM Workshop, 2025
+    label: ICML 2025 Workshop — R2-FM
     date: "2025-07"
     url: https://openreview.net/forum?id=Ub3eXwQ0uA
 
   - name: "Compact memory for K-prior based continual learning"
     image: image/dummy_paper.svg
     author: <b>Yohan Jung</b>, <b>Hyungi Lee</b>, Wenlong Chen, Thomas Möllenhoff, Yingzhen Li, <b>Juho Lee</b>, Mohammad Emtiyaz Khan
-    label: AABI 2025 Workshop Track, 2025
+    label: AABI 2025 Workshop Track
     date: "2025-03"
     url: https://openreview.net/forum?id=vx0USHUYgL
 
   - name: "Efficient modeling of irregular time-series with stochastic optimal control"
     image: image/dummy_paper.svg
     author: <b>Byoungwoo Park</b>, <b>Hyungi Lee</b>, <b>Juho Lee</b>
-    label: NeurIPS BDU Workshop, 2024
+    label: NeurIPS 2024 Workshop — Bayesian Decision-Making and Uncertainty (BDU), Poster
     date: "2024-10"
     url: https://openreview.net/forum?id=KRtuDGFJzu
 
   - name: "Learning diverse attacks on large language models for robust red-teaming and safety tuning"
     image: image/dummy_paper.svg
     author: <b>Seanie Lee</b>, Minsu Kim, Lynn Cherif, David Dobre, <b>Juho Lee</b>, Sung Ju Hwang, Kenji Kawaguchi, Gauthier Gidel, Yoshua Bengio, Nikolay Malkin, Moksh Jain
-    label: Red Teaming GenAI Workshop at NeurIPS, 2024
+    label: NeurIPS 2024 Workshop — Red Teaming GenAI
     date: "2024-10"
     url: https://openreview.net/forum?id=nnGITZZw9N
 
   - name: "Cost-sensitive multi-fidelity Bayesian optimization with transfer of learning curve extrapolation"
     image: image/dummy_paper.svg
     author: Dong Bok Lee, Aoxuan Silvia Zhang, Byungjoo Kim, Junhyeon Park, <b>Juho Lee</b>, Sung Ju Hwang, Hae Beom Lee
-    label: AutoML 2024 Workshop, 2024
+    label: AutoML 2024 Workshop
     date: "2024-07"
     url: https://openreview.net/forum?id=oah8Ayz5Bg
 
   - name: "Learning dynamic brain connectome with graph transformers for psychiatric diagnosis classification"
     image: image/publication/S_02.png
     author: Byung-Hoon Kim*, <b>Jungwon Choi</b>*, <b>Eunggu Yun</b>, Kyungsang Kim, Xiang Li, <b>Juho Lee</b>
-    label: IEEE International Symposium on Biomedical Imaging (ISBI), 2024, <b>Oral Presentation</b>
+    label: IEEE International Symposium on Biomedical Imaging (ISBI) 2024, <b>Oral Presentation</b>
     date: "2024-04"
     url: https://ieeexplore.ieee.org/document/10635508
 
   - name: "A generative self-supervised framework using functional connectivity in fMRI data"
     image: image/publication/W_09.png
     author: <b>Jungwon Choi</b>, <b>Seongho Keum</b>, <b>Eunggu Yun</b>,  Byung-Hoon Kim, <b>Juho Lee</b>
-    label: NeurIPS 2023 workshop on Temporal Graph Learning, 2023
+    label: NeurIPS 2023 Workshop — Temporal Graph Learning
     date: "2023-12"
     url: https://openreview.net/forum?id=JXranzV2zV
 
   - name: "Large-scale graph representation learning of dynamic brain connectome with transformers"
     image: image/publication/W_08.png
     author: Byung-Hoon Kim*, <b>Jungwon Choi</b>*, <b>Eunggu Yun</b>, Kyungsang Kim, Xiang Li, <b>Juho Lee</b>
-    label: NeurIPS 2023 workshop on Temporal Graph Learning, 2023
+    label: NeurIPS 2023 Workshop — Temporal Graph Learning
     date: "2023-12"
     url: https://openreview.net/forum?id=WvFHDkIhmp
 
   - name: "Early exiting for accelerated inference in diffusion models"
     image: image/publication/W_07.png
     author: <b>Taehong Moon</b>, <b>Moonseok Choi</b>, <b>Eunggu Yun</b>, <b>Jongmin Yoon</b>, Gayoung Lee, <b>Juho Lee</b>
-    label: ICML 2023 workshop on Structured Probabilistic Inference & Generative Modeling, 2023
+    label: ICML 2023 Workshop — Structured Probabilistic Inference & Generative Modeling
     date: "2023-07"
     url: https://openreview.net/forum?id=nhGdjo9Xed
 
   - name: "Function space Bayesian pseudocoreset for Bayesian neural networks"
     image: image/publication/W_06.png
     author: <b>Balhae Kim</b>, <b>Hyungi Lee</b>, <b>Juho Lee</b>
-    label: ICML 2023 workshop on Structured Probabilistic Inference & Generative Modeling, 2023
+    label: ICML 2023 Workshop — Structured Probabilistic Inference & Generative Modeling
     date: "2023-07"
     url: https://openreview.net/forum?id=VTtUDU9YNE
 
   - name: "Towards safe self-distillation of internet-scale text-to-image diffusion models"
     image: image/publication/W_05.png
     author: <b>Sanghyun Kim</b>, <b>Seohyeon Jung</b>, <b>Balhae Kim</b>, <b>Moonseok Choi</b>, Jinwoo Shin, <b>Juho Lee</b>
-    label: ICML 2023 Workshop on Challenges in Deployable Generative AI, 2023
+    label: ICML 2023 Workshop — Challenges in Deployable Generative AI
     date: "2023-07"
     url: https://openreview.net/forum?id=6zALFeqxY0
 
   - name: "Modeling uplift from observational time-series in continual scenarios"
     image: image/publication/W_04.png
     author: <b>Sanghyun Kim</b>, <b>Jungwon Choi</b>, NamHee Kim, Jaesung Ryu, <b>Juho Lee</b>
-    label: AAAI-23 Bridge on Continual Causality, 2023, <b>Oral Presentation</b>
+    label: AAAI 2023 Bridge — Continual Causality, <b>Oral Presentation</b>
     date: "2023-02"
     url: https://openreview.net/forum?id=pKyB5wMnTiy
 
   - name: "Fine-tuning diffusion models with limited data"
     image: image/publication/W_03.png
     author: <b>Taehong Moon</b>, <b>Moonseok Choi</b>, Gayoung Lee, Jung-Woo Ha, <b>Juho Lee</b>
-    label: NeurIPS 2022 Workshop on Score-Based Methods, 2022
+    label: NeurIPS 2022 Workshop — Score-Based Methods
     date: "2022-12"
     url: https://openreview.net/forum?id=0J6afk9DqrR
 
   - name: "Adaptive strategy for resetting a non-stationary Markov chain during learning via joint stochastic optimization"
     image: image/publication/S_01.png
     author: <b>Hyunsu Kim</b>, <b>Juho Lee</b>, Hongseok Yang
-    label: Third Symposium on Advances in Approximate Bayesian Inference, 2021
+    label: Symposium on Advances in Approximate Bayesian Inference (AABI) 2021
     date: "2021-12"
     url: https://openreview.net/forum?id=fuHh4CC3-5Z
 
   - name: "Towards deep amortized clustering"
     image: image/publication/W_02.png
     author: <b>Juho Lee</b>, Yoonho Lee, Yee Whye Teh
-    label: NeurIPS 2019 Sets & Partitions workshop, 2019, <b>Contributed Talk</b>
+    label: NeurIPS 2019 Workshop — Sets & Partitions, <b>Contributed Talk</b>
     date: "2019-12"
     url: https://slideslive.com/38923511/contributed-talk-towards-deep-amortized-clustering
 
   - name: "Graph embedding VAE: a permutation invariant model of graph structure"
     image: image/publication/W_01.png
     author: Tony Duan, <b>Juho Lee</b>
-    label: NeurIPS 2019 Graph Representation Learning workshop, 2019
+    label: NeurIPS 2019 Workshop — Graph Representation Learning
     date: "2019-12"
     url: https://grlearning.github.io/papers/19.pdf

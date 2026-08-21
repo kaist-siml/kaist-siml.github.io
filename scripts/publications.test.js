@@ -12,11 +12,11 @@ test('workshop publications never inherit main-conference venue badges', () => {
     assert.equal(badges.some(badge => badge.label === 'ICLR'), false);
 });
 
-test('known workshop names do not receive shorthand venue badges', () => {
+test('workshop names omit shorthand venue badges but retain distinctions', () => {
     const badges = getBadges({
         type: 'Symposium and Workshop',
-        label: 'ICML workshop on Structured Probabilistic Inference & Generative Modeling, 2026'
+        label: 'ICML 2026 Workshop — Structured Probabilistic Inference & Generative Modeling, Poster'
     });
 
-    assert.deepEqual(badges.map(badge => badge.label), ['Symposium & Workshop']);
+    assert.deepEqual(badges.map(badge => badge.label), ['Symposium & Workshop', 'Poster']);
 });

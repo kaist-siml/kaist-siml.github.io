@@ -48,10 +48,11 @@ Edit `data/publication.yaml`.
 
 1. Add the paper under `Conference`, `Journal`, or `Symposium and Workshop`.
 2. Add a normalized `date` in `YYYY-MM` format; the unified stream is sorted from this field.
-3. Use an HTTPS `url` as the card's only external destination.
-4. Set `recent: true` for newly announced work that should have the gradient card and pulsing blue marker.
-5. Remove `recent: true` from older work when it should return to a white card without the marker.
-6. If a recent paper has no public destination yet, set `forthcoming: true`; otherwise validation fails. This renders the `To appear` badge.
+3. Keep display labels consistent: journals may use `Month Year`, conferences use the full venue name and year without a month, and workshops use `Host Year Workshop — Name` without a month.
+4. Use an HTTPS `url` as the card's only external destination.
+5. Set `recent: true` for newly announced work that should have the gradient card and pulsing blue marker.
+6. Remove `recent: true` from older work when it should return to a white card without the marker.
+7. If a recent paper has no public destination yet, set `forthcoming: true`; otherwise validation fails. This renders the `To appear` badge.
 
 The publication count, chronological stream, year separators, search/filter results, venue badges, and homepage count are derived automatically. Paper thumbnails remain in the data for possible future use but are not currently rendered.
 

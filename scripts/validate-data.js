@@ -12,6 +12,7 @@ const CONTENT_FILES = {
 const PUBLICATION_TYPES = ['Conference', 'Journal', 'Symposium and Workshop'];
 const PEOPLE_STATUSES = ['active', 'alumni'];
 const PEOPLE_ROLES = ['professor', 'postdoc', 'phd', 'ms'];
+const MONTH_NAME_PATTERN = /\b(?:January|February|March|April|May|June|July|August|September|October|November|December)\b/i;
 
 const errors = [];
 const readYaml = file => YAML.parse(readFileSync(resolve(file), 'utf8'));
@@ -131,6 +132,9 @@ const validatePublications = (publications, publicationNames) => {
             assert(/^20\d{2}-(0[1-9]|1[0-2])$/.test(paper.date || ''), `${context} has an invalid normalized date`);
             assert(year > 0, `${context} is missing a publication year`);
             assert(Number(paper.date?.slice(0, 4)) === year, `${context} date and label years do not match`);
+            if (type !== 'Journal') {
+                assert(!MONTH_NAME_PATTERN.test(paper.label || ''), `${context} label must not include a month`);
+            }
             assert(year <= previousYear, `publication.${type} must be sorted newest first`);
             previousYear = year;
             assert(!titles.has(paper.name), `${context} duplicates title: ${paper.name}`);
