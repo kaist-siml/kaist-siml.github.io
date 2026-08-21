@@ -7,13 +7,6 @@ const people = YAML.parse(readFileSync('data/people.yaml', 'utf8')).people;
 const peopleCount = people.length;
 const firstPersonName = people[0].name;
 
-const waitForFiniteAnimations = page => page.waitForFunction(() =>
-    document.getAnimations().every(animation => {
-        const iterations = animation.effect?.getTiming().iterations;
-        return iterations === Infinity || animation.playState !== 'running';
-    })
-);
-
 test.describe('homepage interactions', () => {
     test.beforeEach(async ({ page }) => {
         await page.emulateMedia({ reducedMotion: 'reduce' });
@@ -63,7 +56,6 @@ test.describe('homepage interactions', () => {
     test('renders meaningful statistic text and passes critical accessibility checks', async ({ page }) => {
         await expect(page.locator('.hero-meta > div').first()).toContainText(/\d+/);
         await expect(page.locator('.hero-meta > div').first()).toContainText('Research works');
-        await waitForFiniteAnimations(page);
 
         const results = await new AxeBuilder({ page })
             .withTags(['wcag2a', 'wcag2aa'])
@@ -111,7 +103,6 @@ test.describe('publication discovery and structure', () => {
     });
 
     test('passes critical accessibility checks', async ({ page }) => {
-        await waitForFiniteAnimations(page);
         const results = await new AxeBuilder({ page })
             .withTags(['wcag2a', 'wcag2aa'])
             .analyze();

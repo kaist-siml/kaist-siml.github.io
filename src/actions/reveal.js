@@ -24,7 +24,6 @@ export const reveal = (node, options = {}) => {
     let hasRevealed = false;
 
     const resetStyles = () => {
-        node.style.removeProperty('opacity');
         node.style.removeProperty('transform');
     };
 
@@ -33,9 +32,9 @@ export const reveal = (node, options = {}) => {
         hasRevealed = true;
 
         animation = node.animate([
-            { opacity: 0, transform: `translate3d(0, ${distance}px, 0) scale(.985)` },
-            { opacity: 1, transform: 'translate3d(0, -2px, 0) scale(1)', offset: .82 },
-            { opacity: 1, transform: 'translate3d(0, 0, 0) scale(1)' }
+            { transform: `translate3d(0, ${distance}px, 0) scale(.985)` },
+            { transform: 'translate3d(0, -2px, 0) scale(1)', offset: .82 },
+            { transform: 'translate3d(0, 0, 0) scale(1)' }
         ], {
             duration,
             delay,
@@ -47,7 +46,6 @@ export const reveal = (node, options = {}) => {
         animation.finished.then(() => animation?.cancel()).catch(() => {});
     };
 
-    node.style.opacity = '0';
     node.style.transform = `translate3d(0, ${distance}px, 0) scale(.985)`;
     revealCallbacks.set(node, show);
     getRevealObserver().observe(node);
