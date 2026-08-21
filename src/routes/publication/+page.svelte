@@ -357,14 +357,6 @@
         box-shadow: none;
     }
 
-    .paper-badges span.workshop {
-        border-style: dashed;
-        border-color: $kaist-dark-blue;
-        color: $kaist-dark-blue;
-        background: rgba($kaist-light-blue, .28);
-        font-weight: 500;
-    }
-
     .paper-badges span.forthcoming {
         border-color: rgba($kaist-dark-gray, .55);
         color: $kaist-dark-blue;

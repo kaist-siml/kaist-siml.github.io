@@ -21,25 +21,6 @@ const VENUE_MATCHERS = [
     ['AABI', /Advances in Approximate Bayesian Inference/i]
 ];
 
-const WORKSHOP_VENUE_MATCHERS = [
-    ['SAFE@CVPR', /Synthetic.*Adversarial ForEnsics|SAFE Workshop/i],
-    ['DeLTa@ICLR', /DeLTa Workshop/i],
-    ['Re-Align@ICLR', /Re-Align Workshop/i],
-    ['R2-FM@ICML', /R2-FM Workshop/i],
-    ['BDU@NeurIPS', /BDU Workshop|Bayesian Decision-making and Uncertainty/i],
-    ['Red Teaming@NeurIPS', /Red Teaming GenAI Workshop/i],
-    ['AutoML Workshop', /AutoML .*Workshop/i],
-    ['AABI Workshop', /AABI .*Workshop Track/i],
-    ['FPI@NeurIPS', /Frontiers in Probabilistic Inference/i],
-    ['TGL@NeurIPS', /Temporal Graph Learning/i],
-    ['SPIGM@ICML', /Structured Probabilistic Inference.*Generative Modeling/i],
-    ['DGA@ICML', /Challenges in Deployable Generative AI/i],
-    ['CC@AAAI', /Bridge on Continual Causality/i],
-    ['SBM@NeurIPS', /Workshop on Score-Based Methods/i],
-    ['S&P@NeurIPS', /Sets & Partitions workshop/i],
-    ['GRL@NeurIPS', /Graph Representation Learning workshop/i]
-];
-
 const DISTINCTION_MATCHERS = [
     ['Long Oral', /Long Oral Presentation/i],
     ['Oral', /Oral Presentation/i],
@@ -77,11 +58,8 @@ export const createPublicationList = publication => PUBLICATION_TYPES
 
 export const getBadges = paper => {
     const text = stripHtml(`${paper.label || ''} ${paper.note || ''}`);
-    const workshopVenue = paper.type === 'Symposium and Workshop'
-        ? WORKSHOP_VENUE_MATCHERS.find(([, pattern]) => pattern.test(text))?.[0]
-        : null;
     const venue = paper.type === 'Symposium and Workshop'
-        ? workshopVenue
+        ? null
         : VENUE_MATCHERS.find(([, pattern]) => pattern.test(text))?.[0];
     const distinction = DISTINCTION_MATCHERS.find(([, pattern]) => pattern.test(text))?.[0];
 
@@ -91,7 +69,7 @@ export const getBadges = paper => {
 
     return [
         { label: categoryLabel, kind: 'category' },
-        ...(venue ? [{ label: venue, kind: workshopVenue ? 'workshop' : 'venue' }] : []),
+        ...(venue ? [{ label: venue, kind: 'venue' }] : []),
         ...(paper.forthcoming ? [{ label: 'To appear', kind: 'forthcoming' }] : []),
         ...(distinction ? [{ label: distinction, kind: 'notable' }] : [])
     ];
