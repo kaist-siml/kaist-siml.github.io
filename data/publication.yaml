@@ -688,6 +688,13 @@ Symposium and Workshop:
     date: "2024-10"
     url: https://openreview.net/forum?id=nnGITZZw9N
 
+  - name: "Stabilizing the training of consistency models with score guidance"
+    image: image/dummy_paper.svg
+    author: <b>Jeongjun Lee</b>*, <b>Jonggeon Park</b>*, <b>Jongmin Yoon</b>, <b>Juho Lee</b>
+    label: ICML 2024 Workshop — Structured Probabilistic Inference & Generative Modeling
+    date: "2024-07"
+    url: https://openreview.net/forum?id=6Q5828tzlp
+
   - name: "Cost-sensitive multi-fidelity Bayesian optimization with transfer of learning curve extrapolation"
     image: image/dummy_paper.svg
     author: Dong Bok Lee, Aoxuan Silvia Zhang, Byungjoo Kim, Junhyeon Park, <b>Juho Lee</b>, Sung Ju Hwang, Hae Beom Lee
