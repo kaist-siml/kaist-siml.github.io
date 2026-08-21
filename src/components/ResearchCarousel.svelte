@@ -1,7 +1,6 @@
 <script>
     import { onMount, tick, untrack } from 'svelte';
     import { slide } from 'svelte/transition';
-    import { subscribeReducedMotion } from 'utils/motion.js';
 
     let { areas } = $props();
     let viewport;
@@ -9,7 +8,6 @@
     let autoplayTimer;
     let transitionTimer;
     let interactionTimer;
-    let reduceMotion = $state(false);
     let carouselReady = $state(false);
     let autoplayPaused = $state(false);
     let transitionEnabled = $state(false);
@@ -35,7 +33,7 @@
 
     const waitForTransition = () => new Promise(resolve => {
         window.clearTimeout(transitionTimer);
-        transitionTimer = window.setTimeout(resolve, reduceMotion ? 0 : 850);
+        transitionTimer = window.setTimeout(resolve, 850);
     });
 
     const getStep = () => {
@@ -67,7 +65,7 @@
 
     const scheduleAutoplay = () => {
         stopAutoplay();
-        if (reduceMotion || autoplayPaused || expandedIndex !== null || document.hidden) return;
+        if (autoplayPaused || expandedIndex !== null || document.hidden) return;
         autoplayTimer = window.setTimeout(() => advance(1), 4500);
     };
 
@@ -214,11 +212,6 @@
         const handleVisibilityChange = () => scheduleAutoplay();
         const resizeObserver = new ResizeObserver(updateVisibleCount);
 
-        const unsubscribeMotion = subscribeReducedMotion(value => {
-            reduceMotion = value;
-            if (value) transitionEnabled = false;
-            scheduleAutoplay();
-        });
         document.addEventListener('visibilitychange', handleVisibilityChange);
         resizeObserver.observe(viewport);
         updateVisibleCount();
@@ -230,7 +223,6 @@
             window.clearTimeout(transitionTimer);
             window.clearTimeout(interactionTimer);
             resizeObserver.disconnect();
-            unsubscribeMotion();
             document.removeEventListener('visibilitychange', handleVisibilityChange);
         };
     });
@@ -329,7 +321,7 @@
         <figure
             class="research-detail"
             id="research-topic-detail"
-            transition:slide={{ duration: reduceMotion ? 0 : 520 }}
+            transition:slide={{ duration: 520 }}
         >
             <button bind:this={detailCloseButton} type="button" onclick={closeDetail} aria-label="Close research topic overview">×</button>
             <img
@@ -585,8 +577,4 @@
         .research-detail img { width: 100%; min-width: 0; }
     }
 
-    @media (prefers-reduced-motion: reduce) {
-        .research-grid,
-        .research-card { transition: none; }
-    }
 </style>

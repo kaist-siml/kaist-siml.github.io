@@ -1,6 +1,5 @@
 <script>
     import { onMount } from 'svelte';
-    import { subscribeReducedMotion } from 'utils/motion.js';
 
     let { people = [] } = $props();
     let canvas;
@@ -17,7 +16,6 @@
     let announcedName = $state('');
     const mouse = { x: null, y: null, radius: 150 };
 
-    let reducedMotion = false;
     let canvasVisible = true;
     let documentVisible = true;
     const connectionDistance = 130;
@@ -168,7 +166,7 @@
 
         drawSelectedName();
 
-        if (!reducedMotion && canvasVisible && documentVisible) {
+        if (canvasVisible && documentVisible) {
             animationId = requestAnimationFrame(animate);
         }
     }
@@ -290,10 +288,6 @@
             parent.addEventListener('pointerleave', handleMouseLeave);
         }
         visibilityObserver.observe(canvas);
-        const unsubscribeMotion = subscribeReducedMotion(value => {
-            reducedMotion = value;
-            syncAnimation();
-        });
         document.addEventListener('visibilitychange', handleVisibilityChange);
         handleResize();
 
@@ -302,7 +296,6 @@
             window.clearTimeout(selectionTimer);
             resizeObserver.disconnect();
             visibilityObserver.disconnect();
-            unsubscribeMotion();
             parent?.removeEventListener('pointermove', handlePointerMove);
             parent?.removeEventListener('pointerleave', handleMouseLeave);
             document.removeEventListener('visibilitychange', handleVisibilityChange);

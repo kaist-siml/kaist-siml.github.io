@@ -38,7 +38,7 @@ src/utils/             Content selectors and formatting helpers
 static/                 Images, fonts, and public assets
 ```
 
-Homepage sections are split into `HomeHero.svelte`, `ResearchCarousel.svelte`, and `JoinLab.svelte`. Route files should primarily compose components rather than contain section-specific behavior and styling.
+Homepage sections are split into `HomeHero.svelte`, `ResearchCarousel.svelte`, and `JoinLab.svelte`. Route files should primarily compose components rather than contain section-specific behavior and styling. Site motion is intentionally kept enabled regardless of the operating system's `prefers-reduced-motion` setting.
 
 ## Updating content
 

@@ -164,7 +164,4 @@
         .admissions-button { width: 100%; max-width: none; }
     }
 
-    @media (prefers-reduced-motion: reduce) {
-        .admissions-button { transition: none; }
-    }
 </style>

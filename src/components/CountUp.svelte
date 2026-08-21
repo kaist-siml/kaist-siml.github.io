@@ -1,6 +1,5 @@
 <script>
     import { onMount, untrack } from 'svelte';
-    import { subscribeReducedMotion } from 'utils/motion.js';
 
     let { value, start = 0, duration = 1400, delay = 0 } = $props();
     let element;
@@ -10,7 +9,6 @@
         let animationFrame;
         let delayTimer;
         let hasAnimated = false;
-        let observing = false;
 
         const stopAnimation = () => {
             window.clearTimeout(delayTimer);
@@ -20,7 +18,6 @@
         const observer = new IntersectionObserver(entries => {
             if (hasAnimated || !entries.some(entry => entry.isIntersecting)) return;
             hasAnimated = true;
-            observing = false;
             observer.disconnect();
 
             delayTimer = window.setTimeout(() => {
@@ -36,25 +33,10 @@
             }, delay);
         }, { threshold: .45 });
 
-        const unsubscribeMotion = subscribeReducedMotion(reduceMotion => {
-            if (reduceMotion) {
-                stopAnimation();
-                observer.disconnect();
-                observing = false;
-                hasAnimated = true;
-                displayedValue = value;
-                return;
-            }
-
-            if (!hasAnimated && !observing) {
-                displayedValue = start;
-                observer.observe(element);
-                observing = true;
-            }
-        });
+        displayedValue = start;
+        observer.observe(element);
 
         return () => {
-            unsubscribeMotion();
             observer.disconnect();
             stopAnimation();
         };

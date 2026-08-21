@@ -1,15 +1,10 @@
 <script>
-    import { onMount } from 'svelte';
     import { slide } from 'svelte/transition';
     import BannerParticles from 'components/BannerParticles.svelte';
     import CountUp from 'components/CountUp.svelte';
-    import { subscribeReducedMotion } from 'utils/motion.js';
 
     let { news, publicationCount, memberCount, alumniCount, people = [], shift = 0 } = $props();
     let archiveOpen = $state(false);
-    let reduceMotion = $state(false);
-
-    onMount(() => subscribeReducedMotion(value => reduceMotion = value));
 </script>
 
 <section class="hero" aria-labelledby="hero-title">
@@ -62,7 +57,7 @@
                         Earlier updates <span aria-hidden="true">+</span>
                     </button>
                     {#if archiveOpen}
-                        <ol id="earlier-news" transition:slide={{ duration: reduceMotion ? 0 : 420 }}>
+                        <ol id="earlier-news" transition:slide={{ duration: 420 }}>
                             {#each news.slice(5) as item (`${item.date}:${item.message}`)}
                                 <li>
                                     <span class="news-date">
@@ -372,8 +367,4 @@
         .hero-intro br { display: none; }
     }
 
-    @media (prefers-reduced-motion: reduce) {
-        .hero-inner { transform: none !important; }
-        .button { transition: none; }
-    }
 </style>
