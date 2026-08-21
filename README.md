@@ -4,7 +4,7 @@ Website of the KAIST Statistical Inference and Machine Learning Laboratory. It u
 
 ## Requirements
 
-- Node.js 22 or newer
+- Node.js 24 or newer
 - npm
 
 ## Development
