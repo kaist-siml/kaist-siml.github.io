@@ -133,7 +133,7 @@
     .hero-inner {
         position: relative;
         z-index: 2;
-        width: min(calc(100% - 3rem), 1280px);
+        width: min(calc(100% - 3rem), 1440px);
         min-height: 620px;
         margin: 0 auto;
         padding: 8rem 0 8.5rem;
@@ -317,7 +317,7 @@
         position: absolute;
         z-index: 3;
         bottom: 2.2rem;
-        left: max(1.5rem, calc((100vw - 1280px) / 2));
+        left: max(1.5rem, calc((100vw - 1440px) / 2));
         display: flex;
         gap: clamp(2rem, 5vw, 5rem);
     }
@@ -345,7 +345,7 @@
 
     @media (max-width: 720px) {
         .hero { min-height: 820px; }
-        .hero-inner { width: min(calc(100% - 2rem), 1280px); min-height: 0; padding: 7.5rem 0 8rem; align-items: center; }
+        .hero-inner { width: min(calc(100% - 2rem), 1440px); min-height: 0; padding: 7.5rem 0 8rem; align-items: center; }
         h1 { font-size: clamp(1.9rem, 9.5vw, 3.5rem); }
         .hero-intro { font-size: .9rem; line-height: 1.6; }
         .hero-actions .button { min-height: 3rem; padding: 0 1rem; gap: .6rem; font-size: .76rem; }

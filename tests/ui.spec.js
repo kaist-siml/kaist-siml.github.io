@@ -43,6 +43,16 @@ test.describe('homepage interactions', () => {
         await expect(page.getByRole('figure')).toHaveCount(0);
     });
 
+    test('keeps clear separation between the title and news on wide screens', async ({ page }) => {
+        await page.setViewportSize({ width: 1920, height: 1080 });
+        const title = await page.locator('.hero-copy h1').boundingBox();
+        const news = await page.locator('.hero-news').boundingBox();
+
+        expect(title).not.toBeNull();
+        expect(news).not.toBeNull();
+        expect(news.x - (title.x + title.width)).toBeGreaterThanOrEqual(64);
+    });
+
     test('maps the full roster to the interactive constellation', async ({ page }) => {
         const constellation = page.getByRole('button', {
             name: new RegExp(`Interactive lab constellation with ${peopleCount} researchers`)
