@@ -331,6 +331,28 @@
         text-transform: uppercase;
     }
 
+    @media (min-width: 993px) {
+        .hero {
+            padding: 5rem 0 2.5rem;
+            display: grid;
+            grid-template-rows: auto auto;
+            align-content: center;
+            row-gap: clamp(3rem, 6svh, 4.5rem);
+        }
+
+        .hero-inner {
+            min-height: 0;
+            padding: 0;
+        }
+
+        .hero-meta {
+            position: relative;
+            width: min(calc(100% - 3rem), 1440px);
+            margin: 0 auto;
+            inset: auto;
+        }
+    }
+
     @media (max-width: 992px) {
         .hero-inner {
             grid-template-columns: 1fr;
