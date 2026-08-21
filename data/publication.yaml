@@ -618,6 +618,20 @@ Symposium and Workshop:
     date: "2026-06"
     url: https://openreview.net/forum?id=S9HxdLOgqt
 
+  - name: "Bridging the missing-modality gap: improving text-only calibration of vision language models"
+    image: image/dummy_paper.svg
+    author: <b>Mingyeong Kim</b>, <b>Jungwon Choi</b>, <b>Chaeyun Jang</b>, <b>Juho Lee</b>
+    label: ICLR 2026 Trustworthy AI Workshop, 2026
+    date: "2026-03"
+    url: https://openreview.net/forum?id=ATL8VtvYWd
+
+  - name: "Mitigating legibility tax with decoupled prover-verifier games"
+    image: image/dummy_paper.svg
+    author: <b>Yegon Kim</b>, <b>Juho Lee</b>
+    label: ICLR 2026 Trustworthy AI Workshop, 2026
+    date: "2026-03"
+    url: https://openreview.net/forum?id=f1xMcM9rOz
+
   - name: "Permutation-symmetrized diffusion for unconditional molecular generation"
     image: image/dummy_paper.svg
     author: <b>Gyeonghoon Ko</b>, <b>Juho Lee</b>

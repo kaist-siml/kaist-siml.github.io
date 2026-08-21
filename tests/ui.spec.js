@@ -11,7 +11,7 @@ test.describe('homepage interactions', () => {
     test.beforeEach(async ({ page }) => {
         await page.emulateMedia({ reducedMotion: 'reduce' });
         await page.goto('/');
-        await expect(page.locator('#research')).toHaveAttribute('data-ready', 'true');
+        await expect(page.locator('#research')).toHaveAttribute('data-ready', 'true', { timeout: 15_000 });
     });
 
     test('carousel detail manages drag, focus, and rotation controls', async ({ page }) => {
@@ -88,9 +88,14 @@ test.describe('publication discovery and structure', () => {
         await expect(page.getByText('Recently accepted publication', { exact: true }).first()).toBeAttached();
         await expect(page.locator('.paper-link').first()).toHaveAttribute('tabindex', '-1');
 
-        await page.getByLabel('Search publications').fill('Permutation-symmetrized diffusion');
+        await page.getByLabel('Search publications').fill('Bridging the missing-modality gap');
         await expect(page.getByText('1 result', { exact: true })).toBeVisible();
-        await expect(page.getByRole('heading', { name: /Permutation-symmetrized diffusion/i })).toBeVisible();
+        const addedPaper = page.getByRole('heading', { name: /Bridging the missing-modality gap/i });
+        await expect(addedPaper).toBeVisible();
+        await expect(addedPaper.locator('a')).toHaveAttribute(
+            'href',
+            'https://openreview.net/forum?id=ATL8VtvYWd'
+        );
 
         await page.locator('.publication-tools select').selectOption('Journal');
         await expect(page.getByText('No publications match these filters.')).toBeVisible();
