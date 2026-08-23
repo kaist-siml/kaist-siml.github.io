@@ -61,7 +61,7 @@ Conference:
     label: International Conference on Machine Learning (ICML), 2026
     date: "2026-07"
     recent: true
-    url: https://openreview.net/forum?id=qK2yxjJJCh
+    url: https://openreview.net/forum?id=70lhVsTZ62
 
   - name: "Confidence is not universal: task-dependent calibration and emergent behavior in LLMs"
     image: image/dummy_paper.svg
@@ -69,7 +69,7 @@ Conference:
     label: International Conference on Machine Learning (ICML), 2026
     date: "2026-07"
     recent: true
-    url: https://openreview.net/forum?id=XcJk9un0Tb
+    url: https://openreview.net/forum?id=1dvDUYc8nm
 
   - name: "From drift to coherence: stabilizing beliefs in LLMs"
     image: image/dummy_paper.svg
@@ -85,7 +85,7 @@ Conference:
     label: International Conference on Machine Learning (ICML), 2026
     date: "2026-07"
     recent: true
-    url: https://openreview.net/forum?id=1dvDUYc8nm
+    url: https://openreview.net/forum?id=XcJk9un0Tb
 
   - name: "Riemannian diffusion models on general manifolds via physics-informed neural networks"
     image: image/dummy_paper.svg
@@ -93,7 +93,7 @@ Conference:
     label: International Conference on Machine Learning (ICML), 2026
     date: "2026-07"
     recent: true
-    url: https://openreview.net/forum?id=70lhVsTZ62
+    url: https://openreview.net/forum?id=qK2yxjJJCh
 
   - name: "Stochastic optimal control for continuous-time fMRI representation learning"
     image: image/publication/C2026_03.png
@@ -163,7 +163,7 @@ Conference:
     author: <b>Chaeyun Jang</b>, <b>Deukhwan Cho</b>, <b>Seanie Lee</b>, <b>Hyungi Lee</b>†, <b>Juho Lee</b>†
     label: Neural Information Processing Systems (NeurIPS), 2025
     date: "2025-12"
-    url: https://openreview.net/forum?id=nNQmZGjEVe
+    url: https://openreview.net/forum?id=Rgk129n73h
 
   - name: "Bayesian neural scaling laws extrapolation with prior-fitted networks"
     image: image/publication/C2025_10.png
@@ -191,7 +191,7 @@ Conference:
     author: Younghyun Kim*, Jongheon Jeong*, Sangkyung Kwak, Kyungmin Lee, <b>Juho Lee</b> and Jinwoo Shin
     label: International Joint Conference on Artificial Intelligence (IJCAI), 2025
     date: "2025-08"
-    url: https://arxiv.org/pdf/2505.13232
+    url: https://www.ijcai.org/proceedings/2025/0616
 
   - name: "Parameter expanded stochastic gradient Markov chain Monte Carlo"
     image: image/publication/C2025_06.png
