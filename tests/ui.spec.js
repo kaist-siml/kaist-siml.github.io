@@ -43,6 +43,57 @@ test.describe('homepage interactions', () => {
         await expect(page.getByRole('figure')).toHaveCount(0);
     });
 
+    test('renders research overviews as native responsive components', async ({ page }) => {
+        await page.setViewportSize({ width: 1440, height: 1000 });
+        const overviews = [
+            {
+                trigger: /Reliable Foundation Models.*Show topic overview/,
+                key: 'reliable-foundation-models'
+            },
+            {
+                trigger: /Agentic & Self-Improving AI.*Show topic overview/,
+                key: 'agentic-self-improving-ai'
+            }
+        ];
+
+        for (const overview of overviews) {
+            await page.setViewportSize({ width: 1440, height: 1000 });
+            await page.getByRole('button', { name: overview.trigger }).click();
+            const detail = page.locator(`[data-overview="${overview.key}"]`);
+            await expect(detail).toBeVisible();
+            await expect(detail.locator('svg')).toHaveCount(3);
+            await expect(detail.locator('img')).toHaveCount(0);
+
+            const overflowingLabels = await detail.locator('svg').evaluateAll((svgs) =>
+                svgs.flatMap((svg, figureIndex) => {
+                    const { width, height } = svg.viewBox.baseVal;
+                    return [...svg.querySelectorAll('text')].flatMap((label) => {
+                        const bounds = label.getBBox();
+                        const overflows = bounds.x < 0 || bounds.y < 0 ||
+                            bounds.x + bounds.width > width || bounds.y + bounds.height > height;
+                        return overflows ? [{ figureIndex, label: label.textContent }] : [];
+                    });
+                })
+            );
+            expect(overflowingLabels).toEqual([]);
+
+            await page.setViewportSize({ width: 390, height: 844 });
+            await expect(detail.locator('.diagram svg').first()).toBeVisible();
+            expect(await page.evaluate(() => document.documentElement.scrollWidth))
+                .toBe(await page.evaluate(() => document.documentElement.clientWidth));
+
+            const results = await new AxeBuilder({ page })
+                .include('#research-topic-detail')
+                .withTags(['wcag2a', 'wcag2aa'])
+                .analyze();
+            expect(results.violations.filter(({ impact }) =>
+                impact === 'serious' || impact === 'critical'
+            )).toEqual([]);
+            await page.getByRole('button', { name: 'Close research topic overview' }).click();
+            await expect(detail).toHaveCount(0);
+        }
+    });
+
     test('keeps balanced hero spacing on large screens', async ({ page }) => {
         await page.setViewportSize({ width: 1920, height: 1440 });
         const title = await page.locator('.hero-copy h1').boundingBox();

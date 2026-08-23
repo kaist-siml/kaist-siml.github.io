@@ -1,6 +1,7 @@
 <script>
     import { onMount, tick, untrack } from 'svelte';
     import { slide } from 'svelte/transition';
+    import ResearchOverview from 'components/ResearchOverview.svelte';
 
     let { areas } = $props();
     let viewport;
@@ -321,16 +322,11 @@
         <figure
             class="research-detail"
             id="research-topic-detail"
+            aria-label={`${areas[expandedIndex].title} overview`}
             transition:slide={{ duration: 520 }}
         >
             <button bind:this={detailCloseButton} type="button" onclick={closeDetail} aria-label="Close research topic overview">×</button>
-            <img
-                src={`/${detail.image}`}
-                alt={detail.alt}
-                width="960"
-                height="540"
-                decoding="async"
-            />
+            <ResearchOverview kind={detail.overview} />
         </figure>
     {/if}
 </section>
@@ -536,8 +532,6 @@
         box-shadow: 0 20px 55px rgba($kaist-dark-blue, .08);
     }
 
-    .research-detail img { width: 100%; height: auto; display: block; }
-
     .research-detail > button {
         position: absolute;
         z-index: 2;
@@ -574,7 +568,6 @@
         .carousel-controls button { width: 44px; height: 44px; }
         .research-card { min-height: 150px; flex-basis: calc(100% - 2rem); }
         .research-detail { border-radius: 1rem; }
-        .research-detail img { width: 100%; min-width: 0; }
     }
 
 </style>

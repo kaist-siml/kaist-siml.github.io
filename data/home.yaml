@@ -46,9 +46,10 @@ research:
   - title: Generative Modeling & Stochastic Dynamics
   - title: "Reliable Foundation Models: Uncertainty & Decision Making"
     detail:
-      image: image/research/topic2.svg
-      alt: Overview of reliable foundation models, uncertainty, belief updating, and decision making
+      overview: reliable-foundation-models
   - title: Agentic & Self-Improving AI
+    detail:
+      overview: agentic-self-improving-ai
   - title: AI-Based Weather Forecasting
 
 join:
