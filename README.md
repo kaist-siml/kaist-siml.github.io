@@ -90,7 +90,7 @@ Keep alumni entries newest-first. Active/alumni counts, role groups, badges, alu
 Edit `data/home.yaml`.
 
 - `news`: keep entries newest-first; set `current: true` only on updates that need the emphasized style and pulsing marker.
-- `research`: card order and titles come directly from this list. Set `detail.overview` to `reliable-foundation-models` or `agentic-self-improving-ai` to make the corresponding topic expandable. Overview content is rendered as responsive, semantic HTML and inline vector graphics by `ResearchOverview.svelte`, and is inserted only while its panel is open.
+- `research`: card order and titles come directly from this list. Set `detail.overview` to `reliable-foundation-models`, `agentic-self-improving-ai`, or `ai-weather-forecasting` to make the corresponding topic expandable. `ResearchOverview.svelte` renders every overview as semantic inline vector graphics and inserts it only while its panel is open.
 - `join`: controls recruitment copy and linked notes.
 
 ## Deployment

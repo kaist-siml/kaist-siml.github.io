@@ -327,7 +327,7 @@
                         <rect class="writer-node aligned-node" x="152" y="86" width="104" height="54" rx="10"/>
                         <text class="card-label" x="204" y="108">Prompt Writer</text><text class="symbol-label" x="204" y="126">frozen LLM</text>
 
-                        <text class="guidance-label" x="133" y="104">η guides</text>
+                        <text class="guidance-label" x="133" y="104">guides</text>
                         <path class="profile-guidance direct-guidance" marker-end="url(#profile-guide-arrow)" d="M122 113h23"/>
                         <path class="domain-flow" marker-end="url(#domain-flow-arrow)" d="M204 149v10"/>
                         <rect class="guide-node aligned-node" x="152" y="166" width="104" height="52" rx="10"/>
@@ -344,6 +344,140 @@
                     </svg>
                 </div>
                 <p class="topic-caption">A compact domain profile guides unrelated text into realistic synthetic data.</p>
+            </article>
+        </div>
+    {:else if kind === 'ai-weather-forecasting'}
+        <header class="overview-header">
+            <p class="overview-question">
+                How can we make <strong>reliable weather forecasts</strong><br />
+                in an inherently <strong>stochastic and uncertain world</strong>?
+            </p>
+            <span class="overview-rule" aria-hidden="true"></span>
+            <p class="overview-intro">
+                We study reliable AI weather forecasting by explicitly accounting for uncertainty,<br />
+                adapting global forecasting systems to regional needs, and enforcing physical consistency.
+            </p>
+            <p class="overview-collaboration">In collaboration with <strong>National Institute of Meteorological Sciences (NIMS), Korea</strong></p>
+        </header>
+
+        <div class="overview-grid">
+            <article class="overview-topic">
+                <header class="topic-heading">
+                    <span class="topic-number">1</span>
+                    <h4>How can ensembles capture uncertainty in the evolution of weather?</h4>
+                </header>
+                <div class="diagram">
+                    <svg viewBox="0 0 420 250" role="img" aria-labelledby="ensemble-title">
+                        <title id="ensemble-title">A shared initial weather state evolves into an ensemble of increasingly separated forecast trajectories, representing uncertainty over the forecast horizon.</title>
+                        <defs>
+                            <marker id="forecast-horizon-arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto"><path d="m1 1 6 3-6 3" fill="none" stroke="#7c7c7c" stroke-width="1.333333" stroke-linecap="round" stroke-linejoin="round"/></marker>
+                        </defs>
+                        <path class="ensemble-fan" d="M42 148C130 145 222 75 350 58L350 178C222 171 130 151 42 148Z"/>
+                        <g class="ensemble-trajectories">
+                            <path d="M42 148C132 146 220 82 350 58"/>
+                            <path d="M42 148C132 146 226 101 350 84"/>
+                            <path d="M42 148C135 148 230 124 350 113"/>
+                            <path class="central-trajectory" d="M42 148C142 149 235 148 350 143"/>
+                            <path d="M42 148C132 151 228 166 350 178"/>
+                        </g>
+                        <g class="trajectory-points">
+                            <circle class="initial-point" cx="42" cy="148" r="7"/>
+                            <circle cx="350" cy="58" r="4"/><circle cx="350" cy="84" r="4"/>
+                            <circle cx="350" cy="113" r="4"/><circle cx="350" cy="143" r="4"/><circle cx="350" cy="178" r="4"/>
+                        </g>
+                        <path class="spread-bracket" d="M372 58h-8v120h8"/>
+                        <text class="weather-annotation" x="368" y="44">ensemble spread</text>
+                        <path class="weather-horizon-axis" marker-end="url(#forecast-horizon-arrow)" d="M42 191h322"/>
+                        <text class="weather-secondary" x="203" y="216">forecast horizon</text>
+                    </svg>
+                </div>
+                <p class="topic-caption">An ensemble represents multiple plausible evolutions instead of one deterministic future.</p>
+            </article>
+
+            <article class="overview-topic">
+                <header class="topic-heading">
+                    <span class="topic-number">2</span>
+                    <h4>How can global models be adapted for accurate regional prediction?</h4>
+                </header>
+                <div class="diagram">
+                    <svg viewBox="0 0 420 250" role="img" aria-labelledby="regional-title">
+                        <title id="regional-title">A global weather model is transformed through regional adaptation to preserve broad atmospheric structure while resolving local patterns.</title>
+                        <rect class="visual-card weather-model-card" x="18" y="40" width="150" height="170" rx="12"/>
+                        <circle class="globe" cx="93" cy="108" r="44"/>
+                        <ellipse class="globe-grid" cx="93" cy="108" rx="20" ry="44"/>
+                        <path class="globe-grid" d="M49 108h88M55 88h76M55 128h76M93 64v88"/>
+                        <path class="land-mass" d="M63 77c10-13 25-13 34-2 5 7-2 13-10 18-5 4-7 13-14 14-7 1-11-5-9-12 2-6-7-10-1-18Zm43 31c12-8 25-4 27 6 2 8-8 9-11 16-3 8-7 18-16 17-8-1-9-11-5-18 4-8-3-14 5-21Z"/>
+                        <rect class="zoom-source" x="118" y="96" width="20" height="20" rx="2"/>
+                        <text class="card-label" x="93" y="177">Global model</text>
+                        <text class="symbol-label" x="93" y="194">global forecast</text>
+
+                        <g class="zoom-connector"><path d="M138 96 252 68"/><path d="M138 116 252 158"/></g>
+
+                        <rect class="visual-card weather-model-card" x="252" y="40" width="150" height="170" rx="12"/>
+                        <g class="regional-streams">
+                            <path d="M270 83c25-18 50-19 73-4 15 9 28 8 42-2"/>
+                            <path d="M270 106c30-17 49-13 68-1 17 11 32 10 47-1"/>
+                            <path d="M270 130c29-16 53-13 71-2 17 10 29 8 44-2"/>
+                        </g>
+                        <ellipse class="regional-focus" cx="331" cy="108" rx="42" ry="48"/>
+                        <path class="regional-core" d="M334 76c17 7 20 20 11 31-8 10-5 20-12 29-8 9-20 0-18-12 2-10 11-18 9-28-2-8 2-17 10-20Z"/>
+                        <text class="card-label" x="327" y="177">Regional adaptation</text>
+                        <text class="symbol-label" x="327" y="194">local structure</text>
+                    </svg>
+                </div>
+                <p class="topic-caption">Regional adaptation retains global context while resolving local atmospheric structure.</p>
+            </article>
+
+            <article class="overview-topic">
+                <header class="topic-heading">
+                    <span class="topic-number">3</span>
+                    <h4>How can physical consistency make AI weather forecasts more reliable?</h4>
+                </header>
+                <div class="diagram">
+                    <svg viewBox="0 0 420 250" role="img" aria-labelledby="physics-title">
+                        <title id="physics-title">Forecast fields pass through physical constraints that conserve mass and energy, producing a physically consistent weather forecast.</title>
+                        <defs>
+                            <marker id="physics-flow-arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto"><path d="m1 1 6 3-6 3" fill="none" stroke="#7c7c7c" stroke-width="1.333333" stroke-linecap="round" stroke-linejoin="round"/></marker>
+                            <marker id="forecast-vector-arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto"><path d="m1 1 6 3-6 3" fill="none" stroke="#1487c8" stroke-width="1.333333" stroke-linecap="round" stroke-linejoin="round"/></marker>
+                            <marker id="consistent-vector-arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto"><path d="m1 1 6 3-6 3" fill="none" stroke="#249064" stroke-width="1.333333" stroke-linecap="round" stroke-linejoin="round"/></marker>
+                        </defs>
+                        <rect class="visual-card weather-field-card" x="10" y="50" width="110" height="150" rx="12"/>
+                        <g class="forecast-fields">
+                            <path d="M27 82Q36 74 46 73Q75 70 103 84"/>
+                            <path d="M27 111Q36 104 46 104Q75 101 103 114"/>
+                            <path d="M27 141Q36 134 46 133Q75 130 103 145"/>
+                        </g>
+                        <g class="field-vectors">
+                            <path marker-end="url(#forecast-vector-arrow)" d="M46 73l15 10"/>
+                            <path marker-end="url(#forecast-vector-arrow)" d="M46 104l15-10"/>
+                            <path marker-end="url(#forecast-vector-arrow)" d="M46 133l15 10"/>
+                        </g>
+                        <text class="card-label" x="65" y="177">Raw fields</text>
+                        <text class="symbol-label" x="65" y="193">implausible</text>
+                        <path class="flow-arrow" marker-end="url(#physics-flow-arrow)" d="M128 125h29"/>
+
+                        <circle class="physics-node" cx="210" cy="125" r="43"/>
+                        <text class="card-label" x="210" y="120">Physical laws</text>
+                        <text class="symbol-label" x="210" y="141">mass · energy</text>
+                        <path class="flow-arrow" marker-end="url(#physics-flow-arrow)" d="M261 125h29"/>
+
+                        <rect class="consistent-weather-card" x="300" y="50" width="110" height="150" rx="12"/>
+                        <g class="consistent-fields">
+                            <path d="M317 91Q330 82 340 84"/><path d="M362 88Q373 90 393 92"/>
+                            <path d="M317 121Q330 112 340 114"/><path d="M362 118Q373 120 393 122"/>
+                            <path d="M317 151Q330 142 340 144"/><path d="M362 148Q373 150 393 152"/>
+                        </g>
+                        <g class="consistent-tangent-arrows">
+                            <path marker-end="url(#consistent-vector-arrow)" d="M340 84Q351 86 362 88"/>
+                            <path marker-end="url(#consistent-vector-arrow)" d="M340 114Q351 116 362 118"/>
+                            <path marker-end="url(#consistent-vector-arrow)" d="M340 144Q351 146 362 148"/>
+                        </g>
+                        <circle class="weather-check" cx="385" cy="72" r="14"/><path class="weather-check-mark" d="m378 72 5 5 10-12"/>
+                        <text class="card-label consistent-label" x="355" y="177">Consistent fields</text>
+                        <text class="symbol-label consistent-note" x="355" y="193">reliable</text>
+                    </svg>
+                </div>
+                <p class="topic-caption">Physical constraints conserve key quantities and rule out implausible predictions.</p>
             </article>
         </div>
     {/if}
@@ -363,6 +497,8 @@
     .overview-question strong { color: $kaist-medium-blue; font-weight: 700; }
     .overview-rule { width: 6rem; height: .3rem; margin: 1.15rem auto; display: block; border-radius: 999px; background: rgba($kaist-dark-gray, .5); }
     .overview-intro { margin: 0; color: rgba($black, .62); font-size: clamp(.88rem, 1.45vw, 1.05rem); font-style: italic; line-height: 1.55; }
+    .overview-collaboration { margin: .45rem 0 0; color: $kaist-medium-blue; font-size: clamp(.76rem, 1.1vw, .9rem); }
+    .overview-collaboration strong { font-weight: 700; }
 
     .overview-grid { max-width: 1180px; margin: clamp(2.25rem, 4vw, 3.5rem) auto 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(1rem, 2vw, 1.5rem); }
     .overview-topic { min-width: 0; }
@@ -391,21 +527,21 @@
     }
     :global(.card-label), :global(.action-label), :global(.selected-label), :global(.bonus-label),
     :global(.pill-label), :global(.direct-label) {
-        font-size: 9px;
+        font-size: 9.5px;
         font-weight: 700;
         text-anchor: middle;
     }
     :global(.card-label), :global(.action-label) { fill: $kaist-dark-blue; }
     :global(.small-label), :global(.symbol-label), :global(.action-hint), :global(.selected-hint) {
-        font-size: 7px;
+        font-size: 7.5px;
         font-weight: 400;
         text-anchor: middle;
     }
     :global(.small-label), :global(.symbol-label), :global(.action-hint) { fill: rgba($black, .5); }
-    :global(.section-label) { fill: $kaist-medium-blue; font-size: 7px; font-weight: 700; letter-spacing: .07em; text-anchor: middle; }
-    :global(.process-label) { fill: $kaist-medium-blue; font-size: 6.5px; font-weight: 700; text-anchor: middle; }
+    :global(.section-label) { fill: $kaist-medium-blue; font-size: 7.5px; font-weight: 700; letter-spacing: .07em; text-anchor: middle; }
+    :global(.process-label) { fill: $kaist-medium-blue; font-size: 7px; font-weight: 700; text-anchor: middle; }
     :global(.muted-label) { fill: rgba($black, .48); }
-    :global(.node-label) { fill: $kaist-dark-blue; font-size: 7px; font-weight: 700; text-anchor: middle; }
+    :global(.node-label) { fill: $kaist-dark-blue; font-size: 7.5px; font-weight: 700; text-anchor: middle; }
 
     :global(.flow-arrow), :global(.branch-line), :global(.feedback-line), :global(.self-loop), :global(.guide-line), :global(.project-line) { fill: none; stroke: $kaist-dark-gray; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
     :global(.lower-connector) { stroke-width: 1.6; }
@@ -433,7 +569,7 @@
     :global(.prior-bars rect:nth-child(2)) { fill: $kaist-blue; }
     :global(.posterior-bars rect) { fill: rgba($kaist-blue, .28); }
     :global(.posterior-bars .sharp-bar) { fill: $kaist-dark-blue; }
-    :global(.percentage-label) { fill: rgba($black, .58); font-size: 6.5px; font-weight: 600; text-anchor: middle; }
+    :global(.percentage-label) { fill: rgba($black, .58); font-size: 7px; font-weight: 600; text-anchor: middle; }
     :global(.strong-percentage) { fill: $kaist-dark-blue; font-weight: 700; }
     :global(.accept-card) { fill: rgba(36, 144, 100, .07); stroke: rgba(36, 144, 100, .6); }
     :global(.accept-dot), :global(.success-node) { fill: rgba(36, 144, 100, .08); stroke: #249064; }
@@ -451,9 +587,9 @@
     :global(.posterior-dots .result-dot) { fill: #249064; stroke: rgba(36, 144, 100, .2); stroke-width: 3; }
     :global(.evidence-card) { fill: rgba($kaist-light-blue, .07); stroke: rgba($kaist-blue, .55); }
     :global(.decision-diamond) { fill: rgba($kaist-light-blue, .08); stroke: rgba($kaist-blue, .72); stroke-width: 1.3; }
-    :global(.decision-text) { fill: $kaist-dark-blue; font-size: 8px; font-weight: 700; text-anchor: middle; }
+    :global(.decision-text) { fill: $kaist-dark-blue; font-size: 8.5px; font-weight: 700; text-anchor: middle; }
     :global(.yes-label), :global(.no-label), :global(.edge-label), :global(.guidance-label) {
-        font-size: 7px;
+        font-size: 7.5px;
         font-weight: 700;
         text-anchor: middle;
     }
@@ -473,7 +609,7 @@
     :global(.gauge-fill) { stroke: $kaist-blue; }
     :global(.gauge-knob) { fill: $kaist-white; stroke: $kaist-blue; stroke-width: 2; }
     :global(.score-pill) { fill: $kaist-dark-blue; }
-    :global(.score-label) { fill: $kaist-white; font-size: 7px; font-weight: 700; letter-spacing: .08em; text-anchor: middle; }
+    :global(.score-label) { fill: $kaist-white; font-size: 7.5px; font-weight: 700; letter-spacing: .08em; text-anchor: middle; }
     :global(.action-options rect) { fill: rgba($kaist-white, .95); stroke: rgba($kaist-dark-blue, .2); }
     :global(.action-options .selected-action) { fill: rgba(36, 144, 100, .08); stroke: #249064; stroke-width: 1.3; }
     :global(.action-icon) { fill: rgba($kaist-light-blue, .09); stroke: rgba($kaist-blue, .55); }
@@ -494,7 +630,7 @@
     :global(.value-bars .best-value) { fill: $kaist-dark-blue; }
     :global(.direct-action) { fill: $kaist-dark-blue; stroke: $kaist-dark-blue; }
     :global(.direct-label) { fill: $kaist-white; }
-    :global(.success-caption) { fill: #249064; font-size: 6.5px; font-weight: 700; text-anchor: middle; }
+    :global(.success-caption) { fill: #249064; font-size: 7px; font-weight: 700; text-anchor: middle; }
 
     :global(.verifier-node) { fill: rgba($kaist-dark-gray, .05); stroke: rgba($kaist-dark-gray, .5); }
     :global(.novelty-node) { fill: #f7fbfe; stroke: rgba($kaist-dark-blue, .16); }
@@ -506,7 +642,7 @@
     :global(.novelty-boundary) { fill: rgba($kaist-light-blue, .14); stroke: $kaist-blue; stroke-dasharray: 5 4; }
     :global(.known-dots circle) { stroke: $kaist-white; stroke-width: 1; }
     :global(.novel-dot) { fill: #249064; stroke: $kaist-white; stroke-width: 1.5; }
-    :global(.novel-label) { fill: #249064; font-size: 6.5px; font-weight: 700; text-anchor: middle; }
+    :global(.novel-label) { fill: #249064; font-size: 7px; font-weight: 700; text-anchor: middle; }
     :global(.bonus-node) { fill: rgba(36, 144, 100, .08); stroke: rgba(36, 144, 100, .65); }
     :global(.bonus-label) { fill: #1b7653; }
     :global(.novelty-loop) { stroke-dasharray: 5 4; }
@@ -528,7 +664,40 @@
     :global(.terminal-label) { fill: #1b7653; }
     :global(.terminal-note) { fill: rgba(27, 118, 83, .72); }
 
-    :global(.lane-heading) { fill: $kaist-dark-blue; font-size: 7px; font-weight: 700; letter-spacing: .045em; }
+    :global(.ensemble-fan) { fill: rgba($kaist-light-blue, .12); stroke: none; }
+    :global(.ensemble-trajectories path) { fill: none; stroke: rgba($kaist-blue, .52); stroke-width: 1.6; stroke-linecap: round; }
+    :global(.ensemble-trajectories .central-trajectory) { stroke: $kaist-dark-blue; }
+    :global(.trajectory-points circle) { fill: $kaist-blue; stroke: $kaist-white; stroke-width: 1; }
+    :global(.trajectory-points .initial-point) { fill: $kaist-dark-blue; }
+    :global(.spread-bracket) { fill: none; stroke: $kaist-dark-blue; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+    :global(.weather-horizon-axis) { fill: none; stroke: $kaist-dark-gray; stroke-width: 1.6; stroke-linecap: round; }
+    :global(.weather-annotation) { fill: $kaist-dark-blue; font-size: 7.5px; font-weight: 700; text-anchor: middle; }
+    :global(.weather-secondary) { fill: rgba($black, .5); font-size: 7px; text-anchor: middle; }
+    :global(.weather-model-card), :global(.weather-field-card) { stroke-width: 1.05; }
+    :global(.globe) { fill: rgba($kaist-light-blue, .1); stroke: $kaist-blue; stroke-width: 1.5; }
+    :global(.globe-grid) { fill: none; stroke: rgba($kaist-blue, .45); stroke-width: 1; }
+    :global(.land-mass) { fill: rgba($kaist-blue, .28); stroke: none; }
+    :global(.zoom-source) { fill: rgba($kaist-light-blue, .2); stroke: $kaist-dark-blue; stroke-width: 1.4; }
+    :global(.zoom-connector path) { fill: none; stroke: rgba($kaist-dark-blue, .5); stroke-width: 1.2; stroke-linecap: round; }
+    :global(.regional-streams path), :global(.forecast-fields path), :global(.consistent-fields path),
+    :global(.field-vectors path), :global(.consistent-tangent-arrows path) {
+        fill: none;
+        stroke-width: 1.6;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+    }
+    :global(.regional-streams path), :global(.forecast-fields path), :global(.field-vectors path) { stroke: $kaist-blue; }
+    :global(.regional-focus) { fill: none; stroke: rgba($kaist-light-blue, .9); stroke-width: 1.2; stroke-dasharray: 4 3; }
+    :global(.regional-core) { fill: $kaist-dark-blue; stroke: none; }
+    :global(.physics-node) { fill: rgba($kaist-light-blue, .1); stroke: $kaist-blue; stroke-width: 1.5; }
+    :global(.consistent-weather-card) { fill: rgba(36, 144, 100, .07); stroke: rgba(36, 144, 100, .72); stroke-width: 1.05; filter: drop-shadow(0 5px 7px rgba($kaist-dark-blue, .065)); }
+    :global(.consistent-fields path), :global(.consistent-tangent-arrows path) { stroke: #249064; }
+    :global(.weather-check) { fill: #249064; stroke: $kaist-white; stroke-width: 1.5; }
+    :global(.weather-check-mark) { fill: none; stroke: $kaist-white; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+    :global(.consistent-label) { fill: #1b7653; }
+    :global(.consistent-note) { fill: rgba(27, 118, 83, .72); }
+
+    :global(.lane-heading) { fill: $kaist-dark-blue; font-size: 7.5px; font-weight: 700; letter-spacing: .045em; }
     :global(.muted-heading) { fill: rgba($black, .52); }
     :global(.model-stack rect) { fill: rgba($kaist-white, .95); }
     :global(.inference-card) { stroke-width: 1.2; }
@@ -537,17 +706,17 @@
     :global(.success-card) { fill: rgba(36, 144, 100, .08); stroke: rgba(36, 144, 100, .72); }
     :global(.success-card-label) { fill: #1b7653; }
     :global(.success-card-note) { fill: rgba(27, 118, 83, .72); }
-    :global(.process-caption), :global(.side-note) { fill: rgba($black, .48); font-size: 6.5px; text-anchor: middle; }
+    :global(.process-caption), :global(.side-note) { fill: rgba($black, .48); font-size: 7px; text-anchor: middle; }
     :global(.full-divider) { stroke: rgba($kaist-dark-blue, .14); }
     :global(.universal-result) { text-anchor: end; }
 
     :global(.edge-label), :global(.collapse-note) { fill: rgba($black, .48); }
-    :global(.collapse-note) { font-size: 6.5px; font-style: italic; text-anchor: middle; }
+    :global(.collapse-note) { font-size: 7px; font-style: italic; text-anchor: middle; }
     :global(.policy-return) { fill: none; stroke: $kaist-dark-gray; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
     :global(.novelty-return) { fill: none; stroke: #249064; stroke-width: 1.6; stroke-dasharray: 5 4; stroke-linecap: round; stroke-linejoin: round; }
 
-    :global(.source-label) { fill: $kaist-dark-blue; font-size: 8px; font-weight: 700; text-anchor: middle; }
-    :global(.source-note) { fill: rgba($black, .5); font-size: 6.5px; text-anchor: middle; }
+    :global(.source-label) { fill: $kaist-dark-blue; font-size: 8.5px; font-weight: 700; text-anchor: middle; }
+    :global(.source-note) { fill: rgba($black, .5); font-size: 7px; text-anchor: middle; }
     :global(.aligned-node) { filter: drop-shadow(0 5px 7px rgba($kaist-dark-blue, .06)); }
     :global(.profile-guidance) { fill: none; stroke: #249064; stroke-width: 1.6; stroke-dasharray: 4 3; stroke-linecap: round; stroke-linejoin: round; }
     :global(.direct-guidance) { stroke-width: 1.6; stroke-dasharray: none; }

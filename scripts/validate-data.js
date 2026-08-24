@@ -12,7 +12,11 @@ const CONTENT_FILES = {
 const PUBLICATION_TYPES = ['Conference', 'Journal', 'Symposium and Workshop'];
 const PEOPLE_STATUSES = ['active', 'alumni'];
 const PEOPLE_ROLES = ['professor', 'postdoc', 'phd', 'ms'];
-const RESEARCH_OVERVIEWS = new Set(['reliable-foundation-models', 'agentic-self-improving-ai']);
+const RESEARCH_OVERVIEWS = new Set([
+    'reliable-foundation-models',
+    'agentic-self-improving-ai',
+    'ai-weather-forecasting'
+]);
 const MONTH_NAME_PATTERN = /\b(?:January|February|March|April|May|June|July|August|September|October|November|December)\b/i;
 
 const errors = [];

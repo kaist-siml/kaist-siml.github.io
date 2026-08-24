@@ -53,12 +53,22 @@ test.describe('homepage interactions', () => {
             {
                 trigger: /Agentic & Self-Improving AI.*Show topic overview/,
                 key: 'agentic-self-improving-ai'
+            },
+            {
+                trigger: /AI-Based Weather Forecasting.*Show topic overview/,
+                key: 'ai-weather-forecasting',
+                advance: true
             }
         ];
 
         for (const overview of overviews) {
             await page.setViewportSize({ width: 1440, height: 1000 });
-            await page.getByRole('button', { name: overview.trigger }).click();
+            const trigger = page.getByRole('button', { name: overview.trigger });
+            if (overview.advance) {
+                await page.getByRole('button', { name: 'Next research area' }).click();
+                await expect(trigger).not.toHaveAttribute('inert', '');
+            }
+            await trigger.click();
             const detail = page.locator(`[data-overview="${overview.key}"]`);
             await expect(detail).toBeVisible();
             await expect(detail.locator('svg')).toHaveCount(3);

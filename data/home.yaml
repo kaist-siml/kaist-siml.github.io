@@ -51,6 +51,8 @@ research:
     detail:
       overview: agentic-self-improving-ai
   - title: AI-Based Weather Forecasting
+    detail:
+      overview: ai-weather-forecasting
 
 join:
   intro: We welcome self-motivated students to join our academic journey.
