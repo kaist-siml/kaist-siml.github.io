@@ -81,6 +81,13 @@ people:
     url: https://www.linkedin.com/in/seungyoo-lee-62b098281/
     image: image/people/sylee.jpg
 
+  - name: Sunguk Jang
+    status: active
+    role: phd
+    email: tommy9773@kaist.ac.kr
+    url: https://www.linkedin.com/in/sunguk-jang-9587301a2/
+    image: image/people/sujang.jpg
+
   - name: Seonghyeon Kim
     status: active
     role: ms
@@ -120,6 +127,13 @@ people:
     role: ms
     email: kmk50411@kaist.ac.kr
     image: image/people/mgkim.jpg
+
+  - name: Jumyung Park
+    status: active
+    role: ms
+    email: jumyung.park@kaist.ac.kr
+    url: https://jumyung-park.com
+    image: image/people/jmpark.jpg
 
   - name: Seanie Lee
     status: alumni
@@ -192,12 +206,6 @@ people:
     role: ms
     year: 2023
     url: https://www.linkedin.com/in/hyunmogkim/
-
-  - name: Sunguk Jang
-    status: alumni
-    role: ms
-    year: 2023
-    url: https://www.linkedin.com/in/sunguk-jang-9587301a2/
 
   - name: Eunggu Yun
     status: alumni
