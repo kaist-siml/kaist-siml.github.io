@@ -47,6 +47,70 @@ Journal:
 # Conferences
 ##################################################
 Conference:
+  - name: "Mixture-trained merging for unified multi-objective models"
+    image: image/dummy_paper.svg
+    author: <b>Seonghyeon Kim</b>*, <b>Chaeyun Jang</b>*, <b>Seungyoo Lee</b>, Jiyeon Ham, Yunju Bak, Boseop Kim, <b>Juho Lee</b>
+    label: Neural Information Processing Systems (NeurIPS), 2026
+    date: "2026-12"
+    recent: true
+    forthcoming: true
+
+  - name: "Competing event models: next event prediction under interventions"
+    image: image/dummy_paper.svg
+    author: Yoav Wald, Xiang Gao, Sumit Chopra, <b>Juho Lee</b>, Rajesh Ranganath
+    label: Neural Information Processing Systems (NeurIPS), 2026
+    date: "2026-12"
+    recent: true
+    forthcoming: true
+
+  - name: "Context-aware generative imputation for robust multimodal learning in missing modality scenarios"
+    image: image/dummy_paper.svg
+    author: <b>Jungwon Choi</b>, <b>Juho Lee</b>
+    label: Neural Information Processing Systems (NeurIPS), 2026
+    date: "2026-12"
+    recent: true
+    forthcoming: true
+
+  - name: "Coarse-to-fine compositional diffusion for long-horizon planning"
+    image: image/dummy_paper.svg
+    author: <b>Byoungwoo Park</b>, Utkarsh Aashu Mishra, Jaemoo Choi, <b>Juho Lee</b>, Yongxin Chen
+    label: Neural Information Processing Systems (NeurIPS), 2026
+    date: "2026-12"
+    url: https://cofi-diffusion.github.io/
+    recent: true
+    forthcoming: true
+
+  - name: "Generative active learning via Bayesian acquisition for improving the efficiency of synthetic data"
+    image: image/dummy_paper.svg
+    author: <b>Jeongjun Lee</b>, <b>Gyeonghoon Ko</b>, <b>Juho Lee</b>
+    label: Neural Information Processing Systems (NeurIPS), 2026
+    date: "2026-12"
+    recent: true
+    forthcoming: true
+
+  - name: "SAVE: sparsity-aware influence estimation for vocabulary-expanded LLMs"
+    image: image/dummy_paper.svg
+    author: <b>Seungyoo Lee</b>, <b>Giung Nam</b>, <b>Seanie Lee</b>, <b>Hyungi Lee</b>†, <b>Juho Lee</b>†
+    label: Neural Information Processing Systems (NeurIPS), 2026
+    date: "2026-12"
+    recent: true
+    forthcoming: true
+
+  - name: "SKIM: pruning large language model agents via selective knowledge informed masking"
+    image: image/dummy_paper.svg
+    author: <b>Moonseok Choi</b>, Jongwon Jeong, Minki Kang, <b>Giung Nam</b>†, <b>Juho Lee</b>†
+    label: Neural Information Processing Systems (NeurIPS), 2026
+    date: "2026-12"
+    recent: true
+    forthcoming: true
+
+  - name: "Example-based spatial guidance for training-free concept erasure in diffusion models"
+    image: image/dummy_paper.svg
+    author: <b>Younghwan Kil</b>, <b>Giung Nam</b>, <b>Joonhyeong Park</b>, Jinwoo Shin, <b>Juho Lee</b>
+    label: Neural Information Processing Systems (NeurIPS), 2026
+    date: "2026-12"
+    recent: true
+    forthcoming: true
   - name: "A model-free universal AI"
     image: image/dummy_paper.svg
     author: <b>Yegon Kim</b>, <b>Juho Lee</b>
