@@ -76,7 +76,6 @@ Conference:
     author: <b>Byoungwoo Park</b>, Utkarsh Aashu Mishra, Jaemoo Choi, <b>Juho Lee</b>, Yongxin Chen
     label: Neural Information Processing Systems (NeurIPS), 2026
     date: "2026-12"
-    url: https://cofi-diffusion.github.io/
     recent: true
     forthcoming: true
 
@@ -111,6 +110,7 @@ Conference:
     date: "2026-12"
     recent: true
     forthcoming: true
+
   - name: "A model-free universal AI"
     image: image/dummy_paper.svg
     author: <b>Yegon Kim</b>, <b>Juho Lee</b>

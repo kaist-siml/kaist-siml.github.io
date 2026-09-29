@@ -170,6 +170,7 @@ test.describe('publication discovery and structure', () => {
 
     test('linked publication cards use one consistent full-card hit target', async ({ page }) => {
         const card = page.locator('.paper-item.clickable').first();
+        await card.scrollIntoViewIfNeeded();
         const expectedUrl = await card.locator('.paper-link').getAttribute('href');
         for (const selector of ['h3', '.authors', '.venue', '.paper-badges']) {
             const hitUrl = await card.locator(selector).evaluate(element => {
