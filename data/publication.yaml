@@ -116,7 +116,6 @@ Conference:
     author: <b>Yegon Kim</b>, <b>Juho Lee</b>
     label: Conference on Uncertainty in Artificial Intelligence (UAI), 2026
     date: "2026-08"
-    recent: true
     forthcoming: true
 
   - name: "OCNR: stabilizing self-play by mitigating iteration-collapse with one-class novelty rewards"
@@ -124,7 +123,6 @@ Conference:
     author: <b>Seungyoo Lee</b>, <b>Giung Nam</b>, <b>Hyungi Lee</b>†, <b>Juho Lee</b>†
     label: International Conference on Machine Learning (ICML), 2026
     date: "2026-07"
-    recent: true
     url: https://openreview.net/forum?id=70lhVsTZ62
 
   - name: "Confidence is not universal: task-dependent calibration and emergent behavior in LLMs"
@@ -132,7 +130,6 @@ Conference:
     author: <b>Chaeyun Jang</b>, <b>Moonseok Choi</b>, <b>Yegon Kim</b>, <b>Seungyoo Lee</b>, <b>Juho Lee</b>†, <b>Hyungi Lee</b>†
     label: International Conference on Machine Learning (ICML), 2026
     date: "2026-07"
-    recent: true
     url: https://openreview.net/forum?id=1dvDUYc8nm
 
   - name: "From drift to coherence: stabilizing beliefs in LLMs"
@@ -140,7 +137,6 @@ Conference:
     author: SongEun Kim, <b>Seungyoo Lee</b>, Edwin Fong, <b>Hyungi Lee</b>†, <b>Juho Lee</b>†
     label: International Conference on Machine Learning (ICML), 2026
     date: "2026-07"
-    recent: true
     url: https://openreview.net/forum?id=0zkIq9YKml
 
   - name: "Functional adjoint sampler: scalable sampling on infinite dimensional spaces"
@@ -148,7 +144,6 @@ Conference:
     author: <b>Byoungwoo Park</b>, <b>Juho Lee</b>, Guan-Horng Liu
     label: International Conference on Machine Learning (ICML), 2026
     date: "2026-07"
-    recent: true
     url: https://openreview.net/forum?id=XcJk9un0Tb
 
   - name: "Riemannian diffusion models on general manifolds via physics-informed neural networks"
@@ -156,7 +151,6 @@ Conference:
     author: <b>Gyeonghoon Ko</b>, <b>Juho Lee</b>
     label: International Conference on Machine Learning (ICML), 2026
     date: "2026-07"
-    recent: true
     url: https://openreview.net/forum?id=qK2yxjJJCh
 
   - name: "Stochastic optimal control for continuous-time fMRI representation learning"

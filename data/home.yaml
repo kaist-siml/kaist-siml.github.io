@@ -1,10 +1,11 @@
 news:
+  - date: "2026.09"
+    message: 8 papers were accepted to NeurIPS 2026.
+    current: true
   - date: "2026.06"
     message: 1 paper was accepted to UAI 2026.
-    current: true
   - date: "2026.05"
     message: 5 papers were accepted to ICML 2026.
-    current: true
   - date: "2026.01"
     message: 3 papers were accepted to ICLR 2026.
   - date: "2025.09"
