@@ -33,6 +33,7 @@ people:
     status: active
     role: phd
     email: ms.choi@kaist.ac.kr
+    url: https://moon4sake.github.io/
     image: image/people/mschoi.jpg
 
   - name: Gyeonghoon Ko
@@ -92,6 +93,7 @@ people:
     status: active
     role: ms
     email: shkim0824@kaist.ac.kr
+    url: https://shkim0824.github.io/
     image: image/people/shkim.png
 
   - name: Younghwan Gil
